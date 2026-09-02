@@ -1,8 +1,9 @@
 """Overtime Ops Room — the deployed dashboard.
 
 A thin view over pipeline output. It does no modelling: it reads
-`outputs/dashboard_data.json` (bundled), or re-runs the pipeline on an export
-the user drops in the sidebar. One screen, phone-legible, Jem's palette.
+`dashboard_data.json` if present, else rebuilds it from `data/` on boot, and
+re-runs the pipeline on an export dropped into the "Load next week's data"
+panel. One screen, phone-legible, Jem's palette.
 
     streamlit run app.py
 """
@@ -18,7 +19,7 @@ import streamlit as st
 st.set_page_config(page_title="Overtime Ops Room", page_icon="⏱️", layout="centered")
 
 ROOT = Path(__file__).parent
-DEFAULT_JSON = ROOT / "outputs" / "dashboard_data.json"
+DEFAULT_JSON = ROOT / "dashboard_data.json"
 EXPORT_FILES = [
     "employees.csv", "payroll_details.csv", "public_holidays.csv",
     "shift_notes.csv", "shifts.csv", "sites.csv", "weekly_summary.csv",

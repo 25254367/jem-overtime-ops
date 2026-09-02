@@ -7,8 +7,19 @@ question, mid-week, before payroll runs:
 > **Who is going to breach the 10-hour overtime cap by Sunday, and what should
 > somebody do about it today?**
 
-The assessment brief is in [`BRIEF.md`](BRIEF.md). A short account of the
-approach, the checks, and what I'd do next is in [`NOTES.md`](NOTES.md).
+The assessment brief is in [`BRIEF.md`](BRIEF.md).
+
+### The three deliverables
+
+All at the repo root:
+
+| File | What |
+|---|---|
+| [`predictions.csv`](predictions.csv) | 213 rows — `employee_id, will_breach, risk_score` for the target week |
+| [`note_classifications.csv`](note_classifications.csv) | 2,117 rows — `shift_id, category, note` |
+| [`NOTES.md`](NOTES.md) | ½ page — assumptions · how the checks went · what a trained model would add |
+
+Both CSVs regenerate with `python -m pipeline.run data`.
 
 ### Start here
 
@@ -18,8 +29,7 @@ approach, the checks, and what I'd do next is in [`NOTES.md`](NOTES.md).
 | read the ½-page summary | [`NOTES.md`](NOTES.md) |
 | check the prediction | [`docs/prediction-model.md`](docs/prediction-model.md), `backtest/simulate_wednesday.py` |
 | check the note classifier | [`docs/CLASSIFICATION.md`](docs/CLASSIFICATION.md), `check/` |
-| see the two required CSVs | `outputs/predictions.csv`, `outputs/note_classifications.csv` |
-| regenerate everything | `python -m pipeline.run data` |
+| regenerate the deliverables | `python -m pipeline.run data` |
 
 ---
 
@@ -60,13 +70,13 @@ create an app from the repo with main file `app.py`. The theme
 
 ## The pipeline
 
-One command produces the three required artefacts from one pass over the export:
+One command produces everything from one pass over the export:
 
 ```bash
 python -m pipeline.run data
-# -> outputs/predictions.csv            (213 rows: employee_id, will_breach, risk_score)
-# -> outputs/note_classifications.csv   (2,117 rows: shift_id, category, note)
-# -> outputs/dashboard_data.json        (everything the dashboard renders)
+# -> predictions.csv            the deliverable (213 rows)
+# -> note_classifications.csv   the deliverable (2,117 rows)
+# -> dashboard_data.json        what the dashboard renders (git-ignored — regenerable)
 ```
 
 ### How the prediction works
@@ -113,8 +123,11 @@ confirm). The classifier is effectively supervisor-specific — see
 ## Repo layout
 
 ```
-app.py                  the Streamlit dashboard (thin view over pipeline output)
-requirements.txt        .streamlit/config.toml  (Jem palette)
+predictions.csv            ← deliverable
+note_classifications.csv   ← deliverable
+NOTES.md                   ← deliverable  (assumptions · checks · trained-model question)
+README.md   BRIEF.md
+app.py   requirements.txt   .streamlit/config.toml  (Jem palette)
 pipeline/               load · hours · features · predict · classify · attribute · actions · aggregate · run
 backtest/               expanding-window simulation ("it's Wednesday")
 check/                  classifier checks vs hand labels + a second method
@@ -123,16 +136,13 @@ scripts/                make_next_week.py — builds the synthetic reload export
 tests/                  31 tests
 data/                   the sample export (7 CSVs)
 data_next_week/         synthetic next-week export for the reload demo
-  data_next_week/broken/  same export with a column dropped (validation demo)
-outputs/                the deliverables: predictions.csv · note_classifications.csv · dashboard_data.json
-NOTES.md                assumptions · how the checks went · what a trained model would add
-BRIEF.md                the original assessment brief
+  data_next_week/broken/   same export with a column dropped (validation demo)
 docs/                   assumptions · data_checks · prediction-model · CLASSIFICATION · DASHBOARD
 ```
 
 ```bash
-python -m pytest -q          # 31 tests
-python -m pipeline.run data  # regenerate the three artefacts
-python backtest/simulate_wednesday.py data 2   # the backtest
-python check/classify_check.py                 # classifier vs the gold set
+python -m pytest -q                             # 31 tests
+python -m pipeline.run data                     # regenerate the deliverables
+python backtest/simulate_wednesday.py data 2    # the backtest
+python check/classify_check.py                  # classifier vs the gold set
 ```

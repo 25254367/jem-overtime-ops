@@ -6,3 +6,6 @@ venv/
 .DS_Store
 backtest/backtest_rows.csv
 .streamlit/secrets.toml
+
+# generated on pipeline run / app boot (the app rebuilds it from data/ if absent)
+/dashboard_data.json

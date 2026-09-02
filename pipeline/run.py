@@ -2,10 +2,10 @@
 
     python -m pipeline.run <export_dir> [<output_dir>]
 
-Loads and validates the export, then writes:
-    <output_dir>/predictions.csv           (README requirement 1)
-    <output_dir>/note_classifications.csv  (README requirement 3)
-    <output_dir>/dashboard_data.json       (feeds the dashboard)
+Loads and validates the export, then writes (to the repo root by default):
+    predictions.csv           the deliverable — employee_id, will_breach, risk_score
+    note_classifications.csv  the deliverable — shift_id, category, note
+    dashboard_data.json       feeds the dashboard (git-ignored; rebuilt on demand)
 
 This is what "load next week's data" runs. Nothing else needs to change.
 """
@@ -21,7 +21,7 @@ from .load import load_export
 from .predict import predictions_csv
 
 
-def run(export_dir: str, output_dir: str = "outputs") -> dict:
+def run(export_dir: str, output_dir: str = ".") -> dict:
     out = Path(output_dir)
     out.mkdir(exist_ok=True)
 
@@ -52,4 +52,4 @@ if __name__ == "__main__":
     if len(sys.argv) < 2:
         print(__doc__)
         sys.exit(1)
-    run(sys.argv[1], sys.argv[2] if len(sys.argv) > 2 else "outputs")
+    run(sys.argv[1], sys.argv[2] if len(sys.argv) > 2 else ".")

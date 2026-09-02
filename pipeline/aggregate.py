@@ -389,7 +389,7 @@ def build(export: Export, target_week=None, history_weeks=None) -> dict:
     )
 
 
-def write(export: Export, path="outputs/dashboard_data.json", **kw) -> dict:
+def write(export: Export, path="dashboard_data.json", **kw) -> dict:
     data = build(export, **kw)
     Path(path).parent.mkdir(exist_ok=True)
     Path(path).write_text(json.dumps(data, indent=2, default=_jsonable))
@@ -414,4 +414,4 @@ if __name__ == "__main__":
               f"→ {r['action']}")
     print(f"\nsplit: {d['why_split']['attributable_share']:.0%} attributable, "
           f"{d['why_split']['opfail_share_of_attributable']:.0%} operational failure")
-    print("wrote outputs/dashboard_data.json")
+    print("wrote dashboard_data.json")
