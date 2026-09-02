@@ -128,15 +128,21 @@ Cut order if short (say so in the video): 1. dashboard polish · 2. Requirement 
       or one classified note
 
 ### 7. Repo + submit
-- [ ] `git init`, working branch, sensible commits
-- [ ] Repo `README.md` — decide: keep brief + append, or move brief to
-      `BRIEF.md` and write our own (how to run, what's where)
-- [ ] Pin `requirements.txt`; drop `streamlit` there
-- [ ] Decide which working docs ship (`NOTES.md` + README; rest → `docs/`?)
-- [ ] Remove/keep `ANALYSIS_opus.md`, `SUMMARY.md`, `TASKS.md`
-- [ ] All tests green
+- [x] `git init`, `main` branch, first commit (f5e8e39)
+- [x] Brief moved to `BRIEF.md`; wrote our own `README.md` (how to run, deploy,
+      layout, backtest table)
+- [x] `NOTES.md` drafted (assumptions · classifier check · trained-model
+      question) — **needs a pass in your own words**
+- [x] `requirements.txt` already has streamlit; app has a fallback that rebuilds
+      `dashboard_data.json` from `data/` if it's missing (fresh-deploy safe)
+- [x] All 31 tests green, tree clean
+- [ ] **You:** create GitHub repo `jem-overtime-ops` (Public) + `git push`
+- [ ] **You:** deploy on share.streamlit.io → get the `.streamlit.app` URL
+- [ ] Decide: keep working docs (`ANALYSIS_opus.md`, `SUMMARY.md`, `TASKS.md`,
+      `assumptions.md`, `data_checks.md`, `CLASSIFICATION.md`, `DASHBOARD.md`)
+      or move to `docs/` — currently all shipping
 - [ ] Public **or** invite `southafricanrob`
-- [ ] Reply to the email with the 3 links
+- [ ] Reply to the email with the 3 links (dashboard · repo · video)
 
 ---
 
