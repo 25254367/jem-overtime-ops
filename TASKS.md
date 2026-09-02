@@ -63,10 +63,10 @@ Cut order if short (say so in the video): 1. dashboard polish · 2. Requirement 
 ## To do `[ ]`
 
 ### 1. Prediction — finish
-- [ ] Open-shift `risk_score` adjustment for observed partial-week open shifts
-      (deterministic — `data_checks.md §3a`)
-- [ ] **Generate `outputs/predictions.csv`** (213 rows) and assert the spec
-- [ ] Record the target-week answer + backtest numbers for NOTES/video
+- [x] `outputs/predictions.csv` generated (213 rows) + asserted in test_pipeline
+- [x] Target-week answer + backtest numbers captured (README table, NOTES)
+- [ ] Open-shift `risk_score` adjustment for partial-week open shifts
+      (deterministic — `data_checks.md §3a`) — **cuttable, low priority**
 
 ### 2. "What to do about it" (Requirement 2)  `[x]` mostly
 - [x] `pipeline/actions.py` — one rec per flagged person, strict priority:
@@ -83,8 +83,9 @@ Cut order if short (say so in the video): 1. dashboard polish · 2. Requirement 
       documented in `DASHBOARD.md §4`
 - [x] Strategic recs (float pool, roster to 40h, upstream visibility, hard cap,
       Sunday rotation, re-price) → for NOTES/video, not the dashboard
-- [ ] Open-shift + repeat-absentee data for the ops-review tab (in aggregate)
-- [ ] tests: 6 in `test_actions.py` ✓
+- [x] Open-shift + repeat-absentee + phantom-absence data in the ops-review tab
+- [x] Recommendations rewritten as headline + short bullets (actions.py `steps`)
+- [x] tests: 6 in `test_actions.py`
 
 ### 3. Pipeline orchestration  `[x]`
 - [x] `pipeline/aggregate.py` — build `dashboard_data.json` (headline, risk
@@ -110,12 +111,9 @@ Cut order if short (say so in the video): 1. dashboard polish · 2. Requirement 
 - [ ] Phone-legibility check on a real phone
 
 ### 5. `NOTES.md` (ships — ≤ ~½ page)
-- [ ] Assumptions about the data
-- [ ] How the note-sorting was checked + what it found, **incl. where wrong**
-      (§5e failure modes, §5f writer-specific limitation)
-- [ ] What a trained model / LLM would learn that this doesn't (§5f/§5g) +
-      how to test on hundreds without fooling yourself (the invisible-40%,
-      expanding-window, small-sample caveat)
+- [x] Draft written — assumptions · classifier check + where wrong ·
+      trained-model / LLM question + honest backtesting
+- [ ] **Your pass in your own words** — it currently reads as mine
 
 ### 6. Video (5 min, camera on)
 - [ ] Outline + record
