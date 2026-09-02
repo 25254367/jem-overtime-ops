@@ -106,9 +106,11 @@ Cut order if short (say so in the video): 1. dashboard polish · 2. Requirement 
 - [x] Sidebar file-upload → schema check (7 named files) → pipeline re-runs →
       board updates + predictions/notes CSV download buttons
 - [x] AppTest smoke test: 0 exceptions, reload path verified on the real export
-- [ ] Deploy to Streamlit Community Cloud → URL
-- [ ] Build a synthetic partial-week "next week" export, test the reload live
-- [ ] Phone-legibility check on a real phone
+- [ ] Deploy to Streamlit Community Cloud → URL  *(in progress)*
+- [x] Synthetic next-week export (`scripts/make_next_week.py` → `data_next_week/`,
+      `data_next_week_broken/`); reload path + loud-failure both verified —
+      Wed/moderate/5-breach → Fri/good/11-breach
+- [ ] Phone-legibility check on a real phone (after deploy)
 
 ### 5. `NOTES.md` (ships — ≤ ~½ page)
 - [x] Draft written — assumptions · classifier check + where wrong ·

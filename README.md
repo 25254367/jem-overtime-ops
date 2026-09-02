@@ -28,7 +28,9 @@ A phone-legible board for the contract manager, three tabs:
 panel takes the seven CSVs, validates them, and recomputes the whole board. The
 pipeline reads how far the week runs from the data itself, so a Tuesday export
 and a Friday export both just work — only the confidence language and the flag
-count change.
+count change. `data_next_week/` is a synthetic next-week export (see
+`scripts/make_next_week.py`) you can drop straight in to see this; the
+`data_next_week_broken/` copy shows the loud validation failure.
 
 ### Run it locally
 
@@ -104,8 +106,10 @@ app.py                  the Streamlit dashboard (thin view over pipeline output)
 pipeline/               load · hours · features · predict · classify · attribute · actions · aggregate · run
 backtest/               expanding-window simulation ("it's Wednesday")
 check/                  classifier checks: vs hand labels, vs a second method
+scripts/                make_next_week.py — builds the synthetic reload export
 tests/                  31 tests
 data/                   the sample export (7 CSVs)
+data_next_week/         synthetic next-week export for the reload demo (+ _broken/)
 outputs/                generated artefacts + the hand-labelled gold set
 NOTES.md                assumptions · how the checks went · what a trained model would add
 BRIEF.md                the original assessment brief

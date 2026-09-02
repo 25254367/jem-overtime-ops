@@ -198,13 +198,18 @@ def _run_pipeline(uploaded) -> tuple[dict, str, str]:
     from pipeline.aggregate import build
     from pipeline.classify import note_classifications_csv
     from pipeline.features import person_week_hours
-    from pipeline.load import load_export
+    from pipeline.load import ExportError, load_export
     from pipeline.predict import predictions_csv
 
     tmp = Path(tempfile.mkdtemp())
     for f in uploaded:
         (tmp / f.name).write_bytes(f.getvalue())
-    exp = load_export(str(tmp))
+    try:
+        exp = load_export(str(tmp))
+    except ExportError as exc:
+        # drop the temp-dir path from the message — it means nothing to the user
+        msg = str(exc).split("is not usable:\n", 1)[-1]
+        raise ExportError("The export didn't validate:\n" + msg) from None
     weeks = sorted(person_week_hours(exp)["week_start"].unique())
     target, history = weeks[-1], weeks[:-1]
     data = build(exp, target_week=target, history_weeks=history)
