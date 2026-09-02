@@ -1,6 +1,6 @@
 """Attribute overtime hours to a cause via the supervisors' notes.
 
-Method (CLASSIFICATION.md §4.1 -- chronological / marginal):
+Method (docs/CLASSIFICATION.md §4.1 -- chronological / marginal):
   1. Order each person's shifts in the week by clock-in.
   2. Accumulate hours. Once the running total passes 45, every hour after that
      is overtime -- and each overtime hour belongs to the shift it was worked
@@ -8,7 +8,7 @@ Method (CLASSIFICATION.md §4.1 -- chronological / marginal):
   3. That shift's note -> overtime_driver. Overtime on a note-less shift is
      `undetermined`.
 
-The honest limits (measured, data_checks.md §... / CLASSIFICATION.md §4.2):
+The honest limits (measured, docs/data_checks.md §... / docs/CLASSIFICATION.md §4.2):
   - note coverage on overtime-bearing shifts is only ~26%, so only ~1/5 of
     overtime hours are attributable;
   - operational-failure overtime is further under-counted because open shifts

@@ -176,7 +176,7 @@ than even the 78%-of-attributable figure.
 ## 5. The check ("do not cut this" — brief) — RESULTS
 
 ### 5a. Method 1 (rules) vs the 180-note hand-labelled gold
-`check/classify_check.py` · gold `outputs/gold_sample_labelled.csv`
+`check/classify_check.py` · gold `check/gold/gold_sample_labelled.csv`
 
 | Metric | Result |
 |---|---|
@@ -304,7 +304,7 @@ templated notes); wrong tool for "classify any shift note from any company".
       (`unclassified` 0 on this data — see §5e limitation).
 - [x] Classifier is deterministic; re-runs on a fresh export unchanged; rules
       in one readable file (`pipeline/classify.py`).
-- [x] Gold set: 180, frozen, hand-labelled (`outputs/gold_sample_labelled.csv`).
+- [x] Gold set: 180, frozen, hand-labelled (`check/gold/gold_sample_labelled.csv`).
 - [x] Check: rules-vs-gold + rules-vs-second-method + cluster alignment +
       targeted audits (§5).
 - [x] Split: strict 21% attributable / 78% operational failure; loose 48% of

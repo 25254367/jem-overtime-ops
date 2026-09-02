@@ -15,6 +15,6 @@ Drop these seven CSVs into the dashboard's **"Load next week's data"** panel:
 - `weekly_summary.csv` is regenerated from the shifted shifts, so it still
   reconciles exactly
 
-`../data_next_week_broken/` is the same export with a column removed from
-`shifts.csv` — upload it to see the validation fail loudly with a readable
-message instead of a stack trace.
+`broken/` is the same export with a column removed from `shifts.csv` — upload
+those seven files to see the validation fail loudly with a readable message
+instead of a stack trace.

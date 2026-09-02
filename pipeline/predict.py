@@ -1,13 +1,13 @@
 """Breach projection: risk_score and will_breach for a target week.
 
-Approach (data_checks.md §5, SUMMARY.md "Prediction approach"):
+Approach (docs/prediction-model.md; docs/data_checks.md §5):
 
   observed  = person's actual hours in the target week so far (dow <= cutoff)
   remaining ~ Normal(mu, sigma)
       mu    = rem_mean + slope * (observed - obs_mean)     # regress to the mean
       slope = pooled within-person OLS for this cutoff (features.pooled_slope);
               same value for everyone -- per-person slopes are too noisy on
-              4-8 weeks (see ANALYSIS_opus.md §3)
+              9 weeks of history
       sigma = conditional sd from the pooled correlation, widened for people
               with a history of un-clocked-out ("open") shifts
   projected_total = observed + mu

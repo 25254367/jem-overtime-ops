@@ -6,7 +6,7 @@ the export covers. 2 = data through Wednesday (observe Mon/Tue/Wed, project
 Thu-Sun); 4 = through Friday; the mechanics are identical at any cutoff, only
 `observed` and the fitted slope change.
 
-Design rationale in data_checks.md §5:
+Design rationale in docs/data_checks.md §5:
   - no fixed rosters -> can't roster-forward; use weekday propensities
   - weekly totals are stable (CV ~0.11)
   - within-person corr(observed-so-far, remaining) is negative: a hot first

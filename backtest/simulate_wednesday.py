@@ -98,8 +98,8 @@ def report(R: pd.DataFrame, cutoff_dow: int = 2) -> None:
     ap = average_precision_score(y, R["risk_score"].values)
     print(f"\nrisk_score PR-AUC: {ap:.3f}  (prevalence {y.mean():.3f})")
 
-    # PR-AUC on the ordinary employees only (excludes the consolidated pairs,
-    # which are ~28% of breaches and trivially predictable -- ANALYSIS_opus §4.1)
+    # PR-AUC on the ordinary employees only (excludes the 5 split-identity
+    # people, whose combined hours breach most weeks and are easy to flag)
     from pipeline.hours import identity_map
     idm = identity_map(load_export("data"))
     multi = set(idm.groupby("person_id").filter(lambda g: len(g) > 1)["person_id"])

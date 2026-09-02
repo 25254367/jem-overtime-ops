@@ -1,6 +1,6 @@
 """Rule-based classification of supervisor shift notes.
 
-Taxonomy (CLASSIFICATION.md §2) -- 7 categories, 4 carry a reason for extra
+Taxonomy (docs/CLASSIFICATION.md §2) -- 7 categories, 4 carry a reason for extra
 hours, 3 do not:
 
     client_requested   absence_cover   late_handover   equipment_failure

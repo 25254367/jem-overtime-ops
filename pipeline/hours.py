@@ -77,7 +77,7 @@ def identity_map(export: Export) -> pd.DataFrame:
     data contains records that share an id_number (and bank account and tax
     number) across two employee_ids at different sites -- one person, two
     payroll records. BCEA overtime is per person per employer, so we group
-    these before computing breach. See data_checks.md §3c.
+    these before computing breach. See docs/data_checks.md §3c.
 
     Match on any of id_number / tax_number / account_number agreeing, to stay
     robust to a single mistyped field in a future export.
@@ -158,7 +158,7 @@ def latest_cutoff_dow(shifts: pd.DataFrame, week_start) -> int:
 
 
 # --------------------------------------------------------------------------
-# chronological overtime attribution (CLASSIFICATION.md §4.1)
+# chronological overtime attribution (docs/CLASSIFICATION.md §4.1)
 # --------------------------------------------------------------------------
 def overtime_by_shift(shifts: pd.DataFrame, by: str = "person_id") -> pd.DataFrame:
     """Locate each overtime hour in the shift it was worked in.

@@ -75,7 +75,7 @@ S100309,Jacobs off sick. ag.n covered.,absence_cover,absence_cover,sick,sick,,n/
 S101797,"double duty today, Baloi on family responsibility leave",absence_cover,absence_cover,leave,leave,,n/a,Baloyi,Baloyi,False,False,confident,random,en,xl
 S108268,Radebe off sikc. again. cvered..,absence_cover,absence_cover,sick,sick,,n/a,Radebe,Radebe,False,False,confident,targeted,en,l
 S106848,no issues on site,routine,routine,,,,n/a,,,False,False,confident,random,en,m
-S104527,Covreed for Mabaso agn - 3rd time this month,absence_cover,unclassified,unknown,,,n/a,Mabaso,,False,False,confident,targeted,en,l
+S104527,Covreed for Mabaso agn - 3rd time this month,absence_cover,absence_cover,unknown,unknown,,n/a,Mabaso,Mabaso,False,False,confident,targeted,en,l
 S106415,"masjien is stukkend, alles met die hand gedoen",equipment_failure,equipment_failure,,,,n/a,,,False,False,confident,targeted,af,xl
 S107414,shift handovver delayed by 50 min,late_handover,late_handover,,,,n/a,,,False,False,confident,random,en,l
 S103439,"no replacement sent, ngicela sort this out",absence_cover,absence_cover,no_show,no_show,,n/a,unnamed_relief,unnamed_relief,False,False,confident,random,zu,l

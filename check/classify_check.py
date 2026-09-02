@@ -1,14 +1,14 @@
 """Score the rule classifier against the hand-labelled gold set.
 
-Gold set: outputs/gold_sample_labelled.csv (180 notes, hand-labelled by MS,
-blind to classifier output). Strata metadata: outputs/gold_sample_strata.csv.
+Gold set: check/gold/gold_sample_labelled.csv (180 notes, hand-labelled by MS,
+blind to classifier output). Strata metadata: check/gold/gold_sample_strata.csv.
 
 The classifier runs on the ORIGINAL note text from shift_notes.csv (not the
 gold sheet's note column), so this measures its performance on the real data.
 Overall accuracy is reported on the RANDOM-100 subset (representative); the
 targeted 80 oversample rare categories so all-180 accuracy would be biased.
 
-See CLASSIFICATION.md §5 for the measurement strategy and success criteria.
+See docs/CLASSIFICATION.md §5 for the measurement strategy and success criteria.
 """
 from __future__ import annotations
 
@@ -24,10 +24,10 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from pipeline.classify import CATEGORIES, canonicalise_absentee, classify_note  # noqa: E402
 from pipeline.load import load_export  # noqa: E402
 
-GOLD = "outputs/gold_sample_labelled.csv"
-STRATA = "outputs/gold_sample_strata.csv"
+GOLD = "check/gold/gold_sample_labelled.csv"
+STRATA = "check/gold/gold_sample_strata.csv"
 
-# success criteria, fixed before seeing results (CLASSIFICATION.md §5)
+# success criteria, fixed before seeing results (docs/CLASSIFICATION.md §5)
 TARGET_ACCURACY = 0.85          # on the random-100
 TARGET_MIN_RECALL = 0.70        # no reason-category below this
 TARGET_LIE_HIT = 0.80           # notes-that-lie routed to operational_failure

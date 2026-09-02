@@ -15,7 +15,7 @@ week by a day, so the reload has something genuinely different to chew on:
     week to week)
 
     python scripts/make_next_week.py            -> writes data_next_week/
-    python scripts/make_next_week.py --broken   -> also writes data_next_week_broken/
+    python scripts/make_next_week.py --broken   -> also writes data_next_week/broken/
                                                    (shifts.csv missing a column,
                                                     to show the loud failure)
 """
@@ -30,9 +30,11 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 SRC = Path("data")
 OUT = Path("data_next_week")
-OUT_BROKEN = Path("data_next_week_broken")
+OUT_BROKEN = OUT / "broken"
 SHIFT_DAYS = 7
 PASSTHROUGH = ["employees.csv", "sites.csv", "payroll_details.csv"]
+CSV_FILES = ["employees.csv", "sites.csv", "payroll_details.csv", "shifts.csv",
+             "public_holidays.csv", "shift_notes.csv", "weekly_summary.csv"]
 
 
 def _shift_dates(s: pd.Series, days: int) -> pd.Series:
@@ -101,12 +103,13 @@ def build() -> None:
           f"{cutoff_day.strftime('%A %d %b')})")
 
     if "--broken" in sys.argv:
-        OUT_BROKEN.mkdir(exist_ok=True)
-        for f in OUT.iterdir():
-            (OUT_BROKEN / f.name).write_bytes(f.read_bytes())
-        bad = pd.read_csv(OUT_BROKEN / "shifts.csv", dtype=str)
-        bad = bad.drop(columns=["clock_out_time"])
-        bad.to_csv(OUT_BROKEN / "shifts.csv", index=False)
+        OUT_BROKEN.mkdir(parents=True, exist_ok=True)
+        for name in CSV_FILES:
+            if name == "shifts.csv":
+                bad = pd.read_csv(OUT / name, dtype=str).drop(columns=["clock_out_time"])
+                bad.to_csv(OUT_BROKEN / name, index=False)
+            else:
+                (OUT_BROKEN / name).write_bytes((OUT / name).read_bytes())
         print(f"wrote {OUT_BROKEN}/  (shifts.csv missing clock_out_time — "
               f"should fail validation loudly)")
 

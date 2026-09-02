@@ -10,6 +10,17 @@ question, mid-week, before payroll runs:
 The assessment brief is in [`BRIEF.md`](BRIEF.md). A short account of the
 approach, the checks, and what I'd do next is in [`NOTES.md`](NOTES.md).
 
+### Start here
+
+| If you want to… | Look at |
+|---|---|
+| see it running | the deployed URL, or `streamlit run app.py` |
+| read the ½-page summary | [`NOTES.md`](NOTES.md) |
+| check the prediction | [`docs/prediction-model.md`](docs/prediction-model.md), `backtest/simulate_wednesday.py` |
+| check the note classifier | [`docs/CLASSIFICATION.md`](docs/CLASSIFICATION.md), `check/` |
+| see the two required CSVs | `outputs/predictions.csv`, `outputs/note_classifications.csv` |
+| regenerate everything | `python -m pipeline.run data` |
+
 ---
 
 ## The dashboard
@@ -30,7 +41,7 @@ pipeline reads how far the week runs from the data itself, so a Tuesday export
 and a Friday export both just work — only the confidence language and the flag
 count change. `data_next_week/` is a synthetic next-week export (see
 `scripts/make_next_week.py`) you can drop straight in to see this; the
-`data_next_week_broken/` copy shows the loud validation failure.
+`data_next_week/broken/` copy shows the loud validation failure.
 
 ### Run it locally
 
@@ -92,10 +103,10 @@ unpredictable without the roster.
 
 Rules-first (deterministic, ~50 templates, multilingual lexicon for isiZulu /
 Afrikaans terms), into seven categories. Checked two ways: against 180
-hand-labelled notes (100% on the random sample) and against an independent
-TF-IDF + kNN model (95% agreement, zero rule errors it could confirm). The
-classifier is effectively supervisor-specific — see `CLASSIFICATION.md` and
-`NOTES.md`.
+hand-labelled notes (100% on the random sample, κ = 1.00) and against an
+independent TF-IDF + kNN model (95% agreement, zero rule errors it could
+confirm). The classifier is effectively supervisor-specific — see
+[`docs/CLASSIFICATION.md`](docs/CLASSIFICATION.md) and `NOTES.md`.
 
 ---
 
@@ -103,21 +114,25 @@ classifier is effectively supervisor-specific — see `CLASSIFICATION.md` and
 
 ```
 app.py                  the Streamlit dashboard (thin view over pipeline output)
+requirements.txt        .streamlit/config.toml  (Jem palette)
 pipeline/               load · hours · features · predict · classify · attribute · actions · aggregate · run
 backtest/               expanding-window simulation ("it's Wednesday")
-check/                  classifier checks: vs hand labels, vs a second method
+check/                  classifier checks vs hand labels + a second method
+  check/gold/           the 180 hand-labelled notes + labelling guide
 scripts/                make_next_week.py — builds the synthetic reload export
 tests/                  31 tests
 data/                   the sample export (7 CSVs)
-data_next_week/         synthetic next-week export for the reload demo (+ _broken/)
-outputs/                generated artefacts + the hand-labelled gold set
+data_next_week/         synthetic next-week export for the reload demo
+  data_next_week/broken/  same export with a column dropped (validation demo)
+outputs/                the deliverables: predictions.csv · note_classifications.csv · dashboard_data.json
 NOTES.md                assumptions · how the checks went · what a trained model would add
 BRIEF.md                the original assessment brief
-assumptions.md, data_checks.md, CLASSIFICATION.md, DASHBOARD.md, SUMMARY.md
-                        working notes kept for the walkthrough
+docs/                   assumptions · data_checks · prediction-model · CLASSIFICATION · DASHBOARD
 ```
 
 ```bash
 python -m pytest -q          # 31 tests
 python -m pipeline.run data  # regenerate the three artefacts
+python backtest/simulate_wednesday.py data 2   # the backtest
+python check/classify_check.py                 # classifier vs the gold set
 ```

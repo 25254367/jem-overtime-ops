@@ -124,7 +124,7 @@ def load_export(directory: str | Path) -> Export:
 def _sanity_checks(export: Export) -> None:
     """Cross-file checks that would quietly corrupt results if ignored.
     These warn rather than raise — a real export has some mess (see
-    data_checks.md) and we want it to load anyway."""
+    docs/data_checks.md) and we want it to load anyway."""
     warnings: list[str] = []
 
     emp_ids = set(export.employees["employee_id"])

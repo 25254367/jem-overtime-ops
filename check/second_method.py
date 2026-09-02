@@ -9,7 +9,7 @@ Character n-grams (not words) make it typo-robust for free: "sikc" and "sick"
 share most of their features.
 
 No new dependencies (scikit-learn is already required), deterministic, runs in
-a couple of seconds. See CLASSIFICATION.md §3 for why the *primary* classifier
+a couple of seconds. See docs/CLASSIFICATION.md §3 for why the *primary* classifier
 is still the rules.
 
 Outputs, both committed so the comparison reproduces without re-running:
@@ -33,7 +33,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from pipeline.classify import CATEGORIES, classify_export  # noqa: E402
 from pipeline.load import load_export  # noqa: E402
 
-GOLD = "outputs/gold_sample_labelled.csv"
+GOLD = "check/gold/gold_sample_labelled.csv"
 K = 5           # neighbours to vote
 SEED = 20260902
 

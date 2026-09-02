@@ -7,9 +7,9 @@ Two strata so the check is honest AND the rare categories get enough cases:
                     hard categories and failure modes
 
 Outputs:
-  outputs/gold_sample.xlsx   <- fill this (dropdowns built in)
-  outputs/gold_sample.csv    <- same content, for anyone without Excel
-  outputs/gold_sample_strata.csv  <- hidden sampling metadata, for scoring later
+  check/gold/gold_sample.xlsx   <- fill this (dropdowns built in)
+  check/gold/gold_sample.csv    <- same content, for anyone without Excel
+  check/gold/gold_sample_strata.csv  <- hidden sampling metadata, for scoring later
 
 Reproducible: fixed seed. Once gold_sample.csv exists it is the frozen sample
 and is never re-selected -- re-running only rebuilds the xlsx from it.
@@ -27,8 +27,8 @@ from .load import load_export
 SEED = 20260901
 N_RANDOM = 100
 N_TARGETED = 80
-OUT = Path("outputs/gold_sample.csv")
-XLSX = Path("outputs/gold_sample.xlsx")
+OUT = Path("check/gold/gold_sample.csv")
+XLSX = Path("check/gold/gold_sample.xlsx")
 
 # the labelling columns and their allowed values (blank = free text)
 LABEL_OPTIONS = [
