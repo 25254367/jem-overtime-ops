@@ -1,0 +1,14 @@
+# Jem-aligned light theme. Palette pulled from jemhr.com's live design tokens.
+[theme]
+base = "light"
+primaryColor = "#ff697f"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#fbf5f6"
+textColor = "#051d2e"
+font = "sans serif"
+
+[server]
+headless = true
+
+[browser]
+gatherUsageStats = false

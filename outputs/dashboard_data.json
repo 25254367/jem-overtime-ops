@@ -1,0 +1,4213 @@
+{
+  "meta": {
+    "generated_at": "2026-09-02T19:48:48",
+    "target_week": "2026-08-10",
+    "cutoff_dow": 2,
+    "cutoff_label": "Wednesday",
+    "data_through": "end of Wednesday",
+    "confidence": "moderate",
+    "n_employees": 213,
+    "n_sites": 6,
+    "threshold": 0.24
+  },
+  "headline": {
+    "n_breach_likely": 5,
+    "n_elevated": 8,
+    "n_watch": 21,
+    "n_sites": 6,
+    "projected_ot_cost_rand": 11721.0
+  },
+  "risk_list": [
+    {
+      "person_id": "E1126",
+      "employee_ids": [
+        "E1126",
+        "E1127"
+      ],
+      "name": "Lerato Motaung",
+      "site": "ST-06",
+      "site_name": "Gqeberha Plant",
+      "role": "Supervisor",
+      "hours_so_far": 38.8,
+      "projected": 62.4,
+      "risk_score": 0.856,
+      "tier": "breach_likely",
+      "why": "equipment_failure",
+      "open_shifts_this_week": 0,
+      "hours_understated": false,
+      "action": "consolidate payroll records",
+      "action_headline": "One person, two payroll records (ST-04 + ST-06) \u2014 the client sees two staff each under 45h.",
+      "action_steps": [
+        "Merge E1126 + E1127.",
+        "16 shifts clock in at both sites at once \u2014 verify the real hours.",
+        "Combined ~62h. Cut the roster ~7h at one site.",
+        "5 phantom no-shows trace to this split \u2014 put them on one site only, backfill the other locally."
+      ]
+    },
+    {
+      "person_id": "E1097",
+      "employee_ids": [
+        "E1097",
+        "E1098"
+      ],
+      "name": "Busisiwe Jacobs",
+      "site": "ST-02",
+      "site_name": "OR Tambo Cargo Terminal",
+      "role": "Supervisor",
+      "hours_so_far": 29.5,
+      "projected": 59.5,
+      "risk_score": 0.822,
+      "tier": "breach_likely",
+      "why": "client_requested",
+      "open_shifts_this_week": 0,
+      "hours_understated": false,
+      "action": "consolidate payroll records",
+      "action_headline": "One person, two payroll records (ST-02 + ST-03) \u2014 the client sees two staff each under 45h.",
+      "action_steps": [
+        "Merge E1097 + E1098.",
+        "15 shifts clock in at both sites at once \u2014 verify the real hours.",
+        "Combined ~60h. Cut the roster ~4h at one site.",
+        "9 phantom no-shows trace to this split \u2014 put them on one site only, backfill the other locally."
+      ]
+    },
+    {
+      "person_id": "E1193",
+      "employee_ids": [
+        "E1193",
+        "E1194"
+      ],
+      "name": "Lucky Sibiya",
+      "site": "ST-03",
+      "site_name": "Menlyn Park Centre",
+      "role": "Kitchen Assistant",
+      "hours_so_far": 28.2,
+      "projected": 58.2,
+      "risk_score": 0.695,
+      "tier": "breach_likely",
+      "why": "absence_cover",
+      "open_shifts_this_week": 0,
+      "hours_understated": false,
+      "action": "consolidate payroll records",
+      "action_headline": "One person, two payroll records (ST-01 + ST-03) \u2014 the client sees two staff each under 45h.",
+      "action_steps": [
+        "Merge E1193 + E1194.",
+        "14 shifts clock in at both sites at once \u2014 verify the real hours.",
+        "Combined ~58h. Cut the roster ~3h at one site.",
+        "8 phantom no-shows trace to this split \u2014 put them on one site only, backfill the other locally."
+      ]
+    },
+    {
+      "person_id": "E1090",
+      "employee_ids": [
+        "E1090",
+        "E1091"
+      ],
+      "name": "Pieter Van Wyk",
+      "site": "ST-05",
+      "site_name": "Durban Point Depot",
+      "role": "Cleaner",
+      "hours_so_far": 28.5,
+      "projected": 57.9,
+      "risk_score": 0.671,
+      "tier": "breach_likely",
+      "why": "equipment_failure",
+      "open_shifts_this_week": 0,
+      "hours_understated": false,
+      "action": "consolidate payroll records",
+      "action_headline": "One person, two payroll records (ST-05 + ST-06) \u2014 the client sees two staff each under 45h.",
+      "action_steps": [
+        "Merge E1090 + E1091.",
+        "15 shifts clock in at both sites at once \u2014 verify the real hours.",
+        "Combined ~58h. Cut the roster ~3h at one site.",
+        "12 phantom no-shows trace to this split \u2014 put them on one site only, backfill the other locally."
+      ]
+    },
+    {
+      "person_id": "E1035",
+      "employee_ids": [
+        "E1035",
+        "E1036"
+      ],
+      "name": "Tshepo Motaung",
+      "site": "ST-01",
+      "site_name": "Sandton City Retail",
+      "role": "Security Guard",
+      "hours_so_far": 34.5,
+      "projected": 55.3,
+      "risk_score": 0.515,
+      "tier": "breach_likely",
+      "why": "late_handover",
+      "open_shifts_this_week": 0,
+      "hours_understated": false,
+      "action": "consolidate payroll records",
+      "action_headline": "One person, two payroll records (ST-01 + ST-03) \u2014 the client sees two staff each under 45h.",
+      "action_steps": [
+        "Merge E1035 + E1036.",
+        "9 shifts clock in at both sites at once \u2014 verify the real hours.",
+        "Combined ~55h \u2014 right at the cap. Hold hours flat.",
+        "5 phantom no-shows trace to this split \u2014 put them on one site only, backfill the other locally."
+      ]
+    },
+    {
+      "person_id": "E1061",
+      "employee_ids": [
+        "E1061"
+      ],
+      "name": "Pieter Baloyi",
+      "site": "ST-01",
+      "site_name": "Sandton City Retail",
+      "role": "Supervisor",
+      "hours_so_far": 28.2,
+      "projected": 54.6,
+      "risk_score": 0.458,
+      "tier": "elevated",
+      "why": "\u2014",
+      "open_shifts_this_week": 0,
+      "hours_understated": false,
+      "action": "monitor",
+      "action_headline": "Projects ~55h \u2014 46% breach chance, central estimate under 55h.",
+      "action_steps": [
+        "Watch. Recheck when Thu\u2013Fri data lands."
+      ]
+    },
+    {
+      "person_id": "E1122",
+      "employee_ids": [
+        "E1122"
+      ],
+      "name": "Dineo Tshabalala",
+      "site": "ST-03",
+      "site_name": "Menlyn Park Centre",
+      "role": "Kitchen Assistant",
+      "hours_so_far": 27.8,
+      "projected": 54.5,
+      "risk_score": 0.442,
+      "tier": "elevated",
+      "why": "\u2014",
+      "open_shifts_this_week": 0,
+      "hours_understated": false,
+      "action": "monitor",
+      "action_headline": "Projects ~54h \u2014 44% breach chance, central estimate under 55h.",
+      "action_steps": [
+        "Watch. Recheck when Thu\u2013Fri data lands."
+      ]
+    },
+    {
+      "person_id": "E1039",
+      "employee_ids": [
+        "E1039"
+      ],
+      "name": "Pieter Naidoo",
+      "site": "ST-04",
+      "site_name": "Century City Offices",
+      "role": "Kitchen Assistant",
+      "hours_so_far": 25.5,
+      "projected": 53.5,
+      "risk_score": 0.365,
+      "tier": "elevated",
+      "why": "\u2014",
+      "open_shifts_this_week": 0,
+      "hours_understated": false,
+      "action": "monitor",
+      "action_headline": "Projects ~54h \u2014 37% breach chance, central estimate under 55h.",
+      "action_steps": [
+        "Watch. Recheck when Thu\u2013Fri data lands."
+      ]
+    },
+    {
+      "person_id": "E1130",
+      "employee_ids": [
+        "E1130"
+      ],
+      "name": "Neo Ndlovu",
+      "site": "ST-02",
+      "site_name": "OR Tambo Cargo Terminal",
+      "role": "Supervisor",
+      "hours_so_far": 29.0,
+      "projected": 51.7,
+      "risk_score": 0.345,
+      "tier": "elevated",
+      "why": "absence_cover",
+      "open_shifts_this_week": 0,
+      "hours_understated": false,
+      "action": "monitor",
+      "action_headline": "Projects ~52h \u2014 34% breach chance, central estimate under 55h.",
+      "action_steps": [
+        "Watch. Recheck when Thu\u2013Fri data lands."
+      ]
+    },
+    {
+      "person_id": "E1042",
+      "employee_ids": [
+        "E1042"
+      ],
+      "name": "Pieter Khumalo",
+      "site": "ST-03",
+      "site_name": "Menlyn Park Centre",
+      "role": "Security Guard",
+      "hours_so_far": 36.2,
+      "projected": 52.6,
+      "risk_score": 0.33,
+      "tier": "elevated",
+      "why": "\u2014",
+      "open_shifts_this_week": 0,
+      "hours_understated": false,
+      "action": "monitor",
+      "action_headline": "Projects ~53h \u2014 33% breach chance, central estimate under 55h.",
+      "action_steps": [
+        "Watch. Recheck when Thu\u2013Fri data lands."
+      ]
+    },
+    {
+      "person_id": "E1044",
+      "employee_ids": [
+        "E1044"
+      ],
+      "name": "Mandla Sithole",
+      "site": "ST-02",
+      "site_name": "OR Tambo Cargo Terminal",
+      "role": "Security Guard",
+      "hours_so_far": 36.0,
+      "projected": 52.3,
+      "risk_score": 0.31,
+      "tier": "elevated",
+      "why": "\u2014",
+      "open_shifts_this_week": 0,
+      "hours_understated": false,
+      "action": "monitor",
+      "action_headline": "Projects ~52h \u2014 31% breach chance, central estimate under 55h.",
+      "action_steps": [
+        "Watch. Recheck when Thu\u2013Fri data lands."
+      ]
+    },
+    {
+      "person_id": "E1099",
+      "employee_ids": [
+        "E1099"
+      ],
+      "name": "Portia Fourie",
+      "site": "ST-02",
+      "site_name": "OR Tambo Cargo Terminal",
+      "role": "Security Guard",
+      "hours_so_far": 40.0,
+      "projected": 51.2,
+      "risk_score": 0.298,
+      "tier": "elevated",
+      "why": "absence_cover",
+      "open_shifts_this_week": 0,
+      "hours_understated": false,
+      "action": "monitor",
+      "action_headline": "Projects ~51h \u2014 30% breach chance, central estimate under 55h.",
+      "action_steps": [
+        "Watch. Recheck when Thu\u2013Fri data lands."
+      ]
+    },
+    {
+      "person_id": "E1198",
+      "employee_ids": [
+        "E1198"
+      ],
+      "name": "Andile Jacobs",
+      "site": "ST-04",
+      "site_name": "Century City Offices",
+      "role": "Supervisor",
+      "hours_so_far": 19.0,
+      "projected": 50.0,
+      "risk_score": 0.241,
+      "tier": "elevated",
+      "why": "\u2014",
+      "open_shifts_this_week": 0,
+      "hours_understated": false,
+      "action": "monitor",
+      "action_headline": "Projects ~50h \u2014 24% breach chance, central estimate under 55h.",
+      "action_steps": [
+        "Watch. Recheck when Thu\u2013Fri data lands."
+      ]
+    },
+    {
+      "person_id": "E1184",
+      "employee_ids": [
+        "E1184"
+      ],
+      "name": "Portia Motaung",
+      "site": "ST-06",
+      "site_name": "Gqeberha Plant",
+      "role": "Security Guard",
+      "hours_so_far": 23.0,
+      "projected": 50.8,
+      "risk_score": 0.226,
+      "tier": "watch",
+      "why": "equipment_failure",
+      "open_shifts_this_week": 0,
+      "hours_understated": false,
+      "action": "monitor",
+      "action_headline": "Projects ~51h \u2014 23% breach chance, central estimate under 55h.",
+      "action_steps": [
+        "Watch. Recheck when more data lands."
+      ]
+    },
+    {
+      "person_id": "E1069",
+      "employee_ids": [
+        "E1069"
+      ],
+      "name": "Sanele Sibiya",
+      "site": "ST-05",
+      "site_name": "Durban Point Depot",
+      "role": "Security Guard",
+      "hours_so_far": 24.5,
+      "projected": 46.5,
+      "risk_score": 0.19,
+      "tier": "watch",
+      "why": "\u2014",
+      "open_shifts_this_week": 0,
+      "hours_understated": false,
+      "action": "monitor",
+      "action_headline": "Projects ~47h \u2014 19% breach chance, central estimate under 55h.",
+      "action_steps": [
+        "Watch. Recheck when more data lands."
+      ]
+    },
+    {
+      "person_id": "E1106",
+      "employee_ids": [
+        "E1106"
+      ],
+      "name": "Portia Botha",
+      "site": "ST-03",
+      "site_name": "Menlyn Park Centre",
+      "role": "Security Guard",
+      "hours_so_far": 35.2,
+      "projected": 47.9,
+      "risk_score": 0.184,
+      "tier": "watch",
+      "why": "\u2014",
+      "open_shifts_this_week": 0,
+      "hours_understated": false,
+      "action": "monitor",
+      "action_headline": "Projects ~48h \u2014 18% breach chance, central estimate under 55h.",
+      "action_steps": [
+        "Watch. Recheck when more data lands."
+      ]
+    },
+    {
+      "person_id": "E1123",
+      "employee_ids": [
+        "E1123"
+      ],
+      "name": "Charmaine Jacobs",
+      "site": "ST-01",
+      "site_name": "Sandton City Retail",
+      "role": "Driver",
+      "hours_so_far": 21.0,
+      "projected": 47.6,
+      "risk_score": 0.182,
+      "tier": "watch",
+      "why": "\u2014",
+      "open_shifts_this_week": 0,
+      "hours_understated": false,
+      "action": "monitor",
+      "action_headline": "Projects ~48h \u2014 18% breach chance, central estimate under 55h.",
+      "action_steps": [
+        "Watch. Recheck when more data lands."
+      ]
+    },
+    {
+      "person_id": "E1015",
+      "employee_ids": [
+        "E1015"
+      ],
+      "name": "Katlego Hendricks",
+      "site": "ST-05",
+      "site_name": "Durban Point Depot",
+      "role": "Driver",
+      "hours_so_far": 31.0,
+      "projected": 49.6,
+      "risk_score": 0.179,
+      "tier": "watch",
+      "why": "absence_cover",
+      "open_shifts_this_week": 0,
+      "hours_understated": false,
+      "action": "monitor",
+      "action_headline": "Projects ~50h \u2014 18% breach chance, central estimate under 55h.",
+      "action_steps": [
+        "Watch. Recheck when more data lands."
+      ]
+    },
+    {
+      "person_id": "E1142",
+      "employee_ids": [
+        "E1142"
+      ],
+      "name": "Sipho Adams",
+      "site": "ST-03",
+      "site_name": "Menlyn Park Centre",
+      "role": "Security Guard",
+      "hours_so_far": 37.0,
+      "projected": 46.3,
+      "risk_score": 0.176,
+      "tier": "watch",
+      "why": "\u2014",
+      "open_shifts_this_week": 0,
+      "hours_understated": false,
+      "action": "monitor",
+      "action_headline": "Projects ~46h \u2014 18% breach chance, central estimate under 55h.",
+      "action_steps": [
+        "Watch. Recheck when more data lands."
+      ]
+    },
+    {
+      "person_id": "E1104",
+      "employee_ids": [
+        "E1104"
+      ],
+      "name": "Given Tshabalala",
+      "site": "ST-02",
+      "site_name": "OR Tambo Cargo Terminal",
+      "role": "Driver",
+      "hours_so_far": 34.8,
+      "projected": 49.9,
+      "risk_score": 0.175,
+      "tier": "watch",
+      "why": "absence_cover",
+      "open_shifts_this_week": 0,
+      "hours_understated": false,
+      "action": "monitor",
+      "action_headline": "Projects ~50h \u2014 18% breach chance, central estimate under 55h.",
+      "action_steps": [
+        "Watch. Recheck when more data lands."
+      ]
+    },
+    {
+      "person_id": "E1132",
+      "employee_ids": [
+        "E1132"
+      ],
+      "name": "Kabelo Fourie",
+      "site": "ST-02",
+      "site_name": "OR Tambo Cargo Terminal",
+      "role": "Security Guard",
+      "hours_so_far": 25.0,
+      "projected": 49.1,
+      "risk_score": 0.165,
+      "tier": "watch",
+      "why": "equipment_failure",
+      "open_shifts_this_week": 0,
+      "hours_understated": false,
+      "action": "monitor",
+      "action_headline": "Projects ~49h \u2014 16% breach chance, central estimate under 55h.",
+      "action_steps": [
+        "Watch. Recheck when more data lands."
+      ]
+    },
+    {
+      "person_id": "E1087",
+      "employee_ids": [
+        "E1087"
+      ],
+      "name": "Mandla Mthembu",
+      "site": "ST-02",
+      "site_name": "OR Tambo Cargo Terminal",
+      "role": "Security Guard",
+      "hours_so_far": 35.5,
+      "projected": 46.5,
+      "risk_score": 0.159,
+      "tier": "watch",
+      "why": "absence_cover",
+      "open_shifts_this_week": 0,
+      "hours_understated": false,
+      "action": "monitor",
+      "action_headline": "Projects ~47h \u2014 16% breach chance, central estimate under 55h.",
+      "action_steps": [
+        "Watch. Recheck when more data lands."
+      ]
+    },
+    {
+      "person_id": "E1171",
+      "employee_ids": [
+        "E1171"
+      ],
+      "name": "Michelle Nkosi",
+      "site": "ST-02",
+      "site_name": "OR Tambo Cargo Terminal",
+      "role": "Driver",
+      "hours_so_far": 22.2,
+      "projected": 48.2,
+      "risk_score": 0.154,
+      "tier": "watch",
+      "why": "\u2014",
+      "open_shifts_this_week": 0,
+      "hours_understated": false,
+      "action": "monitor",
+      "action_headline": "Projects ~48h \u2014 15% breach chance, central estimate under 55h.",
+      "action_steps": [
+        "Watch. Recheck when more data lands."
+      ]
+    },
+    {
+      "person_id": "E1108",
+      "employee_ids": [
+        "E1108"
+      ],
+      "name": "Nadia Baloyi",
+      "site": "ST-06",
+      "site_name": "Gqeberha Plant",
+      "role": "Kitchen Assistant",
+      "hours_so_far": 27.5,
+      "projected": 48.5,
+      "risk_score": 0.149,
+      "tier": "watch",
+      "why": "absence_cover",
+      "open_shifts_this_week": 0,
+      "hours_understated": false,
+      "action": "monitor",
+      "action_headline": "Projects ~48h \u2014 15% breach chance, central estimate under 55h.",
+      "action_steps": [
+        "Watch. Recheck when more data lands."
+      ]
+    },
+    {
+      "person_id": "E1116",
+      "employee_ids": [
+        "E1116"
+      ],
+      "name": "Given Mahlangu",
+      "site": "ST-02",
+      "site_name": "OR Tambo Cargo Terminal",
+      "role": "Security Guard",
+      "hours_so_far": 24.0,
+      "projected": 47.4,
+      "risk_score": 0.144,
+      "tier": "watch",
+      "why": "client_requested",
+      "open_shifts_this_week": 0,
+      "hours_understated": false,
+      "action": "monitor",
+      "action_headline": "Projects ~47h \u2014 14% breach chance, central estimate under 55h.",
+      "action_steps": [
+        "Watch. Recheck when more data lands."
+      ]
+    },
+    {
+      "person_id": "E1162",
+      "employee_ids": [
+        "E1162"
+      ],
+      "name": "Anele Naidoo",
+      "site": "ST-03",
+      "site_name": "Menlyn Park Centre",
+      "role": "Driver",
+      "hours_so_far": 29.2,
+      "projected": 48.0,
+      "risk_score": 0.142,
+      "tier": "watch",
+      "why": "client_requested",
+      "open_shifts_this_week": 0,
+      "hours_understated": false,
+      "action": "monitor",
+      "action_headline": "Projects ~48h \u2014 14% breach chance, central estimate under 55h.",
+      "action_steps": [
+        "Watch. Recheck when more data lands."
+      ]
+    },
+    {
+      "person_id": "E1120",
+      "employee_ids": [
+        "E1120"
+      ],
+      "name": "Bongani Molefe",
+      "site": "ST-01",
+      "site_name": "Sandton City Retail",
+      "role": "Kitchen Assistant",
+      "hours_so_far": 28.5,
+      "projected": 48.3,
+      "risk_score": 0.139,
+      "tier": "watch",
+      "why": "\u2014",
+      "open_shifts_this_week": 0,
+      "hours_understated": false,
+      "action": "monitor",
+      "action_headline": "Projects ~48h \u2014 14% breach chance, central estimate under 55h.",
+      "action_steps": [
+        "Watch. Recheck when more data lands."
+      ]
+    },
+    {
+      "person_id": "E1086",
+      "employee_ids": [
+        "E1086"
+      ],
+      "name": "Refilwe Nkosi",
+      "site": "ST-03",
+      "site_name": "Menlyn Park Centre",
+      "role": "Security Guard",
+      "hours_so_far": 12.0,
+      "projected": 46.9,
+      "risk_score": 0.135,
+      "tier": "watch",
+      "why": "client_requested",
+      "open_shifts_this_week": 0,
+      "hours_understated": false,
+      "action": "monitor",
+      "action_headline": "Projects ~47h \u2014 14% breach chance, central estimate under 55h.",
+      "action_steps": [
+        "Watch. Recheck when more data lands."
+      ]
+    },
+    {
+      "person_id": "E1166",
+      "employee_ids": [
+        "E1166"
+      ],
+      "name": "Yusuf Dlamini",
+      "site": "ST-06",
+      "site_name": "Gqeberha Plant",
+      "role": "Driver",
+      "hours_so_far": 22.0,
+      "projected": 45.9,
+      "risk_score": 0.131,
+      "tier": "watch",
+      "why": "\u2014",
+      "open_shifts_this_week": 0,
+      "hours_understated": false,
+      "action": "monitor",
+      "action_headline": "Projects ~46h \u2014 13% breach chance, central estimate under 55h.",
+      "action_steps": [
+        "Watch. Recheck when more data lands."
+      ]
+    },
+    {
+      "person_id": "E1118",
+      "employee_ids": [
+        "E1118"
+      ],
+      "name": "Pieter Adams",
+      "site": "ST-03",
+      "site_name": "Menlyn Park Centre",
+      "role": "Driver",
+      "hours_so_far": 29.8,
+      "projected": 42.6,
+      "risk_score": 0.131,
+      "tier": "watch",
+      "why": "\u2014",
+      "open_shifts_this_week": 0,
+      "hours_understated": false,
+      "action": "monitor",
+      "action_headline": "Projects ~43h \u2014 13% breach chance, central estimate under 55h.",
+      "action_steps": [
+        "Watch. Recheck when more data lands."
+      ]
+    },
+    {
+      "person_id": "E1045",
+      "employee_ids": [
+        "E1045"
+      ],
+      "name": "Dineo Mavuso",
+      "site": "ST-05",
+      "site_name": "Durban Point Depot",
+      "role": "Kitchen Assistant",
+      "hours_so_far": 28.0,
+      "projected": 48.5,
+      "risk_score": 0.129,
+      "tier": "watch",
+      "why": "client_requested",
+      "open_shifts_this_week": 0,
+      "hours_understated": false,
+      "action": "monitor",
+      "action_headline": "Projects ~48h \u2014 13% breach chance, central estimate under 55h.",
+      "action_steps": [
+        "Watch. Recheck when more data lands."
+      ]
+    },
+    {
+      "person_id": "E1005",
+      "employee_ids": [
+        "E1005"
+      ],
+      "name": "Lerato Mabaso",
+      "site": "ST-05",
+      "site_name": "Durban Point Depot",
+      "role": "Cleaner",
+      "hours_so_far": 27.0,
+      "projected": 49.5,
+      "risk_score": 0.112,
+      "tier": "watch",
+      "why": "client_requested",
+      "open_shifts_this_week": 0,
+      "hours_understated": false,
+      "action": "monitor",
+      "action_headline": "Projects ~50h \u2014 11% breach chance, central estimate under 55h.",
+      "action_steps": [
+        "Watch. Recheck when more data lands."
+      ]
+    },
+    {
+      "person_id": "E1183",
+      "employee_ids": [
+        "E1183"
+      ],
+      "name": "Xolani Baloyi",
+      "site": "ST-06",
+      "site_name": "Gqeberha Plant",
+      "role": "Security Guard",
+      "hours_so_far": 36.5,
+      "projected": 47.7,
+      "risk_score": 0.11,
+      "tier": "watch",
+      "why": "\u2014",
+      "open_shifts_this_week": 0,
+      "hours_understated": false,
+      "action": "monitor",
+      "action_headline": "Projects ~48h \u2014 11% breach chance, central estimate under 55h.",
+      "action_steps": [
+        "Watch. Recheck when more data lands."
+      ]
+    },
+    {
+      "person_id": "E1056",
+      "employee_ids": [
+        "E1056"
+      ],
+      "name": "Sindiswa Khumalo",
+      "site": "ST-03",
+      "site_name": "Menlyn Park Centre",
+      "role": "Supervisor",
+      "hours_so_far": 20.0,
+      "projected": 47.2,
+      "risk_score": 0.106,
+      "tier": "watch",
+      "why": "absence_cover",
+      "open_shifts_this_week": 0,
+      "hours_understated": false,
+      "action": "monitor",
+      "action_headline": "Projects ~47h \u2014 11% breach chance, central estimate under 55h.",
+      "action_steps": [
+        "Watch. Recheck when more data lands."
+      ]
+    }
+  ],
+  "people": {
+    "E1126": {
+      "name": "Lerato Motaung",
+      "site": "ST-06",
+      "role": "Supervisor",
+      "projection_sentence": "39h logged through Wednesday. Projection: ~24h more \u2192 ~62h total \u2192 17h overtime. 86% chance of a breach (>55h).",
+      "shift_line": "4 shifts so far; normally ~6/week.",
+      "open_shifts_this_week": 0,
+      "open_shifts_all_time": 2,
+      "hours_understated_note": "",
+      "history": [
+        {
+          "week": "2026-06-08",
+          "hours": 51.5,
+          "breached": false,
+          "open_shift": true
+        },
+        {
+          "week": "2026-06-15",
+          "hours": 56.0,
+          "breached": true,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-22",
+          "hours": 60.2,
+          "breached": true,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-29",
+          "hours": 61.8,
+          "breached": true,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-06",
+          "hours": 56.8,
+          "breached": true,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-13",
+          "hours": 71.8,
+          "breached": true,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-20",
+          "hours": 46.5,
+          "breached": false,
+          "open_shift": true
+        },
+        {
+          "week": "2026-07-27",
+          "hours": 56.0,
+          "breached": true,
+          "open_shift": false
+        },
+        {
+          "week": "2026-08-03",
+          "hours": 65.2,
+          "breached": true,
+          "open_shift": false
+        }
+      ],
+      "rec_headline": "One person, two payroll records (ST-04 + ST-06) \u2014 the client sees two staff each under 45h.",
+      "rec_steps": [
+        "Merge E1126 + E1127.",
+        "16 shifts clock in at both sites at once \u2014 verify the real hours.",
+        "Combined ~62h. Cut the roster ~7h at one site.",
+        "5 phantom no-shows trace to this split \u2014 put them on one site only, backfill the other locally."
+      ]
+    },
+    "E1097": {
+      "name": "Busisiwe Jacobs",
+      "site": "ST-02",
+      "role": "Supervisor",
+      "projection_sentence": "30h logged through Wednesday. Projection: ~30h more \u2192 ~60h total \u2192 14h overtime. 82% chance of a breach (>55h).",
+      "shift_line": "3 shifts so far; normally ~6/week.",
+      "open_shifts_this_week": 0,
+      "open_shifts_all_time": 0,
+      "hours_understated_note": "",
+      "history": [
+        {
+          "week": "2026-06-08",
+          "hours": 65.5,
+          "breached": true,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-15",
+          "hours": 53.5,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-22",
+          "hours": 66.2,
+          "breached": true,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-29",
+          "hours": 55.5,
+          "breached": true,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-06",
+          "hours": 66.0,
+          "breached": true,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-13",
+          "hours": 51.8,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-20",
+          "hours": 67.0,
+          "breached": true,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-27",
+          "hours": 55.2,
+          "breached": true,
+          "open_shift": false
+        },
+        {
+          "week": "2026-08-03",
+          "hours": 52.5,
+          "breached": false,
+          "open_shift": false
+        }
+      ],
+      "rec_headline": "One person, two payroll records (ST-02 + ST-03) \u2014 the client sees two staff each under 45h.",
+      "rec_steps": [
+        "Merge E1097 + E1098.",
+        "15 shifts clock in at both sites at once \u2014 verify the real hours.",
+        "Combined ~60h. Cut the roster ~4h at one site.",
+        "9 phantom no-shows trace to this split \u2014 put them on one site only, backfill the other locally."
+      ]
+    },
+    "E1193": {
+      "name": "Lucky Sibiya",
+      "site": "ST-03",
+      "role": "Kitchen Assistant",
+      "projection_sentence": "28h logged through Wednesday. Projection: ~30h more \u2192 ~58h total \u2192 13h overtime. 70% chance of a breach (>55h).",
+      "shift_line": "3 shifts so far; normally ~6/week.",
+      "open_shifts_this_week": 0,
+      "open_shifts_all_time": 2,
+      "hours_understated_note": "",
+      "history": [
+        {
+          "week": "2026-06-08",
+          "hours": 53.0,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-15",
+          "hours": 46.8,
+          "breached": false,
+          "open_shift": true
+        },
+        {
+          "week": "2026-06-22",
+          "hours": 55.2,
+          "breached": true,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-29",
+          "hours": 54.8,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-06",
+          "hours": 50.0,
+          "breached": false,
+          "open_shift": true
+        },
+        {
+          "week": "2026-07-13",
+          "hours": 57.0,
+          "breached": true,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-20",
+          "hours": 57.0,
+          "breached": true,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-27",
+          "hours": 59.8,
+          "breached": true,
+          "open_shift": false
+        },
+        {
+          "week": "2026-08-03",
+          "hours": 66.5,
+          "breached": true,
+          "open_shift": false
+        }
+      ],
+      "rec_headline": "One person, two payroll records (ST-01 + ST-03) \u2014 the client sees two staff each under 45h.",
+      "rec_steps": [
+        "Merge E1193 + E1194.",
+        "14 shifts clock in at both sites at once \u2014 verify the real hours.",
+        "Combined ~58h. Cut the roster ~3h at one site.",
+        "8 phantom no-shows trace to this split \u2014 put them on one site only, backfill the other locally."
+      ]
+    },
+    "E1090": {
+      "name": "Pieter Van Wyk",
+      "site": "ST-05",
+      "role": "Cleaner",
+      "projection_sentence": "28h logged through Wednesday. Projection: ~29h more \u2192 ~58h total \u2192 13h overtime. 67% chance of a breach (>55h).",
+      "shift_line": "3 shifts so far; normally ~6/week.",
+      "open_shifts_this_week": 0,
+      "open_shifts_all_time": 0,
+      "hours_understated_note": "",
+      "history": [
+        {
+          "week": "2026-06-08",
+          "hours": 66.8,
+          "breached": true,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-15",
+          "hours": 56.5,
+          "breached": true,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-22",
+          "hours": 54.2,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-29",
+          "hours": 58.8,
+          "breached": true,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-06",
+          "hours": 57.8,
+          "breached": true,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-13",
+          "hours": 53.5,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-20",
+          "hours": 63.5,
+          "breached": true,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-27",
+          "hours": 53.2,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-08-03",
+          "hours": 53.2,
+          "breached": false,
+          "open_shift": false
+        }
+      ],
+      "rec_headline": "One person, two payroll records (ST-05 + ST-06) \u2014 the client sees two staff each under 45h.",
+      "rec_steps": [
+        "Merge E1090 + E1091.",
+        "15 shifts clock in at both sites at once \u2014 verify the real hours.",
+        "Combined ~58h. Cut the roster ~3h at one site.",
+        "12 phantom no-shows trace to this split \u2014 put them on one site only, backfill the other locally."
+      ]
+    },
+    "E1035": {
+      "name": "Tshepo Motaung",
+      "site": "ST-01",
+      "role": "Security Guard",
+      "projection_sentence": "34h logged through Wednesday. Projection: ~21h more \u2192 ~55h total \u2192 10h overtime. 51% chance of a breach (>55h).",
+      "shift_line": "3 shifts so far; normally ~6/week.",
+      "open_shifts_this_week": 0,
+      "open_shifts_all_time": 2,
+      "hours_understated_note": "",
+      "history": [
+        {
+          "week": "2026-06-08",
+          "hours": 62.8,
+          "breached": true,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-15",
+          "hours": 54.5,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-22",
+          "hours": 61.2,
+          "breached": true,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-29",
+          "hours": 41.2,
+          "breached": false,
+          "open_shift": true
+        },
+        {
+          "week": "2026-07-06",
+          "hours": 40.2,
+          "breached": false,
+          "open_shift": true
+        },
+        {
+          "week": "2026-07-13",
+          "hours": 52.5,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-20",
+          "hours": 59.5,
+          "breached": true,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-27",
+          "hours": 51.8,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-08-03",
+          "hours": 60.2,
+          "breached": true,
+          "open_shift": false
+        }
+      ],
+      "rec_headline": "One person, two payroll records (ST-01 + ST-03) \u2014 the client sees two staff each under 45h.",
+      "rec_steps": [
+        "Merge E1035 + E1036.",
+        "9 shifts clock in at both sites at once \u2014 verify the real hours.",
+        "Combined ~55h \u2014 right at the cap. Hold hours flat.",
+        "5 phantom no-shows trace to this split \u2014 put them on one site only, backfill the other locally."
+      ]
+    },
+    "E1061": {
+      "name": "Pieter Baloyi",
+      "site": "ST-01",
+      "role": "Supervisor",
+      "projection_sentence": "28h logged through Wednesday. Projection: ~26h more \u2192 ~55h total \u2192 10h overtime. 46% chance of a breach (>55h).",
+      "shift_line": "3 shifts so far; normally ~6/week.",
+      "open_shifts_this_week": 0,
+      "open_shifts_all_time": 0,
+      "hours_understated_note": "",
+      "history": [
+        {
+          "week": "2026-06-08",
+          "hours": 51.0,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-15",
+          "hours": 50.2,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-22",
+          "hours": 48.8,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-29",
+          "hours": 55.5,
+          "breached": true,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-06",
+          "hours": 55.2,
+          "breached": true,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-13",
+          "hours": 49.5,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-20",
+          "hours": 58.8,
+          "breached": true,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-27",
+          "hours": 44.8,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-08-03",
+          "hours": 50.5,
+          "breached": false,
+          "open_shift": false
+        }
+      ],
+      "rec_headline": "Projects ~55h \u2014 46% breach chance, central estimate under 55h.",
+      "rec_steps": [
+        "Watch. Recheck when Thu\u2013Fri data lands."
+      ]
+    },
+    "E1122": {
+      "name": "Dineo Tshabalala",
+      "site": "ST-03",
+      "role": "Kitchen Assistant",
+      "projection_sentence": "28h logged through Wednesday. Projection: ~27h more \u2192 ~54h total \u2192 10h overtime. 44% chance of a breach (>55h).",
+      "shift_line": "3 shifts so far; normally ~6/week.",
+      "open_shifts_this_week": 0,
+      "open_shifts_all_time": 0,
+      "hours_understated_note": "",
+      "history": [
+        {
+          "week": "2026-06-08",
+          "hours": 46.2,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-15",
+          "hours": 46.8,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-22",
+          "hours": 55.5,
+          "breached": true,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-29",
+          "hours": 44.2,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-06",
+          "hours": 65.8,
+          "breached": true,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-13",
+          "hours": 54.0,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-20",
+          "hours": 61.0,
+          "breached": true,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-27",
+          "hours": 48.2,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-08-03",
+          "hours": 47.2,
+          "breached": false,
+          "open_shift": false
+        }
+      ],
+      "rec_headline": "Projects ~54h \u2014 44% breach chance, central estimate under 55h.",
+      "rec_steps": [
+        "Watch. Recheck when Thu\u2013Fri data lands."
+      ]
+    },
+    "E1039": {
+      "name": "Pieter Naidoo",
+      "site": "ST-04",
+      "role": "Kitchen Assistant",
+      "projection_sentence": "26h logged through Wednesday. Projection: ~28h more \u2192 ~54h total \u2192 9h overtime. 37% chance of a breach (>55h).",
+      "shift_line": "3 shifts so far; normally ~6/week.",
+      "open_shifts_this_week": 0,
+      "open_shifts_all_time": 0,
+      "hours_understated_note": "",
+      "history": [
+        {
+          "week": "2026-06-08",
+          "hours": 49.5,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-15",
+          "hours": 48.5,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-22",
+          "hours": 56.2,
+          "breached": true,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-29",
+          "hours": 45.0,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-06",
+          "hours": 61.5,
+          "breached": true,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-13",
+          "hours": 60.0,
+          "breached": true,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-20",
+          "hours": 55.8,
+          "breached": true,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-27",
+          "hours": 48.0,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-08-03",
+          "hours": 49.8,
+          "breached": false,
+          "open_shift": false
+        }
+      ],
+      "rec_headline": "Projects ~54h \u2014 37% breach chance, central estimate under 55h.",
+      "rec_steps": [
+        "Watch. Recheck when Thu\u2013Fri data lands."
+      ]
+    },
+    "E1130": {
+      "name": "Neo Ndlovu",
+      "site": "ST-02",
+      "role": "Supervisor",
+      "projection_sentence": "29h logged through Wednesday. Projection: ~23h more \u2192 ~52h total \u2192 7h overtime. 34% chance of a breach (>55h).",
+      "shift_line": "3 shifts so far; normally ~5/week.",
+      "open_shifts_this_week": 0,
+      "open_shifts_all_time": 1,
+      "hours_understated_note": "",
+      "history": [
+        {
+          "week": "2026-06-08",
+          "hours": 53.8,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-15",
+          "hours": 48.8,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-22",
+          "hours": 53.5,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-29",
+          "hours": 45.2,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-06",
+          "hours": 46.5,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-13",
+          "hours": 60.2,
+          "breached": true,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-20",
+          "hours": 42.2,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-27",
+          "hours": 58.2,
+          "breached": true,
+          "open_shift": false
+        },
+        {
+          "week": "2026-08-03",
+          "hours": 38.0,
+          "breached": false,
+          "open_shift": true
+        }
+      ],
+      "rec_headline": "Projects ~52h \u2014 34% breach chance, central estimate under 55h.",
+      "rec_steps": [
+        "Watch. Recheck when Thu\u2013Fri data lands."
+      ]
+    },
+    "E1042": {
+      "name": "Pieter Khumalo",
+      "site": "ST-03",
+      "role": "Security Guard",
+      "projection_sentence": "36h logged through Wednesday. Projection: ~16h more \u2192 ~53h total \u2192 8h overtime. 33% chance of a breach (>55h).",
+      "shift_line": "3 shifts so far; normally ~4/week.",
+      "open_shifts_this_week": 0,
+      "open_shifts_all_time": 0,
+      "hours_understated_note": "",
+      "history": [
+        {
+          "week": "2026-06-08",
+          "hours": 49.2,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-15",
+          "hours": 59.5,
+          "breached": true,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-22",
+          "hours": 49.2,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-29",
+          "hours": 48.0,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-06",
+          "hours": 44.2,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-13",
+          "hours": 44.5,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-20",
+          "hours": 42.5,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-27",
+          "hours": 56.0,
+          "breached": true,
+          "open_shift": false
+        },
+        {
+          "week": "2026-08-03",
+          "hours": 44.5,
+          "breached": false,
+          "open_shift": false
+        }
+      ],
+      "rec_headline": "Projects ~53h \u2014 33% breach chance, central estimate under 55h.",
+      "rec_steps": [
+        "Watch. Recheck when Thu\u2013Fri data lands."
+      ]
+    },
+    "E1044": {
+      "name": "Mandla Sithole",
+      "site": "ST-02",
+      "role": "Security Guard",
+      "projection_sentence": "36h logged through Wednesday. Projection: ~16h more \u2192 ~52h total \u2192 7h overtime. 31% chance of a breach (>55h).",
+      "shift_line": "3 shifts so far; normally ~4/week.",
+      "open_shifts_this_week": 0,
+      "open_shifts_all_time": 0,
+      "hours_understated_note": "",
+      "history": [
+        {
+          "week": "2026-06-08",
+          "hours": 42.8,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-15",
+          "hours": 55.0,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-22",
+          "hours": 50.2,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-29",
+          "hours": 56.2,
+          "breached": true,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-06",
+          "hours": 48.2,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-13",
+          "hours": 49.8,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-20",
+          "hours": 54.8,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-27",
+          "hours": 47.2,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-08-03",
+          "hours": 36.8,
+          "breached": false,
+          "open_shift": false
+        }
+      ],
+      "rec_headline": "Projects ~52h \u2014 31% breach chance, central estimate under 55h.",
+      "rec_steps": [
+        "Watch. Recheck when Thu\u2013Fri data lands."
+      ]
+    },
+    "E1099": {
+      "name": "Portia Fourie",
+      "site": "ST-02",
+      "role": "Security Guard",
+      "projection_sentence": "40h logged through Wednesday. Projection: ~11h more \u2192 ~51h total \u2192 6h overtime. 30% chance of a breach (>55h).",
+      "shift_line": "4 shifts so far; normally ~5/week.",
+      "open_shifts_this_week": 0,
+      "open_shifts_all_time": 6,
+      "hours_understated_note": "Had 6 un-clocked-out shifts in the data (all on cover shifts) \u2014 this person's hours are chronically under-recorded, so the risk here is a floor.",
+      "history": [
+        {
+          "week": "2026-06-08",
+          "hours": 54.5,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-15",
+          "hours": 49.8,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-22",
+          "hours": 37.2,
+          "breached": false,
+          "open_shift": true
+        },
+        {
+          "week": "2026-06-29",
+          "hours": 45.5,
+          "breached": false,
+          "open_shift": true
+        },
+        {
+          "week": "2026-07-06",
+          "hours": 58.8,
+          "breached": true,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-13",
+          "hours": 57.0,
+          "breached": true,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-20",
+          "hours": 19.0,
+          "breached": false,
+          "open_shift": true
+        },
+        {
+          "week": "2026-07-27",
+          "hours": 43.2,
+          "breached": false,
+          "open_shift": true
+        },
+        {
+          "week": "2026-08-03",
+          "hours": 48.5,
+          "breached": false,
+          "open_shift": false
+        }
+      ],
+      "rec_headline": "Projects ~51h \u2014 30% breach chance, central estimate under 55h.",
+      "rec_steps": [
+        "Watch. Recheck when Thu\u2013Fri data lands."
+      ]
+    },
+    "E1198": {
+      "name": "Andile Jacobs",
+      "site": "ST-04",
+      "role": "Supervisor",
+      "projection_sentence": "19h logged through Wednesday. Projection: ~31h more \u2192 ~50h total \u2192 5h overtime. 24% chance of a breach (>55h).",
+      "shift_line": "2 shifts so far; normally ~6/week.",
+      "open_shifts_this_week": 0,
+      "open_shifts_all_time": 1,
+      "hours_understated_note": "",
+      "history": [
+        {
+          "week": "2026-06-08",
+          "hours": 63.2,
+          "breached": true,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-15",
+          "hours": 48.5,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-22",
+          "hours": 39.2,
+          "breached": false,
+          "open_shift": true
+        },
+        {
+          "week": "2026-06-29",
+          "hours": 46.0,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-06",
+          "hours": 50.5,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-13",
+          "hours": 58.0,
+          "breached": true,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-20",
+          "hours": 48.5,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-27",
+          "hours": 51.0,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-08-03",
+          "hours": 55.5,
+          "breached": true,
+          "open_shift": false
+        }
+      ],
+      "rec_headline": "Projects ~50h \u2014 24% breach chance, central estimate under 55h.",
+      "rec_steps": [
+        "Watch. Recheck when Thu\u2013Fri data lands."
+      ]
+    },
+    "E1184": {
+      "name": "Portia Motaung",
+      "site": "ST-06",
+      "role": "Security Guard",
+      "projection_sentence": "23h logged through Wednesday. Projection: ~28h more \u2192 ~51h total \u2192 6h overtime. 23% chance of a breach (>55h).",
+      "shift_line": "2 shifts so far; normally ~5/week.",
+      "open_shifts_this_week": 0,
+      "open_shifts_all_time": 1,
+      "hours_understated_note": "",
+      "history": [
+        {
+          "week": "2026-06-08",
+          "hours": 46.2,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-15",
+          "hours": 50.2,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-22",
+          "hours": 53.8,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-29",
+          "hours": 44.5,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-06",
+          "hours": 45.5,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-13",
+          "hours": 48.0,
+          "breached": false,
+          "open_shift": true
+        },
+        {
+          "week": "2026-07-20",
+          "hours": 60.0,
+          "breached": true,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-27",
+          "hours": 54.2,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-08-03",
+          "hours": 50.5,
+          "breached": false,
+          "open_shift": false
+        }
+      ],
+      "rec_headline": "Projects ~51h \u2014 23% breach chance, central estimate under 55h.",
+      "rec_steps": [
+        "Watch. Recheck when more data lands."
+      ]
+    },
+    "E1069": {
+      "name": "Sanele Sibiya",
+      "site": "ST-05",
+      "role": "Security Guard",
+      "projection_sentence": "24h logged through Wednesday. Projection: ~22h more \u2192 ~47h total \u2192 2h overtime. 19% chance of a breach (>55h).",
+      "shift_line": "2 shifts so far; normally ~4/week.",
+      "open_shifts_this_week": 0,
+      "open_shifts_all_time": 0,
+      "hours_understated_note": "",
+      "history": [
+        {
+          "week": "2026-06-08",
+          "hours": 48.8,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-15",
+          "hours": 45.8,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-22",
+          "hours": 46.0,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-29",
+          "hours": 43.5,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-06",
+          "hours": 38.5,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-13",
+          "hours": 43.0,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-20",
+          "hours": 50.0,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-27",
+          "hours": 38.0,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-08-03",
+          "hours": 43.5,
+          "breached": false,
+          "open_shift": false
+        }
+      ],
+      "rec_headline": "Projects ~47h \u2014 19% breach chance, central estimate under 55h.",
+      "rec_steps": [
+        "Watch. Recheck when more data lands."
+      ]
+    },
+    "E1106": {
+      "name": "Portia Botha",
+      "site": "ST-03",
+      "role": "Security Guard",
+      "projection_sentence": "35h logged through Wednesday. Projection: ~13h more \u2192 ~48h total \u2192 3h overtime. 18% chance of a breach (>55h).",
+      "shift_line": "3 shifts so far; normally ~4/week.",
+      "open_shifts_this_week": 0,
+      "open_shifts_all_time": 1,
+      "hours_understated_note": "",
+      "history": [
+        {
+          "week": "2026-06-08",
+          "hours": 41.8,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-15",
+          "hours": 46.8,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-22",
+          "hours": 45.2,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-29",
+          "hours": 46.5,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-06",
+          "hours": 49.0,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-13",
+          "hours": 47.2,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-20",
+          "hours": 44.5,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-27",
+          "hours": 44.8,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-08-03",
+          "hours": 25.2,
+          "breached": false,
+          "open_shift": true
+        }
+      ],
+      "rec_headline": "Projects ~48h \u2014 18% breach chance, central estimate under 55h.",
+      "rec_steps": [
+        "Watch. Recheck when more data lands."
+      ]
+    },
+    "E1123": {
+      "name": "Charmaine Jacobs",
+      "site": "ST-01",
+      "role": "Driver",
+      "projection_sentence": "21h logged through Wednesday. Projection: ~27h more \u2192 ~48h total \u2192 3h overtime. 18% chance of a breach (>55h).",
+      "shift_line": "2 shifts so far; normally ~5/week.",
+      "open_shifts_this_week": 0,
+      "open_shifts_all_time": 1,
+      "hours_understated_note": "",
+      "history": [
+        {
+          "week": "2026-06-08",
+          "hours": 47.8,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-15",
+          "hours": 47.0,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-22",
+          "hours": 52.5,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-29",
+          "hours": 49.5,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-06",
+          "hours": 43.8,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-13",
+          "hours": 56.5,
+          "breached": true,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-20",
+          "hours": 38.2,
+          "breached": false,
+          "open_shift": true
+        },
+        {
+          "week": "2026-07-27",
+          "hours": 42.8,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-08-03",
+          "hours": 47.0,
+          "breached": false,
+          "open_shift": false
+        }
+      ],
+      "rec_headline": "Projects ~48h \u2014 18% breach chance, central estimate under 55h.",
+      "rec_steps": [
+        "Watch. Recheck when more data lands."
+      ]
+    },
+    "E1015": {
+      "name": "Katlego Hendricks",
+      "site": "ST-05",
+      "role": "Driver",
+      "projection_sentence": "31h logged through Wednesday. Projection: ~19h more \u2192 ~50h total \u2192 5h overtime. 18% chance of a breach (>55h).",
+      "shift_line": "3 shifts so far; normally ~5/week.",
+      "open_shifts_this_week": 0,
+      "open_shifts_all_time": 0,
+      "hours_understated_note": "",
+      "history": [
+        {
+          "week": "2026-06-08",
+          "hours": 49.2,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-15",
+          "hours": 42.2,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-22",
+          "hours": 39.5,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-29",
+          "hours": 57.0,
+          "breached": true,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-06",
+          "hours": 41.5,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-13",
+          "hours": 49.2,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-20",
+          "hours": 52.8,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-27",
+          "hours": 50.8,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-08-03",
+          "hours": 43.0,
+          "breached": false,
+          "open_shift": false
+        }
+      ],
+      "rec_headline": "Projects ~50h \u2014 18% breach chance, central estimate under 55h.",
+      "rec_steps": [
+        "Watch. Recheck when more data lands."
+      ]
+    },
+    "E1142": {
+      "name": "Sipho Adams",
+      "site": "ST-03",
+      "role": "Security Guard",
+      "projection_sentence": "37h logged through Wednesday. Projection: ~9h more \u2192 ~46h total \u2192 1h overtime. 18% chance of a breach (>55h).",
+      "shift_line": "3 shifts so far; normally ~4/week.",
+      "open_shifts_this_week": 0,
+      "open_shifts_all_time": 2,
+      "hours_understated_note": "",
+      "history": [
+        {
+          "week": "2026-06-08",
+          "hours": 33.5,
+          "breached": false,
+          "open_shift": true
+        },
+        {
+          "week": "2026-06-15",
+          "hours": 48.5,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-22",
+          "hours": 59.2,
+          "breached": true,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-29",
+          "hours": 33.2,
+          "breached": false,
+          "open_shift": true
+        },
+        {
+          "week": "2026-07-06",
+          "hours": 47.5,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-13",
+          "hours": 38.8,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-20",
+          "hours": 37.5,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-27",
+          "hours": 42.2,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-08-03",
+          "hours": 38.0,
+          "breached": false,
+          "open_shift": false
+        }
+      ],
+      "rec_headline": "Projects ~46h \u2014 18% breach chance, central estimate under 55h.",
+      "rec_steps": [
+        "Watch. Recheck when more data lands."
+      ]
+    },
+    "E1104": {
+      "name": "Given Tshabalala",
+      "site": "ST-02",
+      "role": "Driver",
+      "projection_sentence": "35h logged through Wednesday. Projection: ~15h more \u2192 ~50h total \u2192 5h overtime. 18% chance of a breach (>55h).",
+      "shift_line": "4 shifts so far; normally ~5/week.",
+      "open_shifts_this_week": 0,
+      "open_shifts_all_time": 1,
+      "hours_understated_note": "",
+      "history": [
+        {
+          "week": "2026-06-08",
+          "hours": 41.5,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-15",
+          "hours": 57.0,
+          "breached": true,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-22",
+          "hours": 45.5,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-29",
+          "hours": 29.8,
+          "breached": false,
+          "open_shift": true
+        },
+        {
+          "week": "2026-07-06",
+          "hours": 43.2,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-13",
+          "hours": 38.8,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-20",
+          "hours": 45.8,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-27",
+          "hours": 52.8,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-08-03",
+          "hours": 52.0,
+          "breached": false,
+          "open_shift": false
+        }
+      ],
+      "rec_headline": "Projects ~50h \u2014 18% breach chance, central estimate under 55h.",
+      "rec_steps": [
+        "Watch. Recheck when more data lands."
+      ]
+    },
+    "E1132": {
+      "name": "Kabelo Fourie",
+      "site": "ST-02",
+      "role": "Security Guard",
+      "projection_sentence": "25h logged through Wednesday. Projection: ~24h more \u2192 ~49h total \u2192 4h overtime. 16% chance of a breach (>55h).",
+      "shift_line": "2 shifts so far; normally ~5/week.",
+      "open_shifts_this_week": 0,
+      "open_shifts_all_time": 2,
+      "hours_understated_note": "",
+      "history": [
+        {
+          "week": "2026-06-08",
+          "hours": 55.0,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-15",
+          "hours": 45.5,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-22",
+          "hours": 44.2,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-29",
+          "hours": 37.8,
+          "breached": false,
+          "open_shift": true
+        },
+        {
+          "week": "2026-07-06",
+          "hours": 46.0,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-13",
+          "hours": 54.0,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-20",
+          "hours": 57.2,
+          "breached": true,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-27",
+          "hours": 36.8,
+          "breached": false,
+          "open_shift": true
+        },
+        {
+          "week": "2026-08-03",
+          "hours": 49.2,
+          "breached": false,
+          "open_shift": false
+        }
+      ],
+      "rec_headline": "Projects ~49h \u2014 16% breach chance, central estimate under 55h.",
+      "rec_steps": [
+        "Watch. Recheck when more data lands."
+      ]
+    },
+    "E1087": {
+      "name": "Mandla Mthembu",
+      "site": "ST-02",
+      "role": "Security Guard",
+      "projection_sentence": "36h logged through Wednesday. Projection: ~11h more \u2192 ~47h total \u2192 2h overtime. 16% chance of a breach (>55h).",
+      "shift_line": "3 shifts so far; normally ~4/week.",
+      "open_shifts_this_week": 0,
+      "open_shifts_all_time": 5,
+      "hours_understated_note": "Had 5 un-clocked-out shifts in the data (all on cover shifts) \u2014 this person's hours are chronically under-recorded, so the risk here is a floor.",
+      "history": [
+        {
+          "week": "2026-06-08",
+          "hours": 35.5,
+          "breached": false,
+          "open_shift": true
+        },
+        {
+          "week": "2026-06-15",
+          "hours": 44.8,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-22",
+          "hours": 34.5,
+          "breached": false,
+          "open_shift": true
+        },
+        {
+          "week": "2026-06-29",
+          "hours": 32.8,
+          "breached": false,
+          "open_shift": true
+        },
+        {
+          "week": "2026-07-06",
+          "hours": 58.2,
+          "breached": true,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-13",
+          "hours": 37.5,
+          "breached": false,
+          "open_shift": true
+        },
+        {
+          "week": "2026-07-20",
+          "hours": 47.5,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-27",
+          "hours": 36.8,
+          "breached": false,
+          "open_shift": true
+        },
+        {
+          "week": "2026-08-03",
+          "hours": 43.8,
+          "breached": false,
+          "open_shift": false
+        }
+      ],
+      "rec_headline": "Projects ~47h \u2014 16% breach chance, central estimate under 55h.",
+      "rec_steps": [
+        "Watch. Recheck when more data lands."
+      ]
+    },
+    "E1171": {
+      "name": "Michelle Nkosi",
+      "site": "ST-02",
+      "role": "Driver",
+      "projection_sentence": "22h logged through Wednesday. Projection: ~26h more \u2192 ~48h total \u2192 3h overtime. 15% chance of a breach (>55h).",
+      "shift_line": "2 shifts so far; normally ~5/week.",
+      "open_shifts_this_week": 0,
+      "open_shifts_all_time": 0,
+      "hours_understated_note": "",
+      "history": [
+        {
+          "week": "2026-06-08",
+          "hours": 50.5,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-15",
+          "hours": 50.0,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-22",
+          "hours": 49.5,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-29",
+          "hours": 48.0,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-06",
+          "hours": 45.8,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-13",
+          "hours": 46.0,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-20",
+          "hours": 46.0,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-27",
+          "hours": 47.5,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-08-03",
+          "hours": 47.5,
+          "breached": false,
+          "open_shift": false
+        }
+      ],
+      "rec_headline": "Projects ~48h \u2014 15% breach chance, central estimate under 55h.",
+      "rec_steps": [
+        "Watch. Recheck when more data lands."
+      ]
+    },
+    "E1108": {
+      "name": "Nadia Baloyi",
+      "site": "ST-06",
+      "role": "Kitchen Assistant",
+      "projection_sentence": "28h logged through Wednesday. Projection: ~21h more \u2192 ~48h total \u2192 3h overtime. 15% chance of a breach (>55h).",
+      "shift_line": "3 shifts so far; normally ~5/week.",
+      "open_shifts_this_week": 0,
+      "open_shifts_all_time": 0,
+      "hours_understated_note": "",
+      "history": [
+        {
+          "week": "2026-06-08",
+          "hours": 38.2,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-15",
+          "hours": 50.2,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-22",
+          "hours": 45.8,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-29",
+          "hours": 48.5,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-06",
+          "hours": 46.2,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-13",
+          "hours": 47.2,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-20",
+          "hours": 56.5,
+          "breached": true,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-27",
+          "hours": 45.2,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-08-03",
+          "hours": 40.0,
+          "breached": false,
+          "open_shift": false
+        }
+      ],
+      "rec_headline": "Projects ~48h \u2014 15% breach chance, central estimate under 55h.",
+      "rec_steps": [
+        "Watch. Recheck when more data lands."
+      ]
+    },
+    "E1116": {
+      "name": "Given Mahlangu",
+      "site": "ST-02",
+      "role": "Security Guard",
+      "projection_sentence": "24h logged through Wednesday. Projection: ~23h more \u2192 ~47h total \u2192 2h overtime. 14% chance of a breach (>55h).",
+      "shift_line": "2 shifts so far; normally ~4/week.",
+      "open_shifts_this_week": 0,
+      "open_shifts_all_time": 0,
+      "hours_understated_note": "",
+      "history": [
+        {
+          "week": "2026-06-08",
+          "hours": 48.5,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-15",
+          "hours": 46.2,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-22",
+          "hours": 47.8,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-29",
+          "hours": 45.5,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-06",
+          "hours": 46.8,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-13",
+          "hours": 48.8,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-20",
+          "hours": 47.8,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-27",
+          "hours": 48.8,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-08-03",
+          "hours": 47.2,
+          "breached": false,
+          "open_shift": false
+        }
+      ],
+      "rec_headline": "Projects ~47h \u2014 14% breach chance, central estimate under 55h.",
+      "rec_steps": [
+        "Watch. Recheck when more data lands."
+      ]
+    },
+    "E1162": {
+      "name": "Anele Naidoo",
+      "site": "ST-03",
+      "role": "Driver",
+      "projection_sentence": "29h logged through Wednesday. Projection: ~19h more \u2192 ~48h total \u2192 3h overtime. 14% chance of a breach (>55h).",
+      "shift_line": "3 shifts so far; normally ~5/week.",
+      "open_shifts_this_week": 0,
+      "open_shifts_all_time": 1,
+      "hours_understated_note": "",
+      "history": [
+        {
+          "week": "2026-06-08",
+          "hours": 32.2,
+          "breached": false,
+          "open_shift": true
+        },
+        {
+          "week": "2026-06-15",
+          "hours": 51.0,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-22",
+          "hours": 56.0,
+          "breached": true,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-29",
+          "hours": 41.5,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-06",
+          "hours": 40.0,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-13",
+          "hours": 42.2,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-20",
+          "hours": 41.2,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-27",
+          "hours": 52.2,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-08-03",
+          "hours": 52.5,
+          "breached": false,
+          "open_shift": false
+        }
+      ],
+      "rec_headline": "Projects ~48h \u2014 14% breach chance, central estimate under 55h.",
+      "rec_steps": [
+        "Watch. Recheck when more data lands."
+      ]
+    },
+    "E1120": {
+      "name": "Bongani Molefe",
+      "site": "ST-01",
+      "role": "Kitchen Assistant",
+      "projection_sentence": "28h logged through Wednesday. Projection: ~20h more \u2192 ~48h total \u2192 3h overtime. 14% chance of a breach (>55h).",
+      "shift_line": "3 shifts so far; normally ~5/week.",
+      "open_shifts_this_week": 0,
+      "open_shifts_all_time": 1,
+      "hours_understated_note": "",
+      "history": [
+        {
+          "week": "2026-06-08",
+          "hours": 41.8,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-15",
+          "hours": 52.2,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-22",
+          "hours": 44.0,
+          "breached": false,
+          "open_shift": true
+        },
+        {
+          "week": "2026-06-29",
+          "hours": 50.0,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-06",
+          "hours": 41.5,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-13",
+          "hours": 54.5,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-20",
+          "hours": 39.0,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-27",
+          "hours": 46.0,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-08-03",
+          "hours": 49.5,
+          "breached": false,
+          "open_shift": false
+        }
+      ],
+      "rec_headline": "Projects ~48h \u2014 14% breach chance, central estimate under 55h.",
+      "rec_steps": [
+        "Watch. Recheck when more data lands."
+      ]
+    },
+    "E1086": {
+      "name": "Refilwe Nkosi",
+      "site": "ST-03",
+      "role": "Security Guard",
+      "projection_sentence": "12h logged through Wednesday. Projection: ~35h more \u2192 ~47h total \u2192 2h overtime. 14% chance of a breach (>55h).",
+      "shift_line": "1 shifts so far; normally ~5/week.",
+      "open_shifts_this_week": 0,
+      "open_shifts_all_time": 4,
+      "hours_understated_note": "Had 4 un-clocked-out shifts in the data (all on cover shifts) \u2014 this person's hours are chronically under-recorded, so the risk here is a floor.",
+      "history": [
+        {
+          "week": "2026-06-08",
+          "hours": 59.0,
+          "breached": true,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-15",
+          "hours": 49.2,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-22",
+          "hours": 43.2,
+          "breached": false,
+          "open_shift": true
+        },
+        {
+          "week": "2026-06-29",
+          "hours": 56.0,
+          "breached": true,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-06",
+          "hours": 48.5,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-13",
+          "hours": 48.8,
+          "breached": false,
+          "open_shift": true
+        },
+        {
+          "week": "2026-07-20",
+          "hours": 49.8,
+          "breached": false,
+          "open_shift": true
+        },
+        {
+          "week": "2026-07-27",
+          "hours": 34.2,
+          "breached": false,
+          "open_shift": true
+        },
+        {
+          "week": "2026-08-03",
+          "hours": 56.5,
+          "breached": true,
+          "open_shift": false
+        }
+      ],
+      "rec_headline": "Projects ~47h \u2014 14% breach chance, central estimate under 55h.",
+      "rec_steps": [
+        "Watch. Recheck when more data lands."
+      ]
+    },
+    "E1166": {
+      "name": "Yusuf Dlamini",
+      "site": "ST-06",
+      "role": "Driver",
+      "projection_sentence": "22h logged through Wednesday. Projection: ~24h more \u2192 ~46h total \u2192 1h overtime. 13% chance of a breach (>55h).",
+      "shift_line": "2 shifts so far; normally ~5/week.",
+      "open_shifts_this_week": 0,
+      "open_shifts_all_time": 0,
+      "hours_understated_note": "",
+      "history": [
+        {
+          "week": "2026-06-08",
+          "hours": 43.0,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-15",
+          "hours": 45.0,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-22",
+          "hours": 42.2,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-29",
+          "hours": 43.5,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-06",
+          "hours": 45.0,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-13",
+          "hours": 49.0,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-20",
+          "hours": 49.8,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-27",
+          "hours": 46.8,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-08-03",
+          "hours": 42.8,
+          "breached": false,
+          "open_shift": false
+        }
+      ],
+      "rec_headline": "Projects ~46h \u2014 13% breach chance, central estimate under 55h.",
+      "rec_steps": [
+        "Watch. Recheck when more data lands."
+      ]
+    },
+    "E1118": {
+      "name": "Pieter Adams",
+      "site": "ST-03",
+      "role": "Driver",
+      "projection_sentence": "30h logged through Wednesday. Projection: ~13h more \u2192 ~43h total \u2014 no overtime. 13% chance of a breach (>55h).",
+      "shift_line": "3 shifts so far; normally ~4/week.",
+      "open_shifts_this_week": 0,
+      "open_shifts_all_time": 2,
+      "hours_understated_note": "",
+      "history": [
+        {
+          "week": "2026-06-08",
+          "hours": 43.0,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-15",
+          "hours": 44.5,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-22",
+          "hours": 40.5,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-29",
+          "hours": 28.2,
+          "breached": false,
+          "open_shift": true
+        },
+        {
+          "week": "2026-07-06",
+          "hours": 30.8,
+          "breached": false,
+          "open_shift": true
+        },
+        {
+          "week": "2026-07-13",
+          "hours": 50.0,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-20",
+          "hours": 42.5,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-27",
+          "hours": 43.2,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-08-03",
+          "hours": 41.5,
+          "breached": false,
+          "open_shift": false
+        }
+      ],
+      "rec_headline": "Projects ~43h \u2014 13% breach chance, central estimate under 55h.",
+      "rec_steps": [
+        "Watch. Recheck when more data lands."
+      ]
+    },
+    "E1045": {
+      "name": "Dineo Mavuso",
+      "site": "ST-05",
+      "role": "Kitchen Assistant",
+      "projection_sentence": "28h logged through Wednesday. Projection: ~20h more \u2192 ~48h total \u2192 3h overtime. 13% chance of a breach (>55h).",
+      "shift_line": "3 shifts so far; normally ~6/week.",
+      "open_shifts_this_week": 0,
+      "open_shifts_all_time": 1,
+      "hours_understated_note": "",
+      "history": [
+        {
+          "week": "2026-06-08",
+          "hours": 44.0,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-15",
+          "hours": 42.8,
+          "breached": false,
+          "open_shift": true
+        },
+        {
+          "week": "2026-06-22",
+          "hours": 44.0,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-29",
+          "hours": 43.0,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-06",
+          "hours": 45.2,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-13",
+          "hours": 44.8,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-20",
+          "hours": 51.8,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-27",
+          "hours": 54.8,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-08-03",
+          "hours": 55.0,
+          "breached": false,
+          "open_shift": false
+        }
+      ],
+      "rec_headline": "Projects ~48h \u2014 13% breach chance, central estimate under 55h.",
+      "rec_steps": [
+        "Watch. Recheck when more data lands."
+      ]
+    },
+    "E1005": {
+      "name": "Lerato Mabaso",
+      "site": "ST-05",
+      "role": "Cleaner",
+      "projection_sentence": "27h logged through Wednesday. Projection: ~23h more \u2192 ~50h total \u2192 5h overtime. 11% chance of a breach (>55h).",
+      "shift_line": "3 shifts so far; normally ~5/week.",
+      "open_shifts_this_week": 0,
+      "open_shifts_all_time": 0,
+      "hours_understated_note": "",
+      "history": [
+        {
+          "week": "2026-06-08",
+          "hours": 47.8,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-15",
+          "hours": 48.0,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-22",
+          "hours": 48.8,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-29",
+          "hours": 46.5,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-06",
+          "hours": 58.5,
+          "breached": true,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-13",
+          "hours": 45.2,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-20",
+          "hours": 43.2,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-27",
+          "hours": 46.8,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-08-03",
+          "hours": 47.5,
+          "breached": false,
+          "open_shift": false
+        }
+      ],
+      "rec_headline": "Projects ~50h \u2014 11% breach chance, central estimate under 55h.",
+      "rec_steps": [
+        "Watch. Recheck when more data lands."
+      ]
+    },
+    "E1183": {
+      "name": "Xolani Baloyi",
+      "site": "ST-06",
+      "role": "Security Guard",
+      "projection_sentence": "36h logged through Wednesday. Projection: ~11h more \u2192 ~48h total \u2192 3h overtime. 11% chance of a breach (>55h).",
+      "shift_line": "3 shifts so far; normally ~4/week.",
+      "open_shifts_this_week": 0,
+      "open_shifts_all_time": 3,
+      "hours_understated_note": "Had 3 un-clocked-out shifts in the data (all on cover shifts) \u2014 this person's hours are chronically under-recorded, so the risk here is a floor.",
+      "history": [
+        {
+          "week": "2026-06-08",
+          "hours": 45.5,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-15",
+          "hours": 45.8,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-22",
+          "hours": 44.2,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-29",
+          "hours": 48.5,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-06",
+          "hours": 47.0,
+          "breached": false,
+          "open_shift": true
+        },
+        {
+          "week": "2026-07-13",
+          "hours": 46.5,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-20",
+          "hours": 49.5,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-27",
+          "hours": 31.8,
+          "breached": false,
+          "open_shift": true
+        },
+        {
+          "week": "2026-08-03",
+          "hours": 32.2,
+          "breached": false,
+          "open_shift": true
+        }
+      ],
+      "rec_headline": "Projects ~48h \u2014 11% breach chance, central estimate under 55h.",
+      "rec_steps": [
+        "Watch. Recheck when more data lands."
+      ]
+    },
+    "E1056": {
+      "name": "Sindiswa Khumalo",
+      "site": "ST-03",
+      "role": "Supervisor",
+      "projection_sentence": "20h logged through Wednesday. Projection: ~27h more \u2192 ~47h total \u2192 2h overtime. 11% chance of a breach (>55h).",
+      "shift_line": "2 shifts so far; normally ~5/week.",
+      "open_shifts_this_week": 0,
+      "open_shifts_all_time": 1,
+      "hours_understated_note": "",
+      "history": [
+        {
+          "week": "2026-06-08",
+          "hours": 45.8,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-15",
+          "hours": 45.8,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-22",
+          "hours": 56.8,
+          "breached": true,
+          "open_shift": false
+        },
+        {
+          "week": "2026-06-29",
+          "hours": 43.0,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-06",
+          "hours": 47.5,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-13",
+          "hours": 53.8,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-20",
+          "hours": 48.8,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-07-27",
+          "hours": 40.0,
+          "breached": false,
+          "open_shift": false
+        },
+        {
+          "week": "2026-08-03",
+          "hours": 44.0,
+          "breached": false,
+          "open_shift": true
+        }
+      ],
+      "rec_headline": "Projects ~47h \u2014 11% breach chance, central estimate under 55h.",
+      "rec_steps": [
+        "Watch. Recheck when more data lands."
+      ]
+    }
+  },
+  "sites": [
+    {
+      "site_id": "ST-06",
+      "site_name": "Gqeberha Plant",
+      "n_breach_likely": 1,
+      "n_watch": 4,
+      "fixable_ot_cost_rand": 2201.0,
+      "people": [
+        "Lerato Motaung",
+        "Portia Motaung",
+        "Nadia Baloyi",
+        "Yusuf Dlamini",
+        "Xolani Baloyi"
+      ]
+    },
+    {
+      "site_id": "ST-02",
+      "site_name": "OR Tambo Cargo Terminal",
+      "n_breach_likely": 1,
+      "n_watch": 5,
+      "fixable_ot_cost_rand": 1997.0,
+      "people": [
+        "Busisiwe Jacobs",
+        "Neo Ndlovu",
+        "Mandla Sithole",
+        "Portia Fourie",
+        "Given Tshabalala",
+        "Kabelo Fourie",
+        "Mandla Mthembu",
+        "Michelle Nkosi",
+        "Given Mahlangu"
+      ]
+    },
+    {
+      "site_id": "ST-03",
+      "site_name": "Menlyn Park Centre",
+      "n_breach_likely": 1,
+      "n_watch": 6,
+      "fixable_ot_cost_rand": 1967.0,
+      "people": [
+        "Lucky Sibiya",
+        "Dineo Tshabalala",
+        "Pieter Khumalo",
+        "Portia Botha",
+        "Sipho Adams",
+        "Anele Naidoo",
+        "Refilwe Nkosi",
+        "Pieter Adams",
+        "Sindiswa Khumalo"
+      ]
+    },
+    {
+      "site_id": "ST-01",
+      "site_name": "Sandton City Retail",
+      "n_breach_likely": 1,
+      "n_watch": 2,
+      "fixable_ot_cost_rand": 1596.0,
+      "people": [
+        "Tshepo Motaung",
+        "Pieter Baloyi",
+        "Charmaine Jacobs",
+        "Bongani Molefe"
+      ]
+    },
+    {
+      "site_id": "ST-05",
+      "site_name": "Durban Point Depot",
+      "n_breach_likely": 1,
+      "n_watch": 4,
+      "fixable_ot_cost_rand": 1041.0,
+      "people": [
+        "Pieter Van Wyk",
+        "Sanele Sibiya",
+        "Katlego Hendricks",
+        "Dineo Mavuso",
+        "Lerato Mabaso"
+      ]
+    },
+    {
+      "site_id": "ST-04",
+      "site_name": "Century City Offices",
+      "n_breach_likely": 0,
+      "n_watch": 0,
+      "fixable_ot_cost_rand": 849.0,
+      "people": [
+        "Pieter Naidoo",
+        "Andile Jacobs"
+      ]
+    }
+  ],
+  "alerts": {
+    "double_booking": [
+      {
+        "name": "Tshepo Motaung",
+        "employee_ids": [
+          "E1035",
+          "E1036"
+        ],
+        "sites": [
+          "ST-01",
+          "ST-03"
+        ],
+        "combined_projected": 55.3,
+        "phantom_no_shows": 5,
+        "cross_site_conflicts": 2,
+        "double_paid_hours": 68.2
+      },
+      {
+        "name": "Pieter Van Wyk",
+        "employee_ids": [
+          "E1090",
+          "E1091"
+        ],
+        "sites": [
+          "ST-05",
+          "ST-06"
+        ],
+        "combined_projected": 57.9,
+        "phantom_no_shows": 12,
+        "cross_site_conflicts": 5,
+        "double_paid_hours": 108.5
+      },
+      {
+        "name": "Busisiwe Jacobs",
+        "employee_ids": [
+          "E1097",
+          "E1098"
+        ],
+        "sites": [
+          "ST-02",
+          "ST-03"
+        ],
+        "combined_projected": 59.5,
+        "phantom_no_shows": 9,
+        "cross_site_conflicts": 3,
+        "double_paid_hours": 109.8
+      },
+      {
+        "name": "Lerato Motaung",
+        "employee_ids": [
+          "E1126",
+          "E1127"
+        ],
+        "sites": [
+          "ST-04",
+          "ST-06"
+        ],
+        "combined_projected": 62.4,
+        "phantom_no_shows": 5,
+        "cross_site_conflicts": 1,
+        "double_paid_hours": 123.2
+      },
+      {
+        "name": "Lucky Sibiya",
+        "employee_ids": [
+          "E1193",
+          "E1194"
+        ],
+        "sites": [
+          "ST-01",
+          "ST-03"
+        ],
+        "combined_projected": 58.2,
+        "phantom_no_shows": 8,
+        "cross_site_conflicts": 3,
+        "double_paid_hours": 100.2
+      }
+    ],
+    "open_shifts_this_week": [
+      {
+        "shift_id": "S107079",
+        "name": "Xolani September",
+        "site": "ST-05",
+        "date": "2026-08-10",
+        "note": "Client asked for extra patrol after the break-in Tuesday"
+      },
+      {
+        "shift_id": "S108027",
+        "name": "Xolani Dlamini",
+        "site": "ST-05",
+        "date": "2026-08-11",
+        "note": "klient het ekstra ure gevra vir stocktake"
+      },
+      {
+        "shift_id": "S104130",
+        "name": "Sarah Nkosi",
+        "site": "ST-04",
+        "date": "2026-08-12",
+        "note": "no replacement sent, ngicela sort this out"
+      }
+    ],
+    "split_identity": {
+      "n_people": 5,
+      "window_weeks": 10,
+      "cover_shifts": 39,
+      "cross_site_conflicts": 14,
+      "double_paid_hours": 510.0,
+      "by_person": [
+        {
+          "person_id": "E1035",
+          "name": "Tshepo Motaung",
+          "employee_ids": [
+            "E1035",
+            "E1036"
+          ],
+          "sites": [
+            "ST-01",
+            "ST-03"
+          ],
+          "cover_shifts": 5,
+          "cross_site_conflicts": 2,
+          "double_paid_hours": 68.2
+        },
+        {
+          "person_id": "E1090",
+          "name": "Pieter Van Wyk",
+          "employee_ids": [
+            "E1090",
+            "E1091"
+          ],
+          "sites": [
+            "ST-05",
+            "ST-06"
+          ],
+          "cover_shifts": 12,
+          "cross_site_conflicts": 5,
+          "double_paid_hours": 108.5
+        },
+        {
+          "person_id": "E1097",
+          "name": "Busisiwe Jacobs",
+          "employee_ids": [
+            "E1097",
+            "E1098"
+          ],
+          "sites": [
+            "ST-02",
+            "ST-03"
+          ],
+          "cover_shifts": 9,
+          "cross_site_conflicts": 3,
+          "double_paid_hours": 109.8
+        },
+        {
+          "person_id": "E1126",
+          "name": "Lerato Motaung",
+          "employee_ids": [
+            "E1126",
+            "E1127"
+          ],
+          "sites": [
+            "ST-04",
+            "ST-06"
+          ],
+          "cover_shifts": 5,
+          "cross_site_conflicts": 1,
+          "double_paid_hours": 123.2
+        },
+        {
+          "person_id": "E1193",
+          "name": "Lucky Sibiya",
+          "employee_ids": [
+            "E1193",
+            "E1194"
+          ],
+          "sites": [
+            "ST-01",
+            "ST-03"
+          ],
+          "cover_shifts": 8,
+          "cross_site_conflicts": 3,
+          "double_paid_hours": 100.2
+        }
+      ],
+      "note": "5 people are on two sites' rosters as separate employees, and neither site knows. On the days they are at one site, the other logs a no-show and pays someone to cover it \u2014 39 times in 10 weeks, 14 of them provably while the person was clocked in at their other site. The same double booking also put ~510 hours on the books at two sites at once \u2014 hours that cannot be trusted for payroll. Fix: make each a single-site employee, drop them from the other site, and spread that post across the under-used same-role staff already there."
+    }
+  },
+  "why_split": {
+    "total_overtime_hours": 3145.8,
+    "attributable_hours": 666.5,
+    "attributable_share": 0.212,
+    "asked_for_hours": 145.5,
+    "operational_failure_hours": 521.0,
+    "opfail_share_of_attributable": 0.782,
+    "n_breach_weeks": 93,
+    "breach_weeks_with_opfail_note": 0.484,
+    "by_driver": [
+      {
+        "category": "absence_cover",
+        "opfail_hours": 347.8,
+        "n_shifts": 80
+      },
+      {
+        "category": "equipment_failure",
+        "opfail_hours": 123.0,
+        "n_shifts": 20
+      },
+      {
+        "category": "late_handover",
+        "opfail_hours": 50.2,
+        "n_shifts": 15
+      }
+    ],
+    "by_site": [
+      {
+        "site_id": "ST-03",
+        "opfail_hours": 136.5,
+        "n_shifts": 28,
+        "site_name": "Menlyn Park Centre"
+      },
+      {
+        "site_id": "ST-02",
+        "opfail_hours": 89.0,
+        "n_shifts": 20,
+        "site_name": "OR Tambo Cargo Terminal"
+      },
+      {
+        "site_id": "ST-01",
+        "opfail_hours": 84.0,
+        "n_shifts": 16,
+        "site_name": "Sandton City Retail"
+      },
+      {
+        "site_id": "ST-06",
+        "opfail_hours": 83.2,
+        "n_shifts": 20,
+        "site_name": "Gqeberha Plant"
+      },
+      {
+        "site_id": "ST-05",
+        "opfail_hours": 75.0,
+        "n_shifts": 17,
+        "site_name": "Durban Point Depot"
+      },
+      {
+        "site_id": "ST-04",
+        "opfail_hours": 53.2,
+        "n_shifts": 14,
+        "site_name": "Century City Offices"
+      }
+    ],
+    "under_recording": {
+      "open_shift_count": 184,
+      "open_shift_share": 0.021,
+      "shift_cap_hours": 13.5,
+      "shifts_at_cap": 366,
+      "recorded_breach_rate": 0.05,
+      "estimated_true_breach_rate": 0.056,
+      "note": "184 shifts (2.1%) were clocked in but never clocked out and are logged as 0h \u2014 most carry cover notes. Shift length caps at 13.5h (366 shifts sit exactly there), so a genuine 20-hour double is recorded as 13.5h or 0h. A no-show creates no record at all. Net: a no-show removes recorded hours for that site-day even though the same coverage was delivered \u2014 so operational-failure overtime, and the breach risk of the people who cover, is understated. Recorded breach rate 5.0%; imputing one shift per open-shift week puts it at ~5.6%."
+    },
+    "split_identity": {
+      "n_people": 5,
+      "window_weeks": 10,
+      "cover_shifts": 39,
+      "cross_site_conflicts": 14,
+      "double_paid_hours": 510.0,
+      "by_person": [
+        {
+          "person_id": "E1035",
+          "name": "Tshepo Motaung",
+          "employee_ids": [
+            "E1035",
+            "E1036"
+          ],
+          "sites": [
+            "ST-01",
+            "ST-03"
+          ],
+          "cover_shifts": 5,
+          "cross_site_conflicts": 2,
+          "double_paid_hours": 68.2
+        },
+        {
+          "person_id": "E1090",
+          "name": "Pieter Van Wyk",
+          "employee_ids": [
+            "E1090",
+            "E1091"
+          ],
+          "sites": [
+            "ST-05",
+            "ST-06"
+          ],
+          "cover_shifts": 12,
+          "cross_site_conflicts": 5,
+          "double_paid_hours": 108.5
+        },
+        {
+          "person_id": "E1097",
+          "name": "Busisiwe Jacobs",
+          "employee_ids": [
+            "E1097",
+            "E1098"
+          ],
+          "sites": [
+            "ST-02",
+            "ST-03"
+          ],
+          "cover_shifts": 9,
+          "cross_site_conflicts": 3,
+          "double_paid_hours": 109.8
+        },
+        {
+          "person_id": "E1126",
+          "name": "Lerato Motaung",
+          "employee_ids": [
+            "E1126",
+            "E1127"
+          ],
+          "sites": [
+            "ST-04",
+            "ST-06"
+          ],
+          "cover_shifts": 5,
+          "cross_site_conflicts": 1,
+          "double_paid_hours": 123.2
+        },
+        {
+          "person_id": "E1193",
+          "name": "Lucky Sibiya",
+          "employee_ids": [
+            "E1193",
+            "E1194"
+          ],
+          "sites": [
+            "ST-01",
+            "ST-03"
+          ],
+          "cover_shifts": 8,
+          "cross_site_conflicts": 3,
+          "double_paid_hours": 100.2
+        }
+      ],
+      "note": "5 people are on two sites' rosters as separate employees, and neither site knows. On the days they are at one site, the other logs a no-show and pays someone to cover it \u2014 39 times in 10 weeks, 14 of them provably while the person was clocked in at their other site. The same double booking also put ~510 hours on the books at two sites at once \u2014 hours that cannot be trusted for payroll. Fix: make each a single-site employee, drop them from the other site, and spread that post across the under-used same-role staff already there."
+    }
+  },
+  "ops_review": {
+    "repeat_absentees": [
+      {
+        "absentee": "unnamed_relief",
+        "overtime_hours": 154.0,
+        "times": 34
+      },
+      {
+        "absentee": "Ndlovu",
+        "overtime_hours": 23.25,
+        "times": 3
+      },
+      {
+        "absentee": "Maluleke",
+        "overtime_hours": 16.25,
+        "times": 3
+      },
+      {
+        "absentee": "Khumalo",
+        "overtime_hours": 16.0,
+        "times": 4
+      },
+      {
+        "absentee": "Mavuso",
+        "overtime_hours": 14.5,
+        "times": 2
+      },
+      {
+        "absentee": "Dlamini",
+        "overtime_hours": 12.0,
+        "times": 2
+      },
+      {
+        "absentee": "Baloyi",
+        "overtime_hours": 12.0,
+        "times": 2
+      },
+      {
+        "absentee": "Fourie",
+        "overtime_hours": 11.75,
+        "times": 3
+      },
+      {
+        "absentee": "Sibiya",
+        "overtime_hours": 11.75,
+        "times": 2
+      },
+      {
+        "absentee": "September",
+        "overtime_hours": 11.0,
+        "times": 3
+      }
+    ],
+    "notes_that_lie": 19,
+    "open_shifts_recent": [
+      {
+        "shift_id": "S104130",
+        "site": "ST-04",
+        "date": "2026-08-12",
+        "name": "Sarah Nkosi",
+        "note": "no replacement sent, ngicela sort this out"
+      },
+      {
+        "shift_id": "S108027",
+        "site": "ST-05",
+        "date": "2026-08-11",
+        "name": "Xolani Dlamini",
+        "note": "klient het ekstra ure gevra vir stocktake"
+      },
+      {
+        "shift_id": "S107079",
+        "site": "ST-05",
+        "date": "2026-08-10",
+        "name": "Xolani September",
+        "note": "Client asked for extra patrol after the break-in Tuesday"
+      },
+      {
+        "shift_id": "S108616",
+        "site": "ST-04",
+        "date": "2026-08-09",
+        "name": "Andile Motaung",
+        "note": ""
+      },
+      {
+        "shift_id": "S108066",
+        "site": "ST-06",
+        "date": "2026-08-09",
+        "name": "Xolani Baloyi",
+        "note": ""
+      },
+      {
+        "shift_id": "S103171",
+        "site": "ST-06",
+        "date": "2026-08-09",
+        "name": "Elrico Ndlovu",
+        "note": ""
+      },
+      {
+        "shift_id": "S102786",
+        "site": "ST-05",
+        "date": "2026-08-09",
+        "name": "Dineo Ndlovu",
+        "note": "Covering for Mahlangu - booked off sick"
+      },
+      {
+        "shift_id": "S105753",
+        "site": "ST-02",
+        "date": "2026-08-08",
+        "name": "Neo Ndlovu",
+        "note": ""
+      },
+      {
+        "shift_id": "S102450",
+        "site": "ST-03",
+        "date": "2026-08-08",
+        "name": "Sindiswa Khumalo",
+        "note": ""
+      },
+      {
+        "shift_id": "S106638",
+        "site": "ST-04",
+        "date": "2026-08-08",
+        "name": "Fatima Botha",
+        "note": ""
+      },
+      {
+        "shift_id": "S108578",
+        "site": "ST-04",
+        "date": "2026-08-07",
+        "name": "Ayanda Mokoena",
+        "note": ""
+      },
+      {
+        "shift_id": "S102785",
+        "site": "ST-05",
+        "date": "2026-08-07",
+        "name": "Dineo Ndlovu",
+        "note": ""
+      },
+      {
+        "shift_id": "S108377",
+        "site": "ST-05",
+        "date": "2026-08-06",
+        "name": "Lerato Cele",
+        "note": "extra hours approved by client for the event setup"
+      },
+      {
+        "shift_id": "S108024",
+        "site": "ST-05",
+        "date": "2026-08-06",
+        "name": "Xolani Dlamini",
+        "note": ""
+      },
+      {
+        "shift_id": "S103740",
+        "site": "ST-04",
+        "date": "2026-08-06",
+        "name": "Nadia Naidoo",
+        "note": ""
+      },
+      {
+        "shift_id": "S108898",
+        "site": "ST-06",
+        "date": "2026-08-05",
+        "name": "Sindiswa Adams",
+        "note": "ujacobs akezanga namhlanje, ngimele yena"
+      },
+      {
+        "shift_id": "S102098",
+        "site": "ST-01",
+        "date": "2026-08-05",
+        "name": "Neo Ngcobo",
+        "note": ""
+      },
+      {
+        "shift_id": "S100278",
+        "site": "ST-04",
+        "date": "2026-08-05",
+        "name": "Shaun Zulu",
+        "note": ""
+      },
+      {
+        "shift_id": "S104614",
+        "site": "ST-04",
+        "date": "2026-08-04",
+        "name": "Zodwa Jacobs",
+        "note": ""
+      },
+      {
+        "shift_id": "S101626",
+        "site": "ST-06",
+        "date": "2026-08-04",
+        "name": "Tshepo Molefe",
+        "note": "control room says relief coming, nobody came.."
+      },
+      {
+        "shift_id": "S103080",
+        "site": "ST-05",
+        "date": "2026-08-04",
+        "name": "Refilwe Van Wyk",
+        "note": ""
+      },
+      {
+        "shift_id": "S103447",
+        "site": "ST-03",
+        "date": "2026-08-04",
+        "name": "Gift Khumalo",
+        "note": "relief never arrived, stayed on till 06:00"
+      },
+      {
+        "shift_id": "S107730",
+        "site": "ST-03",
+        "date": "2026-08-04",
+        "name": "Nokuthula Zulu",
+        "note": ""
+      },
+      {
+        "shift_id": "S109186",
+        "site": "ST-01",
+        "date": "2026-08-04",
+        "name": "Pieter Mokoena",
+        "note": ""
+      },
+      {
+        "shift_id": "S108375",
+        "site": "ST-05",
+        "date": "2026-08-03",
+        "name": "Lerato Cele",
+        "note": "Client requested deep clean before the audit - approved"
+      },
+      {
+        "shift_id": "S106544",
+        "site": "ST-05",
+        "date": "2026-08-03",
+        "name": "Kagiso Mavuso",
+        "note": "double duty today, Molefe on family responsibillity leave"
+      },
+      {
+        "shift_id": "S106395",
+        "site": "ST-03",
+        "date": "2026-08-03",
+        "name": "Mpho Botha",
+        "note": "covering Mthembu postt, no show no call"
+      },
+      {
+        "shift_id": "S104657",
+        "site": "ST-03",
+        "date": "2026-08-03",
+        "name": "Portia Botha",
+        "note": ""
+      },
+      {
+        "shift_id": "S100772",
+        "site": "ST-01",
+        "date": "2026-08-02",
+        "name": "Andile Sithole",
+        "note": ""
+      },
+      {
+        "shift_id": "S109184",
+        "site": "ST-01",
+        "date": "2026-08-02",
+        "name": "Pieter Mokoena",
+        "note": ""
+      }
+    ],
+    "open_shifts_by_site": {
+      "ST-03": 38,
+      "ST-05": 37,
+      "ST-04": 34,
+      "ST-02": 31,
+      "ST-06": 26,
+      "ST-01": 18
+    },
+    "under_recording_note": "184 shifts (2.1%) were clocked in but never clocked out and are logged as 0h \u2014 most carry cover notes. Shift length caps at 13.5h (366 shifts sit exactly there), so a genuine 20-hour double is recorded as 13.5h or 0h. A no-show creates no record at all. Net: a no-show removes recorded hours for that site-day even though the same coverage was delivered \u2014 so operational-failure overtime, and the breach risk of the people who cover, is understated. Recorded breach rate 5.0%; imputing one shift per open-shift week puts it at ~5.6%.",
+    "phantom_absence_shifts": [
+      {
+        "covered_person": "Lucky Sibiya",
+        "date": "2026-08-12",
+        "cover_site": "ST-03",
+        "reason": "no_show",
+        "cross_site": true,
+        "note": "uSibiya akezanga namhlanje, ngimele yena"
+      },
+      {
+        "covered_person": "Pieter Van Wyk",
+        "date": "2026-08-11",
+        "cover_site": "ST-06",
+        "reason": "no_show",
+        "cross_site": false,
+        "note": "covering Wyk post, no show no call"
+      },
+      {
+        "covered_person": "Busisiwe Jacobs",
+        "date": "2026-08-10",
+        "cover_site": "ST-02",
+        "reason": "unknown",
+        "cross_site": true,
+        "note": "Jacobs absent, took her rounds as well"
+      },
+      {
+        "covered_person": "Lerato Motaung",
+        "date": "2026-08-07",
+        "cover_site": "ST-04",
+        "reason": "no_show",
+        "cross_site": true,
+        "note": "covering motaung post, no show no call"
+      },
+      {
+        "covered_person": "Busisiwe Jacobs",
+        "date": "2026-08-06",
+        "cover_site": "ST-02",
+        "reason": "sick",
+        "cross_site": false,
+        "note": "worked through, Jaobs at the clinic"
+      },
+      {
+        "covered_person": "Tshepo Motaung",
+        "date": "2026-07-30",
+        "cover_site": "ST-03",
+        "reason": "sick",
+        "cross_site": false,
+        "note": "Covering for Motaung - booked off sick"
+      },
+      {
+        "covered_person": "Busisiwe Jacobs",
+        "date": "2026-07-28",
+        "cover_site": "ST-03",
+        "reason": "leave",
+        "cross_site": true,
+        "note": "double duty today, jacobs on family responsibility leave"
+      },
+      {
+        "covered_person": "Pieter Van Wyk",
+        "date": "2026-07-26",
+        "cover_site": "ST-05",
+        "reason": "sick",
+        "cross_site": false,
+        "note": "worked through, Wyk at the clinic"
+      },
+      {
+        "covered_person": "Busisiwe Jacobs",
+        "date": "2026-07-26",
+        "cover_site": "ST-03",
+        "reason": "no_show",
+        "cross_site": false,
+        "note": "covering Jacobs post, no show no call"
+      },
+      {
+        "covered_person": "Lerato Motaung",
+        "date": "2026-07-24",
+        "cover_site": "ST-06",
+        "reason": "sick",
+        "cross_site": false,
+        "note": "motaung off sick. again. covered."
+      },
+      {
+        "covered_person": "Tshepo Motaung",
+        "date": "2026-07-23",
+        "cover_site": "ST-03",
+        "reason": "sick",
+        "cross_site": true,
+        "note": "WORKED THROUGH, MOTAUNG AT THE CLINIC"
+      },
+      {
+        "covered_person": "Tshepo Motaung",
+        "date": "2026-07-19",
+        "cover_site": "ST-03",
+        "reason": "unknown",
+        "cross_site": false,
+        "note": "Covered for Motaung again - 3rd time this month"
+      },
+      {
+        "covered_person": "Tshepo Motaung",
+        "date": "2026-07-18",
+        "cover_site": "ST-01",
+        "reason": "sick",
+        "cross_site": true,
+        "note": "worked through, motaung at the clinic !"
+      },
+      {
+        "covered_person": "Busisiwe Jacobs",
+        "date": "2026-07-18",
+        "cover_site": "ST-02",
+        "reason": "no_show",
+        "cross_site": true,
+        "note": "uJacobs akezanga namhlanje, ngimele yena"
+      },
+      {
+        "covered_person": "Lucky Sibiya",
+        "date": "2026-07-18",
+        "cover_site": "ST-01",
+        "reason": "no_show",
+        "cross_site": false,
+        "note": "USIBIYA AKEZANA NAMHLANJE, NGIMELE YENA.."
+      },
+      {
+        "covered_person": "Busisiwe Jacobs",
+        "date": "2026-07-17",
+        "cover_site": "ST-03",
+        "reason": "unknown",
+        "cross_site": false,
+        "note": "stood in for Jacobs"
+      },
+      {
+        "covered_person": "Pieter Van Wyk",
+        "date": "2026-07-15",
+        "cover_site": "ST-05",
+        "reason": "unknown",
+        "cross_site": false,
+        "note": "Wyk didnt coome in, covered the post"
+      },
+      {
+        "covered_person": "Lucky Sibiya",
+        "date": "2026-07-15",
+        "cover_site": "ST-03",
+        "reason": "no_show",
+        "cross_site": false,
+        "note": "Sibiya didnt come in, covered the post"
+      },
+      {
+        "covered_person": "Pieter Van Wyk",
+        "date": "2026-07-14",
+        "cover_site": "ST-05",
+        "reason": "no_show",
+        "cross_site": true,
+        "note": "covering Wyk post, no show no call"
+      },
+      {
+        "covered_person": "Lerato Motaung",
+        "date": "2026-07-14",
+        "cover_site": "ST-06",
+        "reason": "no_show",
+        "cross_site": false,
+        "note": "uMotaung akezanga namhlanje, ngimele yena"
+      },
+      {
+        "covered_person": "Lerato Motaung",
+        "date": "2026-07-14",
+        "cover_site": "ST-04",
+        "reason": "unknown",
+        "cross_site": false,
+        "note": "Motaung absent, took her rounds as well"
+      },
+      {
+        "covered_person": "Lucky Sibiya",
+        "date": "2026-07-14",
+        "cover_site": "ST-03",
+        "reason": "no_show",
+        "cross_site": false,
+        "note": "uSibiya akezanga namhlanje, ngimele yena"
+      },
+      {
+        "covered_person": "Pieter Van Wyk",
+        "date": "2026-07-12",
+        "cover_site": "ST-05",
+        "reason": "unknown",
+        "cross_site": false,
+        "note": "COVERED FOR WYK AGAIN - 3RD TIME THIS MONTH"
+      },
+      {
+        "covered_person": "Pieter Van Wyk",
+        "date": "2026-07-10",
+        "cover_site": "ST-05",
+        "reason": "sick",
+        "cross_site": true,
+        "note": "Wyk off sick. again. covered."
+      },
+      {
+        "covered_person": "Lucky Sibiya",
+        "date": "2026-07-07",
+        "cover_site": "ST-03",
+        "reason": "unknown",
+        "cross_site": false,
+        "note": "took Sibiya shift as well, 2 posts 1 gurad !"
+      },
+      {
+        "covered_person": "Pieter Van Wyk",
+        "date": "2026-07-06",
+        "cover_site": "ST-05",
+        "reason": "unknown",
+        "cross_site": true,
+        "note": "took Wyk shift as well, 2 posts 1 guard"
+      },
+      {
+        "covered_person": "Pieter Van Wyk",
+        "date": "2026-07-06",
+        "cover_site": "ST-06",
+        "reason": "unknown",
+        "cross_site": false,
+        "note": "Wyk absent, took her rounds as well"
+      },
+      {
+        "covered_person": "Pieter Van Wyk",
+        "date": "2026-06-30",
+        "cover_site": "ST-06",
+        "reason": "sick",
+        "cross_site": false,
+        "note": "covering for wyk - booked off sck"
+      },
+      {
+        "covered_person": "Lucky Sibiya",
+        "date": "2026-06-28",
+        "cover_site": "ST-01",
+        "reason": "sick",
+        "cross_site": true,
+        "note": "gedek vir Sibiya, siek gmeld !"
+      },
+      {
+        "covered_person": "Lerato Motaung",
+        "date": "2026-06-25",
+        "cover_site": "ST-04",
+        "reason": "no_show",
+        "cross_site": false,
+        "note": "covering Motaung post, no show no caall"
+      },
+      {
+        "covered_person": "Pieter Van Wyk",
+        "date": "2026-06-21",
+        "cover_site": "ST-05",
+        "reason": "unknown",
+        "cross_site": false,
+        "note": "took Wyk shift as well, 2 posts 1 guard"
+      },
+      {
+        "covered_person": "Busisiwe Jacobs",
+        "date": "2026-06-20",
+        "cover_site": "ST-03",
+        "reason": "no_show",
+        "cross_site": false,
+        "note": "uJacobs akezanga namhlanje, ngimele yena"
+      },
+      {
+        "covered_person": "Lucky Sibiya",
+        "date": "2026-06-20",
+        "cover_site": "ST-01",
+        "reason": "no_show",
+        "cross_site": false,
+        "note": "covering Sibiya post, no show no call"
+      },
+      {
+        "covered_person": "Busisiwe Jacobs",
+        "date": "2026-06-19",
+        "cover_site": "ST-02",
+        "reason": "unknown",
+        "cross_site": false,
+        "note": "jacobs absent, took her rounds as well"
+      },
+      {
+        "covered_person": "Lucky Sibiya",
+        "date": "2026-06-19",
+        "cover_site": "ST-03",
+        "reason": "leave",
+        "cross_site": true,
+        "note": "double duty today, Sibiya on family responsibility leave"
+      },
+      {
+        "covered_person": "Pieter Van Wyk",
+        "date": "2026-06-14",
+        "cover_site": "ST-06",
+        "reason": "unknown",
+        "cross_site": true,
+        "note": "took Wyk shift as well, 2 posts 1 guard"
+      },
+      {
+        "covered_person": "Pieter Van Wyk",
+        "date": "2026-06-14",
+        "cover_site": "ST-06",
+        "reason": "sick",
+        "cross_site": true,
+        "note": "gedek vir Wyk, siek gemeld"
+      },
+      {
+        "covered_person": "Busisiwe Jacobs",
+        "date": "2026-06-13",
+        "cover_site": "ST-02",
+        "reason": "no_show",
+        "cross_site": false,
+        "note": "covering jacobs post, no show no call"
+      },
+      {
+        "covered_person": "Tshepo Motaung",
+        "date": "2026-06-12",
+        "cover_site": "ST-01",
+        "reason": "unknown",
+        "cross_site": false,
+        "note": "stood in for Motaug"
+      }
+    ]
+  }
+}

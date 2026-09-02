@@ -1,0 +1,181 @@
+shift_id,note,gold,pred,gold_reason,pred_reason,gold_auth,pred_auth,gold_absentee,pred_absentee,gold_lie,pred_conflict,confidence,stratum,lang,len_bucket
+S106225,"GENERATOR FAULT, STAYED TO MONITOR..",equipment_failure,equipment_failure,,,,n/a,,,False,False,confident,targeted,en,l
+S104038,"late handover, waiting on paperwork",late_handover,late_handover,,,,n/a,,,False,False,confident,targeted,en,l
+S107620,client signed for the extra hours but real reason is relief no show again,absence_cover,absence_cover,no_show,no_show,,n/a,unnamed_relief,unnamed_relief,True,True,confident,targeted,en,xl
+S106906,next shift guard did not pitch. had to cover..,absence_cover,absence_cover,no_show,no_show,,n/a,unnamed_relief,unnamed_relief,False,False,confident,random,en,xl
+S106529,"client asked us to stay for the delivery, ok'd by centre mgmt",client_requested,client_requested,,,yes,yes,,,False,False,confident,random,en,xl
+S103702,stood in for Mokoena,absence_cover,absence_cover,unknown,unknown,,n/a,Mokoena,Mokoena,False,False,confident,random,en,m
+S107344,"handover late agn, keys missing",late_handover,late_handover,,,,n/a,,,False,False,confident,targeted,en,l
+S102880,"scrubber broke down, had to do the floor manually",equipment_failure,equipment_failure,,,,n/a,,,False,False,confident,targeted,en,xl
+S102186,relief no show AGAIN,absence_cover,absence_cover,no_show,no_show,,n/a,unnamed_relief,unnamed_relief,False,False,confident,random,en,m
+S105053,klient het ekstra ure gevra vir stocktake !,client_requested,client_requested,,,unclear,unclear,,,False,False,confident,targeted,af,l
+S104929,"uMolefe akezanga namhlanje, ngimele yena",absence_cover,absence_cover,no_show,no_show,,n/a,Molefe,Molefe,False,False,confident,random,zu,l
+S103960,"no replacement sent, ngicela sort this out",absence_cover,absence_cover,no_show,no_show,,n/a,unnamed_relief,unnamed_relief,False,False,confident,targeted,zu,l
+S108054,CLIENT SIGNED FOR THE EXTRA HRS BUT REAL REASON IS RELIEF NO SHOW AGAIN,absence_cover,absence_cover,no_show,no_show,,n/a,unnamed_relief,unnamed_relief,True,True,confident,targeted,en,xl
+S108466,"GEDK VIR MOKOENA, SEK GEMELD",absence_cover,absence_cover,sick,sick,,n/a,Mokoena,Mokoena,False,False,confident,targeted,af,m
+S107331,"covering Wyk post, no show no call",absence_cover,absence_cover,no_show,no_show,,n/a,Wyk,Wyk,False,False,confident,targeted,en,l
+S101011,"handover late again, keys missing",late_handover,late_handover,,,,n/a,,,False,False,confident,targeted,en,l
+S103983,ok,blank,blank,,,,n/a,,,False,False,confident,random,en,xs
+S102468,"gedek vir Sibiya, siek gmeld !",absence_cover,absence_cover,sick,sick,,n/a,Sibiya,Sibiya,False,False,confident,targeted,af,m
+S105099,"next shift akafikanga, ngihlale kuze kube 06:00",absence_cover,absence_cover,no_show,no_show,,n/a,unnamed_relief,unnamed_relief,False,False,confident,random,en,xl
+S107801,akukho lutho,routine,routine,,,,n/a,,,False,False,confident,targeted,zu,s
+S100543,"gate motor failed, manned it by hand till 0600..",equipment_failure,equipment_failure,,,,n/a,,,False,False,confident,random,en,xl
+S100624,akukho lutho,routine,routine,,,,n/a,,,False,False,confident,targeted,zu,s
+S101089,"masjien is stukkend, ales met die hand gedoen !",equipment_failure,equipment_failure,,,,n/a,,,False,False,confident,random,af,xl
+S106569,"gedek vir Mokoena, siek gemeld..",absence_cover,absence_cover,sick,sick,,n/a,Mokoena,Mokoena,False,False,confident,random,af,l
+S102953,"gate motoor failed, manned it by hadn till 6",equipment_failure,equipment_failure,,,,n/a,,,False,False,confident,targeted,en,l
+S107155,quiet shift,routine,routine,,,,n/a,,,False,False,confident,random,en,s
+S102109,all good,routine,routine,,,,n/a,,,False,False,confident,random,en,s
+S100080,sharp,blank,blank,,,,n/a,,,False,False,confident,random,en,s
+S106397,client signed for the extra hrs but real reason is relief no show agn,absence_cover,absence_cover,no_show,no_show,,n/a,unnamed_relief,unnamed_relief,True,True,confident,targeted,en,xl
+S105011,Client requested deep clean before the audit - approved,client_requested,client_requested,,,yes,yes,,,False,False,confident,random,en,xl
+S104916,"Mavuso absent, took her rounds as well",absence_cover,absence_cover,unknown,unknown,,n/a,Mavuso,Mavuso,False,False,confident,random,en,l
+S104315,Covered for Zulu agn - 3rd time this month,absence_cover,absence_cover,unknown,unknown,,n/a,Zulu,Zulu,False,False,confident,random,en,l
+S100586,Next shift guard did not pitch. Had to cover.,absence_cover,absence_cover,no_show,no_show,,n/a,unnamed_relief,unnamed_relief,False,False,confident,targeted,en,l
+S100032,"control room says relef coming, nobody came",absence_cover,absence_cover,no_show,no_show,,n/a,unnamed_relief,unnamed_relief,False,False,confident,random,en,l
+S107985,stood in for zulu,absence_cover,absence_cover,unknown,unknown,,n/a,Zulu,Zulu,False,False,confident,targeted,en,m
+S101817,double shift because relief never pitched,absence_cover,absence_cover,no_show,no_show,,n/a,unnamed_relief,unnamed_relief,False,False,confident,random,en,l
+S104081,"no replacement sent, ngicela sort this out",absence_cover,absence_cover,no_show,no_show,,n/a,unnamed_relief,unnamed_relief,False,False,confident,targeted,zu,l
+S107938,"late handover, waiting on paperwork",late_handover,late_handover,,,,n/a,,,False,False,confident,random,en,l
+S105811,"still on site, relief was suppose to come 0600",absence_cover,absence_cover,unknown,unknown,,n/a,unnamed_relief,unnamed_relief,False,False,ambiguous,random,en,xl
+S104821,"oorhandiging was lat, gewag vir sleutels",late_handover,late_handover,,,,n/a,,,False,False,confident,targeted,af,l
+S108598,double shift becaue relief never pitched,absence_cover,absence_cover,no_show,no_show,,n/a,unnamed_relief,unnamed_relief,False,False,confident,random,en,l
+S104444,"relief only arrived six, stayed until then",absence_cover,absence_cover,unknown,unknown,,n/a,unnamed_relief,unnamed_relief,False,False,ambiguous,random,en,l
+S106680,Client asked for extra patrool after the break-in Tuesday,client_requested,client_requested,,,unclear,unclear,,,False,False,confident,random,en,xl
+S101563,Mokoena off sick. again. covered.,absence_cover,absence_cover,sick,sick,,n/a,Mokoena,Mokoena,False,False,confident,random,en,l
+S100303,sharp,blank,blank,,,,n/a,,,False,False,confident,random,en,s
+S105984,"late handover, waiting on paperwork",late_handover,late_handover,,,,n/a,,,False,False,confident,random,en,l
+S109285,shift handover delayed by 30 min,late_handover,late_handover,,,,n/a,,,False,False,confident,targeted,en,l
+S109348,client signed for the extra hours but real reason is relief no show agn,absence_cover,absence_cover,no_show,no_show,,n/a,unnamed_relief,unnamed_relief,True,True,confident,targeted,en,xl
+S108586,"handover latte again, keys missing",late_handover,late_handover,,,,n/a,,,False,False,confident,targeted,en,l
+S103348,Centre manager requested additional cover for stocktake,client_requested,client_requested,,,unclear,unclear,,,False,False,confident,random,en,xl
+S102847,etxra hrs approved by client for the event setup,client_requested,client_requested,,,yes,yes,,,False,False,confident,random,en,xl
+S103775,"scrubber broke down, had to do the floor manually..",equipment_failure,equipment_failure,,,,n/a,,,False,False,confident,targeted,en,xl
+S108196,"client wanted extra man on the gate for the event, approved !",client_requested,client_requested,,,yes,yes,,,False,False,confident,random,en,xl
+S108657,client asked for extra patrol after the break--in tuesday,client_requested,client_requested,,,unclear,unclear,,,False,False,confident,random,en,xl
+S102351,"handover late again, keys missing",late_handover,late_handover,,,,n/a,,,False,False,confident,random,en,l
+S101704,"buffer machine kaput, did the floor by hand !",equipment_failure,equipment_failure,,,,n/a,,,False,False,confident,targeted,en,l
+S100205,no issues on site,routine,routine,,,,n/a,,,False,False,confident,random,en,m
+S100595,client signed for the extra hours but real reason is relief no show agn..,absence_cover,absence_cover,no_show,no_show,,n/a,unnamed_relief,unnamed_relief,True,True,confident,targeted,en,xl
+S108282,klient het ekstra ure gevra vir stocktake,client_requested,client_requested,,,unclear,unclear,,,False,False,confident,targeted,af,l
+S100588,"oorhandiging was laat, gewag vir sletuels",late_handover,late_handover,,,,n/a,,,False,False,confident,targeted,af,l
+S100315,"no repacement sent, ngicela sort this out",absence_cover,absence_cover,no_show,no_show,,n/a,unnamed_relief,unnamed_relief,False,False,confident,targeted,zu,l
+S104397,nothing to report,routine,routine,,,,n/a,,,False,False,confident,random,en,m
+S102816,client signed for the extra hours but real reason is relief no show agn,absence_cover,absence_cover,no_show,no_show,,n/a,unnamed_relief,unnamed_relief,True,True,confident,targeted,en,xl
+S105922,Covered for Wyk again - 3rd time this month..,absence_cover,absence_cover,unknown,unknown,,n/a,Wyk,Wyk,False,False,confident,random,en,l
+S106210,all good,routine,routine,,,,n/a,,,False,False,confident,random,en,s
+S100401,"masjien is stukkend, alles met die hand gedoen",equipment_failure,equipment_failure,,,,n/a,,,False,False,confident,targeted,af,xl
+S104338,"Nkosi didnt come in, covered the post",absence_cover,absence_cover,no_show,no_show,,n/a,Nkosi,Nkosi,False,False,confident,targeted,en,l
+S104917,"client wantde extra man on the gate for the event, approved",client_requested,client_requested,,,yes,yes,,,False,False,confident,random,en,xl
+S100537,Covering for Mavuso - booked off sick..,absence_cover,absence_cover,sick,sick,,n/a,Mavosu,Mavuso,False,False,confident,targeted,en,l
+S100567,clint requested deep clean before the audit - approved,client_requested,client_requested,,,yes,yes,,,False,False,confident,random,en,xl
+S100571,relief no show AGAIN,absence_cover,absence_cover,no_show,no_show,,n/a,unnamed_relief,unnamed_relief,False,False,confident,random,en,m
+S105973,"Naidoo abset, took her runds as weell",absence_cover,absence_cover,unknown,unknown,,n/a,Naidoo,Naidoo,False,False,confident,random,en,l
+S100309,Jacobs off sick. ag.n covered.,absence_cover,absence_cover,sick,sick,,n/a,Jacobs,Jacobs,False,False,confident,random,en,m
+S101797,"double duty today, Baloi on family responsibility leave",absence_cover,absence_cover,leave,leave,,n/a,Baloyi,Baloyi,False,False,confident,random,en,xl
+S108268,Radebe off sikc. again. cvered..,absence_cover,absence_cover,sick,sick,,n/a,Radebe,Radebe,False,False,confident,targeted,en,l
+S106848,no issues on site,routine,routine,,,,n/a,,,False,False,confident,random,en,m
+S104527,Covreed for Mabaso agn - 3rd time this month,absence_cover,unclassified,unknown,,,n/a,Mabaso,,False,False,confident,targeted,en,l
+S106415,"masjien is stukkend, alles met die hand gedoen",equipment_failure,equipment_failure,,,,n/a,,,False,False,confident,targeted,af,xl
+S107414,shift handovver delayed by 50 min,late_handover,late_handover,,,,n/a,,,False,False,confident,random,en,l
+S103439,"no replacement sent, ngicela sort this out",absence_cover,absence_cover,no_show,no_show,,n/a,unnamed_relief,unnamed_relief,False,False,confident,random,zu,l
+S103630,"Botha absent, took her rounds as well",absence_cover,absence_cover,unknown,unknown,,n/a,Botha,Botha,False,False,confident,random,en,l
+S109293,"waited 45 min for handover, OB book not signed",late_handover,late_handover,,,,n/a,,,False,False,confident,targeted,en,xl
+S104108,next shift guard did not pitch. had to cover..,absence_cover,absence_cover,no_show,no_show,,n/a,unnamed_relief,unnamed_relief,False,False,confident,random,en,xl
+S100332,"covering Zulu post, no show no call",absence_cover,absence_cover,no_show,no_show,,n/a,Zulu,Zulu,False,False,confident,random,en,l
+S107298,"double duty today, naidoo on fammily responsibility leave..",absence_cover,absence_cover,leave,leave,,n/a,Naidoo,Naidoo,False,False,confident,random,en,xl
+S100269,no relief. stayed. someone must please sort the roster,absence_cover,absence_cover,no_show,no_show,,n/a,unnamed_relief,unnamed_relief,False,False,confident,random,en,xl
+S109288,all quiet,routine,routine,,,,n/a,,,False,False,confident,random,en,s
+S107595,as per normal,routine,routine,,,,n/a,,,False,False,confident,random,en,s
+S102865,Client asked for extra patrol after the break-in Tuesday,client_requested,client_requested,,,unclear,unclear,,,False,False,confident,random,en,xl
+S107594,"gedek vir Mthembu, siek gemeld",absence_cover,absence_cover,sick,sick,,n/a,Mthembu,Mthembu,False,False,confident,random,af,m
+S101883,"buffer machine kaput, did the floor by hand",equipment_failure,equipment_failure,,,,n/a,,,False,False,confident,targeted,en,l
+S106369,"handover late agn, keys missing",late_handover,late_handover,,,,n/a,,,False,False,confident,random,en,l
+S102055,"covering Wyk post, no show no call",absence_cover,absence_cover,no_show,no_show,,n/a,Wyk,Wyk,False,False,confident,targeted,en,l
+S106307,"oorhandiging was laat, gewag vir sleutles",late_handover,late_handover,,,,n/a,,,False,False,confident,targeted,af,l
+S105071,"no replacement sent, ngicela sort this out",absence_cover,absence_cover,no_show,no_show,,n/a,unnamed_relief,unnamed_relief,False,False,confident,random,zu,l
+S108354,"gedek vir Tshabaala, siek gemeld",absence_cover,absence_cover,sick,sick,,n/a,Tshabalala,Tshabalala,False,False,confident,targeted,af,l
+S109125,"buffer machine kaput, did the floor by hand",equipment_failure,equipment_failure,,,,n/a,,,False,False,confident,random,en,l
+S104320,client signed for the extra hrs but real reason is relief no show again,absence_cover,absence_cover,no_show,no_show,,n/a,unnamed_relief,unnamed_relief,True,True,confident,targeted,en,xl
+S102555,"gedek vir molefe, siek gemeld..",absence_cover,absence_cover,sick,sick,,n/a,Molefe,Molefe,False,False,confident,random,af,l
+S103011,"still on site, relief was suppose to coe six",absence_cover,absence_cover,unknown,unknown,,n/a,unnamed_relief,unnamed_relief,False,False,ambiguous,random,en,l
+S108062,"uBotha akezanga namhlanje, ngimele yena",absence_cover,absence_cover,no_show,no_show,,n/a,Botha,Botha,False,False,confident,targeted,zu,l
+S103551,CLIETN ASKED FOR EXTRA PATROL AFTER THE BREAK-IN TUESDAY,client_requested,client_requested,,,unclear,unclear,,,False,False,confident,targeted,en,xl
+S100172,"uSibiya akezanga namhlanje, ngimele yena",absence_cover,absence_cover,no_show,no_show,,n/a,Sibiya,Sibiya,False,False,confident,targeted,zu,l
+S107478,centre manager requested additional cover for stocktake,client_requested,client_requested,,,unclear,unclear,,,False,False,confident,random,en,xl
+S103450,"client wanted extra man on the gate for the event, approved",client_requested,client_requested,,,yes,yes,,,False,False,confident,random,en,xl
+S108597,"handover late an, keys missing..",late_handover,late_handover,,,,n/a,,,False,False,confident,targeted,en,l
+S103062,"no replacement sent, ngicela sort this out",absence_cover,absence_cover,no_show,no_show,,n/a,unnamed_relief,unnamed_relief,False,False,confident,targeted,zu,l
+S104907,"machine down ang, took twice as long..",equipment_failure,equipment_failure,,,,n/a,,,False,False,confident,random,en,l
+S102158,"uTshabalala akezanga namhlanje, ngimele yena",absence_cover,absence_cover,no_show,no_show,,n/a,Tshabalala,Tshabalala,False,False,confident,targeted,zu,l
+S105002,Clint requsted deep clean before the audit - approved,client_requested,client_requested,,,yes,yes,,,False,False,confident,random,en,xl
+S106282,"CLIENT ASKED US TO STAY FOR THE DELIVERY, OK'D BY CENTRE MGMT",client_requested,client_requested,,,yes,yes,,,False,False,confident,random,en,xl
+S102977,"gedek vir Mthembu, siek gemeld !",absence_cover,absence_cover,sick,sick,,n/a,Mthembu,Mthembu,False,False,confident,random,af,l
+S105906,"double duty today, Adams on family responsibility leave",absence_cover,absence_cover,leave,leave,,n/a,Adams,Adams,False,False,confident,random,en,xl
+S108017,"relief only arrived six, stayed until thhen",absence_cover,absence_cover,unknown,unknown,,n/a,unnamed_relief,unnamed_relief,False,False,ambiguous,random,en,l
+S102929,"next shift akafikanga, ngihlale kuze kube 6",absence_cover,absence_cover,no_show,no_show,,n/a,unnamed_relief,unnamed_relief,False,False,ambiguous,targeted,en,l
+S102054,kllient het ekstra ure gevra vir stocktake,client_requested,client_requested,,,unclear,unclear,,,False,False,confident,targeted,af,l
+S108056,Nexxt shift guuard did not pitch. Had to cover.,absence_cover,absence_cover,no_show,no_show,,n/a,unnamed_relief,unnamed_relief,False,False,confident,targeted,en,xl
+S102163,"Hendricks didnt come in, covered the psot",absence_cover,absence_cover,no_show,no_show,,n/a,Hendricks,Hendricks,False,False,confident,targeted,en,l
+S105651,"oorhandiging was lata, gewag vir sleutels",late_handover,late_handover,,,,n/a,,,False,False,confident,targeted,af,l
+S103211,"additional cover requested by site manager, signed off",client_requested,client_requested,,,yes,yes,,,False,False,confident,random,en,xl
+S101599,client signed for the extra hours but real reason is relief no show agin,absence_cover,absence_cover,no_show,no_show,,n/a,unnamed_relief,unnamed_relief,True,True,confident,targeted,en,xl
+S104382,niks om te rapporteer nie,routine,routine,,,,n/a,,,False,False,confident,targeted,af,m
+S102622,client signed for the extra hours but real reason is relief no show again,absence_cover,absence_cover,no_show,no_show,,n/a,unnamed_relief,unnamed_relief,True,True,confident,targeted,en,xl
+S101617,,blank,blank,,,,n/a,,,False,False,confident,random,en,xs
+S109173,.,blank,blank,,,,n/a,,,False,False,confident,random,en,xs
+S108049,"client wanted extra man on the gate for the event, approved",client_requested,client_requested,,,yes,yes,,,False,False,confident,random,en,xl
+S106887,relief no show AGAIN,absence_cover,absence_cover,no_show,no_show,,n/a,unnamed_relief,unnamed_relief,False,False,confident,random,en,m
+S101555,Clint ased for extra patrol after the break-in Tuesday,client_requested,client_requested,,,unclear,unclear,,,False,False,confident,targeted,en,xl
+S103655,"late handover, waitnig on paperwork",late_handover,late_handover,,,,n/a,,,False,False,confident,random,en,l
+S106627,extra hrs approved by client for the evetn setup !,client_requested,client_requested,,,yes,yes,,,False,False,confident,random,en,xl
+S108027,klient het ekstra ure gevra vir stocktake,client_requested,client_requested,,,unclear,unclear,,,False,False,confident,targeted,af,l
+S108105,"aflos het nie opgedaag nie, moes aanbly",absence_cover,absence_cover,no_show,no_show,,n/a,unnamed_relief,unnamed_relief,False,False,confident,random,af,l
+S109289,client signed for the extra hrs but real reason is relief no show agn,absence_cover,absence_cover,no_show,no_show,,n/a,unnamed_relief,unnamed_relief,True,True,confident,targeted,en,xl
+S103981,"buffer machine kaput, did the floor by hand",equipment_failure,equipment_failure,,,,n/a,,,False,False,confident,targeted,en,l
+S106108,RELIEF NO SHOW AGAIN,absence_cover,absence_cover,no_show,no_show,,n/a,unnamed_relief,unnamed_relief,False,False,confident,random,en,m
+S105346,"machien down agn, took twice as long",equipment_failure,equipment_failure,,,,n/a,,,False,False,confident,targeted,en,l
+S106130,extra hours approved by client for the event setup,client_requested,client_requested,,,yes,yes,,,False,False,confident,random,en,xl
+S104313,client signde for the extra hours but real reaon is relief no show agn,absence_cover,absence_cover,no_show,no_show,,n/a,unnamed_relief,unnamed_relief,True,True,confident,targeted,en,xl
+S101324,"requested by centre management for load in, signed off",client_requested,client_requested,,,yes,yes,,,False,False,confident,random,en,xl
+S106235,"gedek vir Tshabalala, siek gemeld",absence_cover,absence_cover,sick,sick,,n/a,Tshabalala,Tshabalala,False,False,confident,targeted,af,l
+S107244,"waited 25 min for handover, OB book not signed",late_handover,late_handover,,,,n/a,,,False,False,confident,targeted,en,xl
+S105582,"generator fault, stayed to monitor",equipment_failure,equipment_failure,,,,n/a,,,False,False,confident,targeted,en,l
+S108623,"nxt shift akafikanga, ngihlale kuze kube 0600",absence_cover,absence_cover,no_show,no_show,,n/a,unnamed_relief,unnamed_relief,False,False,confident,targeted,en,l
+S106391,akukho lutho,routine,routine,,,,n/a,,,False,False,confident,targeted,zu,s
+S103061,"generator fault, stayed to monitor..",equipment_failure,equipment_failure,,,,n/a,,,False,False,confident,random,en,l
+S103751,"still on site, relief was suppose to come six",absence_cover,absence_cover,unknown,unknown,,n/a,unnamed_relief,unnamed_relief,False,False,ambiguous,random,en,l
+S105652,"handover late agn, keys missing",late_handover,late_handover,,,,n/a,,,False,False,confident,random,en,l
+S100549,"requested by centre management for load in, signed off",client_requested,client_requested,,,yes,yes,,,False,False,confident,random,en,xl
+S102422,fine,blank,blank,,,,n/a,,,False,False,confident,random,en,s
+S102121,akukho lutho,routine,routine,,,,n/a,,,False,False,confident,targeted,zu,s
+S104017,"uPillay akezanga namhlanje, nimele yena !",absence_cover,absence_cover,no_show,no_show,,n/a,Pillay,Pillay,False,False,confident,random,zu,l
+S105345,"next shift akafikanga, ngihlale kuze kube 06h00",absence_cover,absence_cover,no_show,no_show,,n/a,unnamed_relief,unnamed_relief,False,False,ambiguous,random,en,xl
+S107156,"usithole akezanga namhlanje, ngimeel yena",absence_cover,absence_cover,no_show,no_show,,n/a,Sithole,Sithole,False,False,confident,random,zu,l
+S103584,"worked through, baloyi at the clinic",absence_cover,absence_cover,sick,sick,,n/a,Baloyi,Baloyi,False,False,confident,targeted,en,l
+S100013,"no replacement sent, ngicela sort this out",absence_cover,absence_cover,no_show,no_show,,n/a,unnamed_relief,unnamed_relief,False,False,confident,random,zu,l
+S106561,"srubber broke down, had to do the floor manually",equipment_failure,equipment_failure,,,,n/a,,,False,False,confident,random,en,xl
+S102887,client signed for the extra hrs but real reason is relieef no show again,absence_cover,absence_cover,no_show,no_show,,n/a,unnamed_relief,unnamed_relief,True,True,confident,random,en,xl
+S108587,"worked through, september at the clinic",absence_cover,absence_cover,sick,sick,,n/a,September,September,False,False,confident,random,en,l
+S100486,"waited for relif, noody came through",absence_cover,absence_cover,no_show,no_show,,n/a,unnamed_relief,unnamed_relief,False,False,confident,targeted,en,l
+S105504,"client asked us to stay for the delivery, ok'd by centre mgmt",client_requested,client_requested,,,yes,yes,,,False,False,confident,random,en,xl
+S104565,"masjien is stukkend, alles met die hand gedoen..",equipment_failure,equipment_failure,,,,n/a,,,False,False,confident,targeted,af,xl
+S104037,"masjien is stukkend, alles met die hand gedoen",equipment_failure,equipment_failure,,,,n/a,,,False,False,confident,targeted,af,xl
+S108183,"double duty today, Radebe on family responsibility leave",absence_cover,absence_cover,leave,leave,,n/a,Radebe,Radebe,False,False,confident,targeted,en,xl
+S103366,quiet shift,routine,routine,,,,n/a,,,False,False,confident,random,en,s
+S107060,Covered for Botha again - 3rd time this month..,absence_cover,absence_cover,unknown,unknown,,n/a,Botha,Botha,False,False,confident,random,en,xl
+S106900,client signed for the extra hrs but real reason is relief no show again,absence_cover,absence_cover,no_show,no_show,,n/a,unnamed_relief,unnamed_relief,True,True,confident,targeted,en,xl
+S106989,"buffer machine kaput, did the floor by hand",equipment_failure,equipment_failure,,,,n/a,,,False,False,confident,targeted,en,l
+S105888,klient het ekstra ure gevra vir stocktake..,client_requested,client_requested,,,unclear,unclear,,,False,False,confident,random,af,l
+S107810,"oorhandiging was laat, gewag vir sleutels",late_handover,late_handover,,,,n/a,,,False,False,confident,targeted,af,l
+S104098,fine,blank,blank,,,,n/a,,,False,False,confident,random,en,s
+S109331,n/a,blank,blank,,,,n/a,,,False,False,confident,random,en,xs
+S104092,"handover late agn, keys missing",late_handover,late_handover,,,,n/a,,,False,False,confident,random,en,l
+S101531,Covered for Wyk again - 3rd time this month,absence_cover,absence_cover,unknown,unknown,,n/a,Wyk,Wyk,False,False,confident,random,en,l
+S108185,"covering Wyk post, no show no call",absence_cover,absence_cover,no_show,no_show,,n/a,Wyk,Wyk,False,False,confident,random,en,l
+S105115,Naidoo off sick. agn. covered.,absence_cover,absence_cover,sick,sick,,n/a,Naidoo,Naidoo,False,False,confident,random,en,m
+S109245,no issues on site,routine,routine,,,,n/a,,,False,False,confident,random,en,m
+S106457,"USIBIYA AKEZANA NAMHLANJE, NGIMELE YENA..",absence_cover,absence_cover,no_show,no_show,,n/a,Sibiya,Sibiya,False,False,confident,targeted,zu,l
+S103645,"masjien is stukkend, alles met die hand gedoen",equipment_failure,equipment_failure,,,,n/a,,,False,False,confident,targeted,af,xl
+S107753,"no replacement sent, ngicela sort this out..",absence_cover,absence_cover,no_show,no_show,,n/a,unnamed_relief,unnamed_relief,False,False,confident,targeted,zu,l
+S106375,"still on site, relieef was suppose to come six",absence_cover,absence_cover,unknown,unknown,,n/a,unnamed_relief,unnamed_relief,False,False,ambiguous,targeted,en,xl

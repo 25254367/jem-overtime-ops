@@ -1,0 +1,2118 @@
+shift_id,note,rules,tfidf_knn,tfidf_conf,agree
+S100737,Next shift guard did not pitch. Had to cover.,absence_cover,absence_cover,1.0,True
+S106900,client signed for the extra hrs but real reason is relief no show again,absence_cover,absence_cover,1.0,True
+S108361,"masjien is stukkend, alles met die hand gedoen",equipment_failure,equipment_failure,1.0,True
+S100877,"generator fault, stayed to monitor",equipment_failure,equipment_failure,0.98,True
+S108162,"client asked us to stay for the delivery, ok'd by centre mgmt",client_requested,client_requested,1.0,True
+S102786,Covering for Mahlangu - booked off sick,absence_cover,absence_cover,1.0,True
+S107007,,blank,blank,1.0,True
+S106106,shift handover delayed by 30 min,late_handover,late_handover,1.0,True
+S106463,double shift because relief never pitched,absence_cover,absence_cover,1.0,True
+S102332,double shift because relief never pitched,absence_cover,absence_cover,1.0,True
+S108056,Nexxt shift guuard did not pitch. Had to cover.,absence_cover,absence_cover,1.0,True
+S103439,"no replacement sent, ngicela sort this out",absence_cover,absence_cover,1.0,True
+S100571,relief no show AGAIN,absence_cover,absence_cover,1.0,True
+S101332,"handover late again, keys missing",late_handover,late_handover,1.0,True
+S107753,"no replacement sent, ngicela sort this out..",absence_cover,absence_cover,1.0,True
+S106253,Client requested deep clean before the audit - approved,client_requested,client_requested,1.0,True
+S100168,all fine,routine,blank,0.77,False
+S104252,sharp,blank,blank,1.0,True
+S103008,"oorhandiging was laat, gewag vir sleutels",late_handover,late_handover,1.0,True
+S105453,akukho lutho,routine,routine,1.0,True
+S106113,etra hours approved by client for the event setup,client_requested,client_requested,1.0,True
+S106907,"oorhandiging was laat, gewag vir sleutels",late_handover,late_handover,1.0,True
+S106876,"oorhandiging was laat, gewag vir sleutels",late_handover,late_handover,1.0,True
+S105345,"next shift akafikanga, ngihlale kuze kube 06h00",absence_cover,absence_cover,1.0,True
+S106814,"Mabaso didnt come in, covered the post",absence_cover,absence_cover,1.0,True
+S109082,"hanodver late again, keys missing",late_handover,late_handover,1.0,True
+S107738,"waited 50 min for handover, OB book not signed",late_handover,late_handover,1.0,True
+S107339,"additional cover requested by site manager, signed off",client_requested,client_requested,1.0,True
+S100205,no issues on site,routine,routine,0.97,True
+S108984,Covering for Pillay - booked off sick,absence_cover,absence_cover,1.0,True
+S104765,"waited 50 min for handover, ob book not signed",late_handover,late_handover,1.0,True
+S102055,"covering Wyk post, no show no call",absence_cover,absence_cover,1.0,True
+S101825,"late handover, waiting on paperwork",late_handover,late_handover,1.0,True
+S102559,no incidents,routine,absence_cover,1.0,False
+S106334,Client asked for extra patrol aftter the break-in Tuesday,client_requested,client_requested,1.0,True
+S101061,"stocktake ran over, client asked us to remain, they know they pay for it",client_requested,client_requested,1.0,True
+S108139,"client asked us to stay for the delivery, ok'd by centre mgmt",client_requested,client_requested,1.0,True
+S106859,fine,blank,blank,1.0,True
+S103877,sharp,blank,blank,1.0,True
+S103656,"DOUBLE DUTY TODAY, FOURIE ON FAMILY RESPONSIBILITY LEAVE",absence_cover,absence_cover,1.0,True
+S105093,"client asked us to stay for the delivery, ok'd by centre mgmt..",client_requested,client_requested,1.0,True
+S105680,"client wanted extra man on the gate for the event, approved",client_requested,client_requested,1.0,True
+S101121,niks om te rapporteer nie,routine,routine,0.97,True
+S108690,no incidents,routine,absence_cover,1.0,False
+S105807,klient het ekstra ure gevra vir stockake,client_requested,client_requested,1.0,True
+S105217,shift handover delayed by 25 min,late_handover,late_handover,1.0,True
+S105371,ok,blank,blank,1.0,True
+S106224,"gedek vir Adams, siek gemeld",absence_cover,absence_cover,1.0,True
+S108070,stood in for Radebe,absence_cover,absence_cover,0.7,True
+S104308,Next shift guard did not pitch. Had to cover,absence_cover,absence_cover,1.0,True
+S105062,quiet shift,routine,routine,0.9,True
+S101434,"scrubber broke down, had to do the floor manually..",equipment_failure,equipment_failure,1.0,True
+S103671,Covering for September - booked off sick..,absence_cover,absence_cover,1.0,True
+S108354,"gedek vir Tshabaala, siek gemeld",absence_cover,absence_cover,1.0,True
+S108267,Centre mgr requested additionaal cover for stocktake,client_requested,client_requested,1.0,True
+S108389,"requested by centre management for load in, signed off",client_requested,client_requested,1.0,True
+S103433,"stocktake ran over, client asked us to remain, they know they pay for it",client_requested,client_requested,1.0,True
+S106978,"next shift akafikanga, ngihlale kuze kube six",absence_cover,absence_cover,1.0,True
+S106245,sharp,blank,blank,1.0,True
+S106878,"September didt come in, covered the post",absence_cover,absence_cover,1.0,True
+S104428,"stocktake ran over, client asked us to remain, thhey know they pay for it",client_requested,client_requested,1.0,True
+S102342,.,blank,blank,1.0,True
+S105877,all good,routine,routine,0.98,True
+S106936,ok,blank,blank,1.0,True
+S107938,"late handover, waiting on paperwork",late_handover,late_handover,1.0,True
+S108000,"handover late agn, keys missing..",late_handover,late_handover,1.0,True
+S103399,ntr,blank,blank,1.0,True
+S101233,"took Jacobs shift as well, 2 posts 1 guard",absence_cover,absence_cover,0.5,True
+S101223,Client requested deep clean before the audit - approved,client_requested,client_requested,1.0,True
+S105661,double shift because relief never pitched,absence_cover,absence_cover,1.0,True
+S108187,"oorhandiging was laat, gewag vir sletuels !",late_handover,late_handover,1.0,True
+S106210,all good,routine,routine,0.98,True
+S104295,"machine down again, took twice as long",equipment_failure,equipment_failure,1.0,True
+S101088,"scrubber broke down, had to do the floor manualyl",equipment_failure,equipment_failure,1.0,True
+S104328,Centre manager requested additional cover for stocktake,client_requested,client_requested,1.0,True
+S101143,extra hours approved by client for the event seup,client_requested,client_requested,1.0,True
+S107378,n/a,blank,blank,1.0,True
+S109333,"lift out of order, everything carried up stairs, took long",equipment_failure,equipment_failure,0.57,True
+S106514,shift handover delayed by 25 min,late_handover,late_handover,1.0,True
+S101642,Client requested deep clean before the audit - approved,client_requested,client_requested,1.0,True
+S100593,"took fourie shift as wll, 2 posts 1 guard",absence_cover,routine,0.74,False
+S105147,"client says stay till 06:00, dont know if office approved",client_requested,client_requested,1.0,True
+S105777,"client asked us to stay for the delivery, ok'd by centre mgmt",client_requested,client_requested,1.0,True
+S103083,"still on site, relief was suppose to come 0600",absence_cover,absence_cover,1.0,True
+S107881,Client requested deep clean before the audit - approved,client_requested,client_requested,1.0,True
+S100164,"uFouire akezanga namhlanje, ngimele yena",absence_cover,absence_cover,1.0,True
+S106903,relief no show AGAIN,absence_cover,absence_cover,1.0,True
+S106247,next shift guard did not pitch. had to cover,absence_cover,absence_cover,1.0,True
+S108878,"handover late again, keys missing",late_handover,late_handover,1.0,True
+S102888,"double duty today, Mahlangu on family responsibility leave",absence_cover,absence_cover,1.0,True
+S107172,nothing to report,routine,routine,0.93,True
+S105907,stood in for Mthembu,absence_cover,absence_cover,0.71,True
+S107272,"aflos het nie opgedaag nie, moes aanbly",absence_cover,absence_cover,0.42,True
+S107719,Covered for Motaung again - 3rd time this month,absence_cover,absence_cover,1.0,True
+S107751,"September didnt come in, covered the post !",absence_cover,absence_cover,1.0,True
+S100406,as per normal,routine,routine,0.96,True
+S101019,"late handover, waiting on paperwork",late_handover,late_handover,1.0,True
+S104171,"requested by centre management for load in, signed off",client_requested,client_requested,1.0,True
+S100329,client signed for the extra hours but real reason is relief no show again,absence_cover,absence_cover,1.0,True
+S104084,"late handover, waiting on paperwork",late_handover,late_handover,1.0,True
+S105455,Covering for Mahlangu - booked off sick,absence_cover,absence_cover,1.0,True
+S104307,"requested by centre management for load in, signed off",client_requested,client_requested,1.0,True
+S107353,nothing to report,routine,routine,0.93,True
+S105081,"control room says relief coming, nobody came",absence_cover,absence_cover,1.0,True
+S104524,all quiet,routine,routine,1.0,True
+S106429,shift handover delayed by 30 min,late_handover,late_handover,1.0,True
+S103630,"Botha absent, took her rounds as well",absence_cover,absence_cover,1.0,True
+S101912,"covering khumalo post, no show no call",absence_cover,absence_cover,1.0,True
+S106449,client requested deep clean before the audit - approved !,client_requested,client_requested,1.0,True
+S102915,"worked through, Baloyi at the clinic",absence_cover,absence_cover,0.88,True
+S108089,"conntrol room says relief coming, nobody came",absence_cover,absence_cover,1.0,True
+S100063,"Botha didnt come in, covered the post",absence_cover,absence_cover,1.0,True
+S109151,no incidents,routine,absence_cover,1.0,False
+S105810,covered for mauel again - 3rd time this month,absence_cover,absence_cover,1.0,True
+S100324,"still on site, relief was suppose to come 06:00",absence_cover,absence_cover,1.0,True
+S108372,"worked through, Sibiya at the clinic..",absence_cover,absence_cover,1.0,True
+S104893,"waited 20 min for handover, OB book not signed",late_handover,late_handover,1.0,True
+S106412,"uTshabalala akezanga namhlanje, ngimele yena",absence_cover,absence_cover,1.0,True
+S106153,stood in for Pillay..,absence_cover,routine,0.55,False
+S107045,relief no show AGAIN,absence_cover,absence_cover,1.0,True
+S104802,"extra patrol per client email, approved by office",client_requested,client_requested,1.0,True
+S108282,klient het ekstra ure gevra vir stocktake,client_requested,client_requested,1.0,True
+S103468,"waited 25 min for handover, OB book not signed",late_handover,late_handover,1.0,True
+S100592,"client asked us to stay for the delivery, ok'd by centre mgmt",client_requested,client_requested,1.0,True
+S104639,"additional cover requested by site mgr, signed off",client_requested,client_requested,1.0,True
+S106391,akukho lutho,routine,routine,1.0,True
+S102310,.,blank,blank,1.0,True
+S108259,"gate motor failed, manned it by hand till 6",equipment_failure,equipment_failure,0.85,True
+S107682,-,blank,blank,1.0,True
+S106087,"relief only arrived 06h00, stayed until then",absence_cover,absence_cover,1.0,True
+S101617,,blank,blank,1.0,True
+S103563,sharp,blank,blank,1.0,True
+S107432,ntr,blank,blank,1.0,True
+S105979,fine,blank,blank,1.0,True
+S107340,Covering for Mahlangu - bookked off sick,absence_cover,absence_cover,1.0,True
+S103376,"client wanted extra man on the gate for the event, approved",client_requested,client_requested,1.0,True
+S107293,"relief never arrived, stayed on till 6",absence_cover,absence_cover,1.0,True
+S100954,ok,blank,blank,1.0,True
+S101549,"handover late agn, keys missing",late_handover,late_handover,1.0,True
+S100624,akukho lutho,routine,routine,1.0,True
+S100926,"covering Hendricks pos, no show no call",absence_cover,absence_cover,1.0,True
+S103528,Centre mgr requested additional cover for stocktake,client_requested,client_requested,1.0,True
+S107844,Clint requested deep clean before the audit - approved,client_requested,client_requested,1.0,True
+S106119,"uMolefe akezanga namhlanje, ngimele yena",absence_cover,absence_cover,1.0,True
+S101874,"no replacement sent, ngicela sort this out",absence_cover,absence_cover,1.0,True
+S107803,fine,blank,blank,1.0,True
+S105335,client asked for extra patrol after the break-in tueesday,client_requested,client_requested,1.0,True
+S107833,"oorhandiging was laa, gewag vir sleutels",late_handover,late_handover,1.0,True
+S108358,"took Motaung shift as well, 2 posts 1 guard",absence_cover,routine,0.74,False
+S101505,,blank,blank,1.0,True
+S106236,extra hours approved by clent for the event setup,client_requested,client_requested,1.0,True
+S101047,Centre manager requested additional cover for stocktake,client_requested,client_requested,1.0,True
+S109288,all quiet,routine,routine,1.0,True
+S104123,nothing to report,routine,routine,0.93,True
+S108613,"oorhandiging was laat, gewag vir sleutels",late_handover,late_handover,1.0,True
+S103780,nothing to report,routine,routine,0.93,True
+S109338,relief no show again,absence_cover,absence_cover,1.0,True
+S106991,"client asked us to stay for the delivery, ok'd by cnetre mgmt",client_requested,client_requested,1.0,True
+S108913,double shift bc relief never pitched,absence_cover,absence_cover,1.0,True
+S101184,shift handover delayed by 25 min,late_handover,late_handover,1.0,True
+S101387,"gedek vir Adaams, siek gemeld",absence_cover,absence_cover,1.0,True
+S108219,nothing to report,routine,routine,0.93,True
+S101599,client signed for the extra hours but real reason is relief no show agin,absence_cover,absence_cover,1.0,True
+S106262,"covering Molefe post, no sow no call..",absence_cover,absence_cover,1.0,True
+S102769,n/a,blank,blank,1.0,True
+S109299,"Hendricks didnt come in, coevred the post",absence_cover,absence_cover,1.0,True
+S101576,"waited 30 min for handover, OB book not signed !",late_handover,late_handover,1.0,True
+S104408,"ugNcobo akezanga namhlanje, ngimele yena",absence_cover,absence_cover,1.0,True
+S102020,"took Wyk shift as well, 2 posts 1 guard",absence_cover,absence_cover,1.0,True
+S105189,CLIENT REQUESTED DEEP CLEAN BEFORE THE AUDIT - APPROVED,client_requested,client_requested,1.0,True
+S101875,shift handover delayed by 30 min,late_handover,late_handover,1.0,True
+S103448,"Mokoena didnt come in, covered the pst",absence_cover,absence_cover,1.0,True
+S104440,"waited for relief, nobody came through",absence_cover,late_handover,0.6,False
+S103026,relief no shwo AGAIN,absence_cover,absence_cover,1.0,True
+S100892,"uJacobs akezanga namhlanje, ngimele yena..",absence_cover,absence_cover,1.0,True
+S107877,shift handover delayed by 45 min,late_handover,late_handover,1.0,True
+S108492,fine,blank,blank,1.0,True
+S107113,"handover late again, keys missing",late_handover,late_handover,1.0,True
+S104838,"cllient says stay till 06h00, dont know if office approved",client_requested,client_requested,1.0,True
+S104527,Covreed for Mabaso agn - 3rd time this month,absence_cover,absence_cover,1.0,True
+S106371,"double duty today, Dlamini on family responsibility leave",absence_cover,absence_cover,1.0,True
+S108108,"aflos het nie opgedaag nie, moes aanbly",absence_cover,absence_cover,0.42,True
+S102956,"late handover, waiting on paperwork..",late_handover,late_handover,1.0,True
+S101752,"gedek vir Maluleke, siek gemeld",absence_cover,absence_cover,1.0,True
+S103686,"relief never arrived, stayed on till 06h00",absence_cover,absence_cover,1.0,True
+S104188,"TOOK SIBIYA SHIFT AS WELL, 2 POSTS 1 GUARD",absence_cover,routine,0.53,False
+S107471,.,blank,blank,1.0,True
+S107963,"Sithole absent, took her rounds as well..",absence_cover,absence_cover,0.84,True
+S101906,"scrubber broke down, had to do the flooor manually",equipment_failure,equipment_failure,1.0,True
+S102383,"client wanted extra man on the gate for the event, appoved",client_requested,client_requested,1.0,True
+S104172,"generator fault, stayed to monitor",equipment_failure,equipment_failure,0.98,True
+S108025,"reliief only arrived 06:00, stayed until then",absence_cover,absence_cover,0.78,True
+S109329,"client says stay till 6am, dont kow if office approved",client_requested,client_requested,1.0,True
+S103063,"took Wyk shift as well, 2 posts 1 guard",absence_cover,absence_cover,1.0,True
+S100422,mavuso off sick. again. covered.,absence_cover,absence_cover,1.0,True
+S107743,"gedek vir Khumalo, siek gemeld !",absence_cover,absence_cover,1.0,True
+S100921,as per normal,routine,routine,0.96,True
+S108442,"oorhandiging was laat, gewag vir sleutels",late_handover,late_handover,1.0,True
+S107824,Centre manager requested additional cover for stocktake,client_requested,client_requested,1.0,True
+S106793,client signed for the extra hours but real reason is relief no show agn..,absence_cover,absence_cover,1.0,True
+S101513,"TOOK BOTHA SHIFT AS WELL, 2 POSTS 1 GUARD",absence_cover,absence_cover,1.0,True
+S102046,"client wanted extra man on the gate for the event, approved",client_requested,client_requested,1.0,True
+S108952,"handover late again, keys missign",late_handover,late_handover,1.0,True
+S105999,stood in for Ndlovu,absence_cover,routine,0.57,False
+S103398,"control room syas relief coming, nobody came",absence_cover,absence_cover,1.0,True
+S102032,"machine down again, took twice as long..",equipment_failure,equipment_failure,1.0,True
+S108170,"lift out of order, everything carried up stairs, took long",equipment_failure,equipment_failure,0.57,True
+S103186,"waited 45 min for handover, ob book not signed",late_handover,late_handover,1.0,True
+S103258,n/a,blank,blank,1.0,True
+S102514,"maluleke absent, took her rounds as well",absence_cover,absence_cover,0.7,True
+S101242,extra hours approved by cliennt for the event setup,client_requested,client_requested,1.0,True
+S103855,"oorhandiging was laat, gewag vir sleutels",late_handover,late_handover,1.0,True
+S107720,"machine down again, took twce as long",equipment_failure,equipment_failure,1.0,True
+S104067,sharp,blank,blank,1.0,True
+S105344,"covering Mokoena post, no show no call",absence_cover,absence_cover,1.0,True
+S100153,"buffer machine kaput, did the floor by hand",equipment_failure,equipment_failure,1.0,True
+S100195,"additional cover requuested by site maanger, signed off",client_requested,client_requested,1.0,True
+S100504,quiet shift,routine,routine,0.9,True
+S107445,"toko Fourie shift as well, 2 posts 1 guard",absence_cover,routine,0.74,False
+S105589,extra hours approoved by clinet for the event setup,client_requested,client_requested,1.0,True
+S104419,shift handover delayed by 25 min !,late_handover,late_handover,1.0,True
+S107473,"wroked through, naidoo at the clinic",absence_cover,absence_cover,1.0,True
+S101083,quiet shift,routine,routine,0.9,True
+S100377,"masjien is stukkend, alles met die hand gedoen",equipment_failure,equipment_failure,1.0,True
+S102826,n/a,blank,blank,1.0,True
+S100391,"aflos het nie opgedaag nie, moes aabnly",absence_cover,routine,0.38,False
+S108328,"covering Jacobs post, no show no call",absence_cover,absence_cover,1.0,True
+S100618,nothing to report,routine,routine,0.93,True
+S107742,"control room says relief coming, nobdoy came",absence_cover,absence_cover,1.0,True
+S104637,extra hours approved by client for the event setup,client_requested,client_requested,1.0,True
+S100893,"buffer machine kaput, did the floor by hand..",equipment_failure,equipment_failure,1.0,True
+S104125,"waited for relief, nobody came through",absence_cover,late_handover,0.6,False
+S103628,extra hrs approved by client for the event setup,client_requested,client_requested,1.0,True
+S106131,extra hrs approved by client for the event setup,client_requested,client_requested,1.0,True
+S107763,no incidents,routine,absence_cover,1.0,False
+S107745,"requested by centre management for load in, signed off !",client_requested,client_requested,1.0,True
+S106445,no relief. stayed. someone must please sort the roster..,absence_cover,absence_cover,1.0,True
+S106151,shift handover delayed by 50 min,late_handover,late_handover,1.0,True
+S103016,ok,blank,blank,1.0,True
+S104630,"lift out of order, everything carried up stairs, took long",equipment_failure,equipment_failure,0.57,True
+S104543,exra hours approved by client for the event setup,client_requested,client_requested,1.0,True
+S104784,"machine down agn, took twice as long..",equipment_failure,equipment_failure,1.0,True
+S101584,Client requested deep clean before the audit - approved,client_requested,client_requested,1.0,True
+S107058,"control room says relief coming, nobody came",absence_cover,absence_cover,1.0,True
+S100599,"double duty today, jacobs on family responsibility leave",absence_cover,absence_cover,1.0,True
+S106491,Client asked for extra patrol after the break-in Tuesday,client_requested,client_requested,1.0,True
+S108623,"nxt shift akafikanga, ngihlale kuze kube 0600",absence_cover,absence_cover,1.0,True
+S108587,"worked through, september at the clinic",absence_cover,absence_cover,0.8,True
+S107327,no relief. staye. someone must pleease sort the roster !,absence_cover,absence_cover,1.0,True
+S109285,shift handover delayed by 30 min,late_handover,late_handover,1.0,True
+S104563,shift handover delayed by 30 min,late_handover,late_handover,1.0,True
+S101903,no incidents,routine,absence_cover,1.0,False
+S104534,"took Wyk shift as well, 2 posts 1 guard..",absence_cover,absence_cover,1.0,True
+S100693,"handover late agn, keys missing !",late_handover,late_handover,1.0,True
+S102396,"next shift akafikanga, ngihlale kuze kube 06h00",absence_cover,absence_cover,1.0,True
+S108862,"stocktake ran over, client asked us to remain, they know they pay for it",client_requested,client_requested,1.0,True
+S106564,centre manager requested additional cover for stocktake,client_requested,client_requested,1.0,True
+S101591,"uAdams akezanga namhlanje, ngimele yena",absence_cover,absence_cover,1.0,True
+S107632,shift handover delayed by 40 min,late_handover,late_handover,1.0,True
+S107123,"oorhandiging was laat, geewag vir sleutels",late_handover,late_handover,1.0,True
+S100716,Botha off sick. again. covered,absence_cover,absence_cover,1.0,True
+S106552,Covering for Khumalo - booked off sick,absence_cover,absence_cover,1.0,True
+S108889,"masjien is stukkend, alles met die hand gedoen",equipment_failure,equipment_failure,1.0,True
+S100160,"aflos het nie opgedaag nie, moes aanbly",absence_cover,absence_cover,0.42,True
+S108113,"client wanted extra man on the gate for the event, approved",client_requested,client_requested,1.0,True
+S104315,Covered for Zulu agn - 3rd time this month,absence_cover,absence_cover,1.0,True
+S100588,"oorhandiging was laat, gewag vir sletuels",late_handover,late_handover,1.0,True
+S106213,"Radebe didnt come in, covered the post",absence_cover,absence_cover,1.0,True
+S102110,"client says stay till 0600, dont know if office approved",client_requested,client_requested,1.0,True
+S103965,"Mavuso didnt come in, covered the post",absence_cover,absence_cover,1.0,True
+S102765,"buffer mcahine kaput, did the floor by hand..",equipment_failure,equipment_failure,1.0,True
+S102065,"CLIENT ASKED US TO STAY FOR THE DELIVERY, OK'D BY CENTRE MGMT",client_requested,client_requested,1.0,True
+S108797,Client requested deep clean before the audit - approved,client_requested,client_requested,1.0,True
+S100570,no incidents,routine,absence_cover,1.0,False
+S106130,extra hours approved by client for the event setup,client_requested,client_requested,1.0,True
+S105900,"covering Maluleke post, no show no call",absence_cover,absence_cover,1.0,True
+S100159,"lift out of order, everything carried up stairs, took long",equipment_failure,equipment_failure,0.57,True
+S107412,Client requested deep clean before the audit - approved,client_requested,client_requested,1.0,True
+S104919,double shift bc relief never pitched,absence_cover,absence_cover,1.0,True
+S104519,"SCRUBBER BROKE DOWN, HAD TO DO THE FLOOR MANUALLY",equipment_failure,equipment_failure,1.0,True
+S104625,"scrubber broke down, had to do the floor manually",equipment_failure,equipment_failure,1.0,True
+S104230,"HENDRICKS DIDNT COME IN, COVERED THE POST",absence_cover,absence_cover,1.0,True
+S107710,"buffer machine kaput, did the floor by hand..",equipment_failure,equipment_failure,1.0,True
+S107512,no issues on site,routine,routine,0.97,True
+S107337,next shift guard did not pitch. had to cover.,absence_cover,absence_cover,1.0,True
+S109128,sharp,blank,blank,1.0,True
+S104122,-,blank,blank,1.0,True
+S100731,"late handover, waiting on paperwork",late_handover,late_handover,1.0,True
+S107041,"client says stay till 0600, dont know if offcie approved",client_requested,client_requested,1.0,True
+S107057,no incidents,routine,absence_cover,1.0,False
+S108017,"relief only arrived six, stayed until thhen",absence_cover,absence_cover,1.0,True
+S100815,,blank,blank,1.0,True
+S105108,"buffer machine kaput, did the floor by hand",equipment_failure,equipment_failure,1.0,True
+S104091,"double duty today, Ngcobo on family responsibility leave",absence_cover,absence_cover,1.0,True
+S105998,sharp,blank,blank,1.0,True
+S106138,"relief only arrived 06:00, stayed until then",absence_cover,absence_cover,1.0,True
+S103597,"covering Molefe post, no show no call..",absence_cover,absence_cover,1.0,True
+S107765,no relief. stayed. someone must please sort the roster,absence_cover,absence_cover,1.0,True
+S102732,stood in for Khumalo,absence_cover,routine,0.57,False
+S100013,"no replacement sent, ngicela sort this out",absence_cover,absence_cover,1.0,True
+S107891,"covering Radebe post, no show no call",absence_cover,absence_cover,1.0,True
+S104320,client signed for the extra hrs but real reason is relief no show again,absence_cover,absence_cover,1.0,True
+S103450,"client wanted extra man on the gate for the event, approved",client_requested,client_requested,1.0,True
+S105833,Centre manager requested additional cover for stocktake..,client_requested,client_requested,1.0,True
+S107430,"buffer machine kaput, did the floor by hand",equipment_failure,equipment_failure,1.0,True
+S105324,"waited 20 min for handover, OB book not signed",late_handover,late_handover,1.0,True
+S101068,"mavuso didnt come in, covered the post",absence_cover,absence_cover,1.0,True
+S103089,"took Mavuso shift as well, 2 posts 1 guard",absence_cover,absence_cover,1.0,True
+S106346,"CLIET SAYS STAY TILL 0600, DONT KNOW IF OFFICE APPROVED",client_requested,client_requested,1.0,True
+S100845,n/a,blank,blank,1.0,True
+S101082,-,blank,blank,1.0,True
+S102397,"relief oly arrived six, stayed until then",absence_cover,absence_cover,1.0,True
+S101577,"stocktake ran over, client asked us to remain, they know they pay for it",client_requested,client_requested,1.0,True
+S103386,akukho lutho,routine,routine,1.0,True
+S100261,"extra patrol per client email, approved by office",client_requested,client_requested,1.0,True
+S108560,"Motaung absent, took her rounds as well",absence_cover,absence_cover,0.83,True
+S100346,"gate motor faled, manned it by hand till 06h00",equipment_failure,equipment_failure,0.84,True
+S107758,"waited for relief, nobody came through",absence_cover,late_handover,0.6,False
+S103760,client signed for the extra hours but real reason is relief no show agn,absence_cover,absence_cover,1.0,True
+S105632,"late handover, waiting on paperwork",late_handover,late_handover,1.0,True
+S102162,quiet shift,routine,routine,0.9,True
+S106556,"gate motor failed, manned it by hand till six",equipment_failure,equipment_failure,0.94,True
+S106150,"DOUBLE DUTY TODAY, WYK ON FAMILY RESPONSIBILITY LEAVE",absence_cover,absence_cover,1.0,True
+S104946,ok,blank,blank,1.0,True
+S109135,"late handover, waiting on paperwork",late_handover,late_handover,1.0,True
+S107358,"extra patrool per client email, approved by office",client_requested,client_requested,1.0,True
+S108965,"client says stay till six, dont know if office approved",client_requested,client_requested,0.93,True
+S107557,Balloyi off sick. agn. covered,absence_cover,absence_cover,1.0,True
+S102889,"client says stay till 6am, dont know if office approved",client_requested,client_requested,1.0,True
+S101114,klient het ekstra ure gevra vir stocktake !,client_requested,client_requested,1.0,True
+S104158,"client says say till 6am, dont know if office approved",client_requested,client_requested,1.0,True
+S108836,"waited for relief, nobody came through",absence_cover,late_handover,0.6,False
+S103378,"handover laet agn, keys missing",late_handover,late_handover,1.0,True
+S108174,shift handover delayed by 20 min..,late_handover,late_handover,1.0,True
+S102121,akukho lutho,routine,routine,1.0,True
+S106272,"additional cover requested by site manager, signed off",client_requested,client_requested,1.0,True
+S102883,"client asked us to stay for the delivery, ok'd by centre mgmt",client_requested,client_requested,1.0,True
+S104413,"double duty today, Zulu on family responsibility leave",absence_cover,absence_cover,1.0,True
+S102630,"took dlamini shift as well, 2 posts 1 guard",absence_cover,routine,0.74,False
+S103206,stood in for Fourie,absence_cover,routine,0.56,False
+S103609,"gedek vir Ndlovu, siek gemeld",absence_cover,absence_cover,1.0,True
+S103551,CLIETN ASKED FOR EXTRA PATROL AFTER THE BREAK-IN TUESDAY,client_requested,client_requested,1.0,True
+S107118,klient het ekstra ure gevra vir stocktake,client_requested,client_requested,1.0,True
+S107491,zulu off sick. again. coveered.,absence_cover,absence_cover,1.0,True
+S103775,"scrubber broke down, had to do the floor manually..",equipment_failure,equipment_failure,1.0,True
+S104429,"Septeember didnt come in, covered the post",absence_cover,absence_cover,1.0,True
+S104005,"Mabaso didnt come in, covered the post",absence_cover,absence_cover,1.0,True
+S102885,sharp,blank,blank,1.0,True
+S106574,ntr,blank,blank,1.0,True
+S104365,"additional cover requested by site mgr, signed off",client_requested,client_requested,1.0,True
+S105303,extra hours approved by client for the event setup,client_requested,client_requested,1.0,True
+S102254,"client says stay till 6, dont know if office approved",client_requested,client_requested,1.0,True
+S102028,"stocktake ran over, client asked us to reemain, they know they pay for it",client_requested,client_requested,1.0,True
+S107739,klient het ekstra ure gevra vir stocktake..,client_requested,client_requested,1.0,True
+S100313,"generator fault, stayed to monitor",equipment_failure,equipment_failure,0.98,True
+S105239,"scrubber broke down, had to do the floor manually",equipment_failure,equipment_failure,1.0,True
+S101500,"Sithole absent, took her rounds as well",absence_cover,absence_cover,0.85,True
+S109296,"NEXT SHIFT AKAFIKANGA, NGIHLALE KUZE KUBE 0600..",absence_cover,absence_cover,0.79,True
+S109301,"took Wyk shift as well, 2 posts 1 gard..",absence_cover,routine,0.76,False
+S102605,n/a,blank,blank,1.0,True
+S103931,niks om te rapporteer nie,routine,routine,0.97,True
+S102420,"oorhandiging was laat, gewag vir sleutels",late_handover,late_handover,1.0,True
+S108871,Client askeed for extra patrol afetr the break-in Tuesday,client_requested,client_requested,1.0,True
+S105150,-,blank,blank,1.0,True
+S106438,stood in for Mabaso,absence_cover,routine,0.53,False
+S102631,"NEXT SHIFT AKAFIKANGA, NGIHLALE KUZE KUBE 06:00",absence_cover,absence_cover,1.0,True
+S105083,"additional cover requested by site manager, signed off",client_requested,client_requested,1.0,True
+S108286,"masjien is stukkend, alles met die hand gedoen",equipment_failure,equipment_failure,1.0,True
+S101325,klient het ekstra ure gevra vir stocktake !,client_requested,client_requested,1.0,True
+S108195,"relief never arrived, stayed on till 6am",absence_cover,absence_cover,1.0,True
+S104015,"covering Motaung post, no show no caall",absence_cover,absence_cover,1.0,True
+S102989,"handover late agn, keys missing",late_handover,late_handover,1.0,True
+S108078,Next shift guard did not pitch. Had to covr.,absence_cover,absence_cover,1.0,True
+S106439,"double duty today, Sithole on family responsibility leave",absence_cover,absence_cover,1.0,True
+S101779,"late handover, waiting on paperwork",late_handover,late_handover,1.0,True
+S101122,PILLAY OFF SICK. AGN. COVERED !,absence_cover,absence_cover,1.0,True
+S102228,stood in for Fourie,absence_cover,routine,0.56,False
+S100554,Centre manager requested addtional cover for stocktake..,client_requested,client_requested,1.0,True
+S108850,.,blank,blank,1.0,True
+S106565,ok,blank,blank,1.0,True
+S109287,"waited 25 min for handover, OB book not signed..",late_handover,late_handover,1.0,True
+S108347,n/a,blank,blank,1.0,True
+S107387,"took naidoo shift as well, 2 posts 1 guard..",absence_cover,absence_cover,1.0,True
+S106396,Client asked for extra patrol after the break-in Tuesday..,client_requested,client_requested,1.0,True
+S100905,quiet shift,routine,routine,0.9,True
+S100333,"geddek vir Mabaso, siek gemeld..",absence_cover,absence_cover,1.0,True
+S103806,Ndlovu off sick. aggn. covered,absence_cover,absence_cover,1.0,True
+S103850,no issues on site,routine,routine,0.97,True
+S101502,"additional cover requested by site manager, signed off",client_requested,client_requested,1.0,True
+S106645,client asked for extra patrol after the break-in tuesday,client_requested,client_requested,1.0,True
+S104103,"Pillay absent, took her rounds as well",absence_cover,absence_cover,0.85,True
+S102856,niks om te rapporteer nie,routine,routine,0.97,True
+S101331,"no replacement sent, ngicela sort this out..",absence_cover,absence_cover,1.0,True
+S108104,"masjien is stukkend, alles met die hand gedoen",equipment_failure,equipment_failure,1.0,True
+S102307,"double duty today, Maluleke on family responsibility leave",absence_cover,absence_cover,1.0,True
+S102886,"took Adams shift as well, 2 posts 1 guard..",absence_cover,routine,0.55,False
+S106107,"machine down again, took twice as long",equipment_failure,equipment_failure,1.0,True
+S104337,"requested by centre management for load in, signed off",client_requested,client_requested,1.0,True
+S106848,no issues on site,routine,routine,0.97,True
+S103166,ok,blank,blank,1.0,True
+S103384,"generator fault, stayed to monitor",equipment_failure,equipment_failure,0.98,True
+S100022,Client rquested deep clean before the audit - approved,client_requested,client_requested,1.0,True
+S109118,"buffer machine kaput, did the floor by hand",equipment_failure,equipment_failure,1.0,True
+S103269,all good,routine,routine,0.98,True
+S100388,"additional cover requested by site manager, signed off",client_requested,client_requested,1.0,True
+S103014,"Sithole absent, took her rounds as well",absence_cover,absence_cover,0.85,True
+S103608,"aflos het nie opgedaag nie, moes aanbly",absence_cover,absence_cover,0.42,True
+S104501,all fine,routine,blank,0.77,False
+S103366,quiet shift,routine,routine,0.9,True
+S101518,"waited 30 min for handover, ob book not signed",late_handover,late_handover,1.0,True
+S102859,"scrubber broke down, had to do the floor manually",equipment_failure,equipment_failure,1.0,True
+S106529,"client asked us to stay for the delivery, ok'd by centre mgmt",client_requested,client_requested,1.0,True
+S104422,all fine,routine,blank,0.77,False
+S100738,double shift bc relief never pitched,absence_cover,absence_cover,1.0,True
+S102143,ok,blank,blank,1.0,True
+S101484,"waited 45 min for handover, OB book not signed",late_handover,late_handover,1.0,True
+S105299,n/a,blank,blank,1.0,True
+S100204,all good,routine,routine,0.98,True
+S105768,client asked for extra patrol after the break-in tuesday,client_requested,client_requested,1.0,True
+S107100,n/a,blank,blank,1.0,True
+S106646,client requested deep clean befroe the audit - approved,client_requested,client_requested,1.0,True
+S104821,"oorhandiging was lat, gewag vir sleutels",late_handover,late_handover,1.0,True
+S101034,no issues on site,routine,routine,0.97,True
+S103226,Client requested deep clean before the audit - approved..,client_requested,client_requested,1.0,True
+S106671,"requested by centre management for load in, signed off",client_requested,client_requested,1.0,True
+S109348,client signed for the extra hours but real reason is relief no show agn,absence_cover,absence_cover,1.0,True
+S105269,"covering Sibiya post, no show no call",absence_cover,absence_cover,1.0,True
+S103800,nothing to report,routine,routine,0.93,True
+S108275,relif no show AGAIN,absence_cover,absence_cover,1.0,True
+S102865,Client asked for extra patrol after the break-in Tuesday,client_requested,client_requested,1.0,True
+S102439,all good,routine,routine,0.98,True
+S107217,"buffer machine kaput, did the floor by hand",equipment_failure,equipment_failure,1.0,True
+S102952,ntr,blank,blank,1.0,True
+S108076,"CLIENT ASKED US TO STAY FOR THE DELIVERY, OK'D BY CENTRE MGMT",client_requested,client_requested,1.0,True
+S100629,COVERED FOR WYK AGAIN - 3RD TIME THIS MONTH,absence_cover,absence_cover,1.0,True
+S108051,"masjien is stukkend, alles met die hand gedoen",equipment_failure,equipment_failure,1.0,True
+S108033,Next shift guard did not pitch. Had to cover.,absence_cover,absence_cover,1.0,True
+S108562,Covering for Adams - booked off sick,absence_cover,absence_cover,1.0,True
+S104862,"handover late again, keys missing",late_handover,late_handover,1.0,True
+S102855,Next shift guard did not pitch. Had to cover.,absence_cover,absence_cover,1.0,True
+S103428,"zulu absent, took her rounds as well",absence_cover,absence_cover,1.0,True
+S103584,"worked through, baloyi at the clinic",absence_cover,absence_cover,0.88,True
+S106947,shift handover delayed by 40 min,late_handover,late_handover,1.0,True
+S108154,.,blank,blank,1.0,True
+S105631,Khumalo off sick. again. covered.,absence_cover,absence_cover,1.0,True
+S104568,"Cele absent, took her rounds as well",absence_cover,absence_cover,1.0,True
+S105508,"oorhandiging was laat, gewag vir sleutels",late_handover,late_handover,1.0,True
+S106033,Covering for Fourie - booked off sick,absence_cover,absence_cover,1.0,True
+S106673,Client asked for exra patrol after the break-in Tuesday,client_requested,client_requested,1.0,True
+S109183,Client requested deep clean before the audit - approveed,client_requested,client_requested,1.0,True
+S108185,"covering Wyk post, no show no call",absence_cover,absence_cover,1.0,True
+S103019,"still on site, relief was suppose to come 06:00",absence_cover,absence_cover,1.0,True
+S102844,radebe off sick. again. covered.,absence_cover,absence_cover,1.0,True
+S107816,"worked through, Maluleke at the clinic",absence_cover,absence_cover,0.75,True
+S101627,"waited 40 min for handover, OB book not signed",late_handover,late_handover,1.0,True
+S108529,"uFourie akezanga namhalnje, ngimele yena",absence_cover,absence_cover,1.0,True
+S101445,"masjien is stukkend, alles met die hand gedoen",equipment_failure,equipment_failure,1.0,True
+S104588,all good,routine,routine,0.98,True
+S108628,"buffer machine kaput, did the floor by hand",equipment_failure,equipment_failure,1.0,True
+S108873,Fourie off sick. agn. covered.,absence_cover,absence_cover,1.0,True
+S104017,"uPillay akezanga namhlanje, nimele yena !",absence_cover,absence_cover,1.0,True
+S106533,"no replacement sent, ngicela sort this out",absence_cover,absence_cover,1.0,True
+S101777,"machine down again, took twice as long",equipment_failure,equipment_failure,1.0,True
+S103073,covering for nkosi - booked off sick..,absence_cover,absence_cover,1.0,True
+S100983,no issues on site,routine,routine,0.97,True
+S108346,"covering Cele post, no show no call",absence_cover,absence_cover,1.0,True
+S107474,"control room says relief coming, nobody came",absence_cover,absence_cover,1.0,True
+S100715,nothing to report,routine,routine,0.93,True
+S106737,"laet handover, waiting on paperwork",late_handover,late_handover,1.0,True
+S105115,Naidoo off sick. agn. covered.,absence_cover,absence_cover,1.0,True
+S100577,"requested by centre management for load in, signed off",client_requested,client_requested,1.0,True
+S103405,n/a,blank,blank,1.0,True
+S105653,stood in for Jacobs,absence_cover,routine,0.52,False
+S102421,"stocktake ran over, client asked us to remain, they know they pay for it",client_requested,client_requested,1.0,True
+S102725,-,blank,blank,1.0,True
+S103582,"Mabaso didnt come in, covered the post..",absence_cover,absence_cover,1.0,True
+S109249,quiet shift,routine,routine,0.9,True
+S106149,client asked for extra patrol after the break-in tuesday,client_requested,client_requested,1.0,True
+S103062,"no replacement sent, ngicela sort this out",absence_cover,absence_cover,1.0,True
+S103565,ntr,blank,blank,1.0,True
+S107861,sharp,blank,blank,1.0,True
+S100942,Nkosi off sick. again. covered.,absence_cover,absence_cover,1.0,True
+S107766,"uAdams akezanga namhlanje, ngimele yena",absence_cover,absence_cover,1.0,True
+S104514,ntr,blank,blank,1.0,True
+S108019,"BUFFER MACHINE KAPUT, DID THE FLOOR BY HAND..",equipment_failure,equipment_failure,1.0,True
+S100711,"took Wyk shift as well, 2 posts 1 guard",absence_cover,absence_cover,1.0,True
+S107338,"took Sithole shift as well, 2 posts 1 guard",absence_cover,routine,0.52,False
+S105984,"late handover, waiting on paperwork",late_handover,late_handover,1.0,True
+S100747,"client says stay till 6am, dont know if office approved",client_requested,client_requested,1.0,True
+S103623,relief no show again,absence_cover,absence_cover,1.0,True
+S106555,shift handover delayed by 45 min,late_handover,late_handover,1.0,True
+S104288,"took Sithole shift as well, 2 posts 1 guard",absence_cover,routine,0.52,False
+S101734,"Mokoena absent, took her rounds as well",absence_cover,absence_cover,1.0,True
+S103832,"still on site, relief was suppose to come 06:00",absence_cover,absence_cover,1.0,True
+S106792,"no replacement sent, ngicela sort this out..",absence_cover,absence_cover,1.0,True
+S106354,Client requested deep clean before the audit - approved,client_requested,client_requested,1.0,True
+S102049,"client asked us to stay for the delivery, ok'd by cnetre mgmt",client_requested,client_requested,1.0,True
+S106122,shift handover delayed by 30 min..,late_handover,late_handover,1.0,True
+S103211,"additional cover requested by site manager, signed off",client_requested,client_requested,1.0,True
+S103957,quiet shift,routine,routine,0.9,True
+S103447,"relief never arrived, stayed on till 06:00",absence_cover,absence_cover,1.0,True
+S103726,"worked through, fourie at the clinic",absence_cover,absence_cover,0.75,True
+S100818,"worked through, mthembu at the clinic",absence_cover,absence_cover,1.0,True
+S103655,"late handover, waitnig on paperwork",late_handover,late_handover,1.0,True
+S102134,"handover late agn, keys missing !",late_handover,late_handover,1.0,True
+S107628,as per normal,routine,routine,0.96,True
+S104916,"Mavuso absent, took her rounds as well",absence_cover,absence_cover,0.86,True
+S103547,"relief only arrived 6, stayed until then..",absence_cover,absence_cover,1.0,True
+S107968,"no replacement sent, ngicela sort this out",absence_cover,absence_cover,1.0,True
+S102834,"gate motor failed, manned it by hand till 6",equipment_failure,equipment_failure,0.85,True
+S108466,"GEDK VIR MOKOENA, SEK GEMELD",absence_cover,absence_cover,1.0,True
+S108071,"waited for relief, nobody came through",absence_cover,late_handover,0.6,False
+S107721,"WORKED THROUGH, MOTAUNG AT THE CLINIC",absence_cover,absence_cover,0.75,True
+S106240,"aflos het nie opgedaag nie, moes aanbly..",absence_cover,absence_cover,0.37,True
+S102816,client signed for the extra hours but real reason is relief no show agn,absence_cover,absence_cover,1.0,True
+S103400,RELIEF NO SHOW AGAIN,absence_cover,absence_cover,1.0,True
+S103567,Covering for Naidoo - booked off sick,absence_cover,absence_cover,1.0,True
+S103011,"still on site, relief was suppose to coe six",absence_cover,absence_cover,1.0,True
+S106804,"masjien is stukkend, alles met die hand gedoen",equipment_failure,equipment_failure,1.0,True
+S104038,"late handover, waiting on paperwork",late_handover,late_handover,1.0,True
+S101555,Clint ased for extra patrol after the break-in Tuesday,client_requested,client_requested,1.0,True
+S105556,"UMANUEL AKEZANGA NAMHLANJE, NGIMELE YENA",absence_cover,absence_cover,1.0,True
+S105003,-,blank,blank,1.0,True
+S107975,no issues on site,routine,routine,0.97,True
+S100140,Next shift guard did not pitch. Had to cover.,absence_cover,absence_cover,1.0,True
+S107075,"double duty toda,y sibiya on family responsibility leave",absence_cover,absence_cover,1.0,True
+S106652,"still on site, relief was suppoes to come 6am",absence_cover,absence_cover,1.0,True
+S103478,"double dtuy today, Nkoi on family responsibility leave",absence_cover,absence_cover,1.0,True
+S101798,"worked through, Cele at the clinic",absence_cover,absence_cover,0.75,True
+S102432,"oorhandiging was laat, gewag vir sleutels",late_handover,late_handover,1.0,True
+S105047,"client says stay till six, donnt know if office approved",client_requested,client_requested,0.93,True
+S101552,"lift out of order, everything carried up stairs, took long",equipment_failure,equipment_failure,0.57,True
+S109173,.,blank,blank,1.0,True
+S103055,stood in for Fourie,absence_cover,routine,0.56,False
+S106541,stood in for Mavuso,absence_cover,absence_cover,0.71,True
+S102204,"oorhandiging was laat, gewag vir sleutels",late_handover,late_handover,1.0,True
+S103344,"extra patrol per client email, approved by office",client_requested,client_requested,1.0,True
+S108105,"aflos het nie opgedaag nie, moes aanbly",absence_cover,absence_cover,0.42,True
+S102382,"gate motor failed, manned it by hand till 06:00",equipment_failure,equipment_failure,0.87,True
+S106979,"covering mthembu post, no show no call",absence_cover,absence_cover,1.0,True
+S101551,"no replacement sent, ngicela sort this out",absence_cover,absence_cover,1.0,True
+S103691,Client reuested deep clean before the audit - approved,client_requested,client_requested,1.0,True
+S100590,"tok mahlangu shift as wll, 2 posts 1 guard",absence_cover,routine,0.74,False
+S104130,"no replacement sent, ngicela sort this out",absence_cover,absence_cover,1.0,True
+S101805,"masjien is stukkend, alls met die hand gedoen",equipment_failure,equipment_failure,1.0,True
+S107050,"took Nosi shift as well, 2 pots 1 guard",absence_cover,routine,0.74,False
+S100586,Next shift guard did not pitch. Had to cover.,absence_cover,absence_cover,1.0,True
+S106664,"Mabaso didnt come in, covered the post",absence_cover,absence_cover,1.0,True
+S106280,Client requested deep clean before the audit - approved,client_requested,client_requested,1.0,True
+S105325,"Zulu didnt come in, covered the post",absence_cover,absence_cover,1.0,True
+S101883,"buffer machine kaput, did the floor by hand",equipment_failure,equipment_failure,1.0,True
+S108332,"stocktake ran over, client asked us to remain, they knnow tey pay for it",client_requested,client_requested,1.0,True
+S104275,"stocktake ran over, client asked us to remai,n they know they pay for it",client_requested,client_requested,1.0,True
+S101278,ok,blank,blank,1.0,True
+S106650,"worked through, Tshabalala at the clinic",absence_cover,absence_cover,1.0,True
+S109304,"MAASJIEN IS STUKKEND, ALLES MET DIE HAND GEDOEN",equipment_failure,equipment_failure,1.0,True
+S100889,"cllient wanted extra man on the gate for the event, approved",client_requested,client_requested,1.0,True
+S109279,ntr,blank,blank,1.0,True
+S101961,fine,blank,blank,1.0,True
+S108951,quiet shift,routine,routine,0.9,True
+S105579,"lift out of order, everything carried up stairs, took long",equipment_failure,equipment_failure,0.57,True
+S103829,"worked through, Jaobs at the clinic",absence_cover,absence_cover,0.75,True
+S105821,"extra patrol per clent email, approved by office",client_requested,client_requested,1.0,True
+S101230,ntr,blank,blank,1.0,True
+S106561,"srubber broke down, had to do the floor manually",equipment_failure,equipment_failure,1.0,True
+S104974,all quiet,routine,routine,1.0,True
+S103973,Covering for Sibiya - booked off sick,absence_cover,absence_cover,1.0,True
+S100485,shiift handover delayed by 30 min,late_handover,late_handover,1.0,True
+S100306,Client requested deep clean before the audit - approved,client_requested,client_requested,1.0,True
+S105701,"handover late agn, keys missing !",late_handover,late_handover,1.0,True
+S103796,no relief. stayed. someone must please sort the roster,absence_cover,absence_cover,1.0,True
+S106442,nothing to report,routine,routine,0.93,True
+S108776,stood in for Ndlovu,absence_cover,routine,0.57,False
+S104245,"oorhandiging was laat, gewag vir sleutels",late_handover,late_handover,1.0,True
+S105429,"generator fault, stayed to monitor",equipment_failure,equipment_failure,0.98,True
+S104642,"uDlamini akezanga namhlanje, ngimele yena",absence_cover,absence_cover,1.0,True
+S104321,quiet shift,routine,routine,0.9,True
+S102395,"aflos het nie opgedaag nie, moes aanbly",absence_cover,absence_cover,0.42,True
+S100719,no relief. stayed. someone must pls sort the roster,absence_cover,absence_cover,1.0,True
+S100928,"handover late agn, keys missing",late_handover,late_handover,1.0,True
+S108001,stood in for zuul,absence_cover,routine,0.59,False
+S107901,"late handover, waiting on paperwork",late_handover,late_handover,1.0,True
+S102369,Next shift guard did not pitch. Had to cover.,absence_cover,absence_cover,1.0,True
+S108833,"buffer machine kaput, did the floor by hand..",equipment_failure,equipment_failure,1.0,True
+S107059,"worked through, Dlamini at the clinic..",absence_cover,absence_cover,0.75,True
+S101604,"client wanted etra man on the gate for the event, approved..",client_requested,client_requested,1.0,True
+S107331,"covering Wyk post, no show no call",absence_cover,absence_cover,1.0,True
+S103251,all quiet,routine,routine,1.0,True
+S102109,all good,routine,routine,0.98,True
+S103776,"client asked us to stay for the delivery, ok'd by centre mgmt",client_requested,client_requested,1.0,True
+S104996,"additional cover requested by site manager, signed off",client_requested,client_requested,1.0,True
+S107964,"covering Mavuso post, no show no call !",absence_cover,absence_cover,1.0,True
+S107361,"control room says relief coming, nobody came",absence_cover,absence_cover,1.0,True
+S106102,fine,blank,blank,1.0,True
+S104779,double shift bc relief never pitched,absence_cover,absence_cover,1.0,True
+S107267,no issues on site,routine,routine,0.97,True
+S109331,n/a,blank,blank,1.0,True
+S100873,as per normal,routine,routine,0.96,True
+S108180,"generator fault, stayed to monitor",equipment_failure,equipment_failure,0.98,True
+S103781,"additional cover requested by site manager, signed off..",client_requested,client_requested,1.0,True
+S105156,double shift because relief never pitched,absence_cover,absence_cover,1.0,True
+S100630,"Dlamini didnt come in, covered the post",absence_cover,absence_cover,1.0,True
+S101058,"took Fourie shift as well, 2 poosts 1 guard",absence_cover,routine,0.74,False
+S108709,all good,routine,routine,0.98,True
+S102622,client signed for the extra hours but real reason is relief no show again,absence_cover,absence_cover,1.0,True
+S105088,"Maluleke absent, took her rounds as wlel",absence_cover,absence_cover,0.67,True
+S102662,Client requested deeep clean before the audit - aproved..,client_requested,client_requested,1.0,True
+S101209,"handover late again, keys missing",late_handover,late_handover,1.0,True
+S107717,"Sibiya didnt come in, covered the post",absence_cover,absence_cover,1.0,True
+S104651,"double duty today, Ndovu on family responsibility leave",absence_cover,absence_cover,1.0,True
+S100579,Centre mgr requested additional coer for stocktake,client_requested,client_requested,1.0,True
+S106967,"machine down agn, took twice as long",equipment_failure,equipment_failure,1.0,True
+S102050,"gedk vir Sithole, siek gemeld",absence_cover,absence_cover,1.0,True
+S105339,Covered for Mahlangu agn - 3rd time this month,absence_cover,absence_cover,1.0,True
+S105952,"gedek vir Sibiya, siek gemeld",absence_cover,absence_cover,1.0,True
+S105834,"generator fault, stayed to monitor",equipment_failure,equipment_failure,0.98,True
+S104442,"client wanted extra man on the gate for the event, approved",client_requested,client_requested,1.0,True
+S104531,"gedek vir Motaung, siek geemld",absence_cover,absence_cover,1.0,True
+S100817,all good,routine,routine,0.98,True
+S102880,"scrubber broke down, had to do the floor manually",equipment_failure,equipment_failure,1.0,True
+S108544,Covered for Zulu again - 3rd time this month,absence_cover,absence_cover,1.0,True
+S108079,"late handover, waiting on paperwork",late_handover,late_handover,1.0,True
+S107287,"buffer machine kaput, did the floor by hand",equipment_failure,equipment_failure,1.0,True
+S109328,extra hrs approved by client for the event setup,client_requested,client_requested,1.0,True
+S102181,Covered for Naidoo again - 3rd tie this month,absence_cover,absence_cover,1.0,True
+S105471,all good,routine,routine,0.98,True
+S106973,"client asked us to stay for the delivery, ok'd by centre mgmt..",client_requested,client_requested,1.0,True
+S100088,"coering Blaoyi post, no show no call..",absence_cover,absence_cover,1.0,True
+S105483,centre mgr requested additional covre for stocktake,client_requested,client_requested,1.0,True
+S108451,"took Botha shift as well, 2 posts 1 guard",absence_cover,absence_cover,1.0,True
+S100501,"generator fault, styed to mointor",equipment_failure,equipment_failure,0.99,True
+S102158,"uTshabalala akezanga namhlanje, ngimele yena",absence_cover,absence_cover,1.0,True
+S107206,nothing to report,routine,routine,0.93,True
+S108767,Client asked for extra patrol after the break-in Tuesday..,client_requested,client_requested,1.0,True
+S103619,"extra patrol per client emil, approved by office",client_requested,client_requested,1.0,True
+S105340,relief no show AGAIN,absence_cover,absence_cover,1.0,True
+S106430,fine,blank,blank,1.0,True
+S100294,"late handover, waiting on paperwork",late_handover,late_handover,1.0,True
+S107595,as per normal,routine,routine,0.96,True
+S108470,"next shift akafikanga, ngihlale kuze kube 0600",absence_cover,absence_cover,1.0,True
+S109238,,blank,blank,1.0,True
+S100975,"late handover, waiting on paperwork",late_handover,late_handover,1.0,True
+S108288,"still on site, relief was suppose to come 6am",absence_cover,absence_cover,1.0,True
+S104068,"client wantd extra man on the gate for the event, approved",client_requested,client_requested,1.0,True
+S103397,Covering for Khumalo - booked off sick,absence_cover,absence_cover,1.0,True
+S104116,"uMaluleke akezanga namhlanje, ngimele yena",absence_cover,absence_cover,1.0,True
+S103456,"extra patrol per client email, approevd by office",client_requested,client_requested,1.0,True
+S106546,"khumalo didnt come in, covered the post",absence_cover,absence_cover,1.0,True
+S100717,"next shift akafikanga, ngihlale kuze kube 6am",absence_cover,absence_cover,1.0,True
+S106042,client requested deep clean before the audit - approved,client_requested,client_requested,1.0,True
+S104526,n/a,blank,blank,1.0,True
+S108657,client asked for extra patrol after the break--in tuesday,client_requested,client_requested,1.0,True
+S100595,client signed for the extra hours but real reason is relief no show agn..,absence_cover,absence_cover,1.0,True
+S107088,"additional cover requested by site mgr, signed off",client_requested,client_requested,1.0,True
+S107885,extra hours approved by client for the event setup,client_requested,client_requested,1.0,True
+S107627,"gnerator fault, stayed to monitor..",equipment_failure,equipment_failure,0.98,True
+S106573,"Naidoo didt come in, covered the post",absence_cover,absence_cover,1.0,True
+S107746,"still on site, relief was suppose to come 06h00",absence_cover,absence_cover,1.0,True
+S107218,ntr,blank,blank,1.0,True
+S106989,"buffer machine kaput, did the floor by hand",equipment_failure,equipment_failure,1.0,True
+S100301,"still on site, relief was suppose to come 06:00",absence_cover,absence_cover,1.0,True
+S104331,"molefe absent, took her rounds as well",absence_cover,absence_cover,1.0,True
+S102253,all quiet,routine,routine,1.0,True
+S107504,ok,blank,blank,1.0,True
+S100384,"control room says relief coming, nobody came",absence_cover,absence_cover,1.0,True
+S106492,"requested by centre management for load in, signed off",client_requested,client_requested,1.0,True
+S105436,"machine down again, took twice as long",equipment_failure,equipment_failure,1.0,True
+S102650,all quiet,routine,routine,1.0,True
+S103589,relief no show AGAIN,absence_cover,absence_cover,1.0,True
+S106553,Next shift guard did not pitch. Had to cover.,absence_cover,absence_cover,1.0,True
+S107376,"next shift akafikanga, ngihlale kuze kube 6 !",absence_cover,absence_cover,1.0,True
+S105329,double shift because relief never picthed !,absence_cover,absence_cover,1.0,True
+S109293,"waited 45 min for handover, OB book not signed",late_handover,late_handover,1.0,True
+S106233,Mokoena off sick. again. covered.,absence_cover,absence_cover,1.0,True
+S106536,"double duty today, Sithole on family responsibility leave",absence_cover,absence_cover,1.0,True
+S109261,"handover late agn, keys missing",late_handover,late_handover,1.0,True
+S103809,"waited for relief, nobody caame through",absence_cover,late_handover,0.64,False
+S105550,extra hrs apprvoed by clietn for the event setp,client_requested,client_requested,1.0,True
+S102179,"waited 40 min for handover, OB book not signed",late_handover,late_handover,1.0,True
+S102377,"late handover, waiting on paperwork",late_handover,late_handover,1.0,True
+S105071,"no replacement sent, ngicela sort this out",absence_cover,absence_cover,1.0,True
+S105155,sharp,blank,blank,1.0,True
+S106680,Client asked for extra patrool after the break-in Tuesday,client_requested,client_requested,1.0,True
+S107580,"geddek vir wyk, siek gemeld",absence_cover,absence_cover,1.0,True
+S102879,"waited 25 min for handover, OB book not signed",late_handover,late_handover,1.0,True
+S101725,ok,blank,blank,1.0,True
+S105880,"late handover, waiting on paperwork",late_handover,late_handover,1.0,True
+S106235,"gedek vir Tshabalala, siek gemeld",absence_cover,absence_cover,1.0,True
+S106457,"USIBIYA AKEZANA NAMHLANJE, NGIMELE YENA..",absence_cover,absence_cover,1.0,True
+S106046,"extra patrol per client email, approved by office",client_requested,client_requested,1.0,True
+S107572,-,blank,blank,1.0,True
+S106375,"still on site, relieef was suppose to come six",absence_cover,absence_cover,1.0,True
+S103012,Centre mgr requested additional cover for stocktae,client_requested,client_requested,1.0,True
+S109078,ok,blank,blank,1.0,True
+S101275,.,blank,blank,1.0,True
+S103735,akukho lutho,routine,routine,1.0,True
+S108835,"client wanted extra man on the gate for the event, approved",client_requested,client_requested,1.0,True
+S107894,"relief only arrived 0600, stayed until then",absence_cover,absence_cover,1.0,True
+S108026,"srubber broke down, had to do the floor manually",equipment_failure,equipment_failure,1.0,True
+S108082,quiet shift,routine,routine,0.9,True
+S108285,"took Zulu shift as well, 2 posts 1 guard",absence_cover,absence_cover,1.0,True
+S101069,,blank,blank,1.0,True
+S107875,"oorhandiging was laat, gewag vir sleutels",late_handover,late_handover,1.0,True
+S103391,"relief never arrived, stayed on till six",absence_cover,absence_cover,1.0,True
+S101905,.,blank,blank,1.0,True
+S103424,Client requested deep clean before the audit - approved,client_requested,client_requested,1.0,True
+S103988,"buffeer machine kaput, did the floor by hand",equipment_failure,equipment_failure,1.0,True
+S105735,"worked through, sibiya at the clinic",absence_cover,absence_cover,1.0,True
+S102953,"gate motoor failed, manned it by hadn till 6",equipment_failure,equipment_failure,0.87,True
+S106580,"umolefe akezanga namhlanje, ngimele yena",absence_cover,absence_cover,1.0,True
+S108038,"Ndlovu absent, took her rounds as well",absence_cover,absence_cover,0.84,True
+S103338,"late hanodver, waiting on paperwork",late_handover,late_handover,1.0,True
+S106132,Covering for Wyk - booked off sick,absence_cover,absence_cover,1.0,True
+S107079,Client asked for extra patrol after the break-in Tuesday,client_requested,client_requested,1.0,True
+S101822,"uSibiya akezanga namhlanje, ngimele yena",absence_cover,absence_cover,1.0,True
+S105051,"handover late again, keys missing",late_handover,late_handover,1.0,True
+S103751,"still on site, relief was suppose to come six",absence_cover,absence_cover,1.0,True
+S108478,Next shift guard did not pitch. Had to cover.,absence_cover,absence_cover,1.0,True
+S106097,"aflos het nie opgedaag nie, moes aanbly",absence_cover,absence_cover,0.42,True
+S104397,nothing to report,routine,routine,0.93,True
+S108061,shift handover delayed by 30 min,late_handover,late_handover,1.0,True
+S102528,"generator fault, stayed to monitor !",equipment_failure,equipment_failure,0.98,True
+S100587,Nkosi off sick. agn. coveredd.,absence_cover,absence_cover,1.0,True
+S109297,"uBotha akezanga namhlanjje, ngimele yena",absence_cover,absence_cover,1.0,True
+S104857,"client says stay till 06h00, dont know if office approved",client_requested,client_requested,1.0,True
+S101939,"waited 50 min for handover, OB book not signed",late_handover,late_handover,1.0,True
+S104803,"took Mokoena shift as well, 2 posts 1 guard",absence_cover,absence_cover,1.0,True
+S103509,"double duty today, Baloyi on family responsibility leave",absence_cover,absence_cover,1.0,True
+S104449,sharp,blank,blank,1.0,True
+S100032,"control room says relef coming, nobody came",absence_cover,absence_cover,1.0,True
+S101590,"control room says relief coming, nobody came",absence_cover,absence_cover,1.0,True
+S104355,"additional cover requested by site mgr, signed off",client_requested,client_requested,1.0,True
+S103661,"aflos het nie opgedaag nie, moes aanbly",absence_cover,absence_cover,0.42,True
+S102838,"client asked us to stay for the delivery, ok'd by centre mgmt..",client_requested,client_requested,1.0,True
+S106807,CLIENT ASKED FOR EXTRA PATROL AFTER THE BREAK-IN TUESDAY,client_requested,client_requested,1.0,True
+S105053,klient het ekstra ure gevra vir stocktake !,client_requested,client_requested,1.0,True
+S102453,ntr,blank,blank,1.0,True
+S101640,all fine,routine,blank,0.77,False
+S105352,"client says stay till six, dont know if office approved",client_requested,client_requested,0.93,True
+S106225,"GENERATOR FAULT, STAYED TO MONITOR..",equipment_failure,equipment_failure,0.98,True
+S104164,"scrubber broke don, had to do the floor manually",equipment_failure,equipment_failure,1.0,True
+S100309,Jacobs off sick. ag.n covered.,absence_cover,absence_cover,1.0,True
+S103077,no relif. stayed. someone must please sort the roster,absence_cover,absence_cover,1.0,True
+S102386,"took Mabaso shift as well, 2 posts 1 guard",absence_cover,absence_cover,1.0,True
+S101769,"buffer machine kaput, did the floor by hand",equipment_failure,equipment_failure,1.0,True
+S104379,"uBotha akezanga namhlanje, ngimele yena",absence_cover,absence_cover,1.0,True
+S108123,ntr,blank,blank,1.0,True
+S101704,"buffer machine kaput, did the floor by hand !",equipment_failure,equipment_failure,1.0,True
+S108837,no issues on site,routine,routine,0.97,True
+S103018,"next shift akafikanga, ngihlale kuzze kube 06h00",absence_cover,absence_cover,1.0,True
+S106806,"Naidoo didnt come in, covered the post..",absence_cover,absence_cover,1.0,True
+S106376,"took Nkosi shift as well, 2 posts 1 guard",absence_cover,absence_cover,0.52,True
+S106252,"took Naidoo shift as well, 2 posts 1 guard",absence_cover,absence_cover,1.0,True
+S103649,"uNaidoo akezanga namhlanje, ngimele yena",absence_cover,absence_cover,1.0,True
+S107240,"extra patrol per client email, approved by ofice",client_requested,client_requested,1.0,True
+S108016,"client says stay till 06h00, dont know if office approved",client_requested,client_requested,1.0,True
+S104249,all quiet,routine,routine,1.0,True
+S106902,"client says stay till 0600, dont know if office approved",client_requested,client_requested,1.0,True
+S102656,"Ngcobo absent, took her rounds as well..",absence_cover,absence_cover,1.0,True
+S109305,"Mokoena absent, took her rounds as well",absence_cover,absence_cover,1.0,True
+S105537,"nkosi absent, took her rounds as well !",absence_cover,absence_cover,0.85,True
+S102317,nothing to report,routine,routine,0.93,True
+S104575,no issues on site,routine,routine,0.97,True
+S103458,no relief. stayed. someone must please sort the roster !,absence_cover,absence_cover,1.0,True
+S102929,"next shift akafikanga, ngihlale kuze kube 6",absence_cover,absence_cover,1.0,True
+S101338,nothing to report,routine,routine,0.93,True
+S104868,niks om te rapporteer nie,routine,routine,0.97,True
+S107133,relief no show again..,absence_cover,absence_cover,1.0,True
+S102570,"sill on site, relief was spupose to come 6am",absence_cover,absence_cover,1.0,True
+S106476,"lift out of order, everything carried up stairs, took lng",equipment_failure,routine,0.72,False
+S100784,"worked through, ndlovu at the clinic..",absence_cover,absence_cover,0.74,True
+S106925,"lift out of order, everything carried up stairs, took long",equipment_failure,equipment_failure,0.57,True
+S107886,shift handover delayed by 50 min,late_handover,late_handover,1.0,True
+S102295,"jacobs absent, took her rounds as well",absence_cover,absence_cover,0.85,True
+S100775,quiet shift,routine,routine,0.9,True
+S103402,"machine down agn, took twice as long",equipment_failure,equipment_failure,1.0,True
+S105318,client signed for the extra hours but real reason is relief no show agn !,absence_cover,absence_cover,1.0,True
+S101812,ntr,blank,blank,1.0,True
+S102723,"oorhandiging was laat, gewag vir sleutels",late_handover,late_handover,1.0,True
+S105460,"lift out of order, everything carried up stairs, took long",equipment_failure,equipment_failure,0.57,True
+S101597,"double duty today, maluleke on family responsibility leave..",absence_cover,absence_cover,1.0,True
+S105342,"umthembu akezanga namhlanje, ngimele yena",absence_cover,absence_cover,1.0,True
+S103470,shft handover dealyed by 25 min,late_handover,late_handover,1.0,True
+S103005,"took dlaminni shift as well, 2 posts 1 guard",absence_cover,routine,0.74,False
+S107332,"gedek vir Hendricks, siek geemeld",absence_cover,absence_cover,1.0,True
+S104121,client requested deep clean before the audt - approved,client_requested,client_requested,1.0,True
+S103105,fine,blank,blank,1.0,True
+S105346,"machien down agn, took twice as long",equipment_failure,equipment_failure,0.78,True
+S101120,Zulu off sick. agn. covered.,absence_cover,absence_cover,1.0,True
+S107414,shift handovver delayed by 50 min,late_handover,late_handover,0.79,True
+S100713,Naidoo off sick. again. covered..,absence_cover,absence_cover,1.0,True
+S106901,"took mthembu shift as well, 2 pots 1 guard",absence_cover,absence_cover,1.0,True
+S100603,"waited for relief, nobody came through",absence_cover,late_handover,0.6,False
+S107506,"took Wyk shift as well, 2 posts 1 guard",absence_cover,absence_cover,1.0,True
+S105585,"scrubber broke dwn, had to do the floor mnually",equipment_failure,equipment_failure,1.0,True
+S104423,"DLAMINI DIDNT COME IN, COVERED THE POST",absence_cover,absence_cover,1.0,True
+S104093,"client wanted extra man on the gate for the event, approved",client_requested,client_requested,1.0,True
+S109323,"gate motor failed, manned it by hand till 6..",equipment_failure,equipment_failure,0.85,True
+S103163,n/a,blank,blank,1.0,True
+S102367,"took Tshabalala shift as well, 2 posts 1 guadr",absence_cover,routine,0.63,False
+S104076,no incidents,routine,absence_cover,1.0,False
+S101592,"additional cover requested by site mgr, signed off..",client_requested,client_requested,1.0,True
+S108943,niks om te rapporteer nie,routine,routine,0.97,True
+S108665,"client asked us to stay for the delivery, ok'd by centre mgmt",client_requested,client_requested,1.0,True
+S101471,"handover late agn, keys missing",late_handover,late_handover,1.0,True
+S108186,COVERED FOR NDLOVU AGAIN - 3RD TIME THIS MONTH,absence_cover,absence_cover,1.0,True
+S102372,client signed for the extra hours but real reason is relief no show agn,absence_cover,absence_cover,1.0,True
+S105629,"waited for relief, nobody came through",absence_cover,late_handover,0.6,False
+S100238,extra hrs approved by client for the event setup,client_requested,client_requested,1.0,True
+S103418,extra hours approved by client for the event setup,client_requested,client_requested,1.0,True
+S108305,klient het ekstra ure gevra vir stocktake,client_requested,client_requested,1.0,True
+S102972,Next shift guard did not pitch. Had to cover.,absence_cover,absence_cover,1.0,True
+S102449,centre mgr requested additional cover for stocktake..,client_requested,client_requested,1.0,True
+S104536,"COVERING DLAMINI POST, NO SHOW NO CALL",absence_cover,absence_cover,1.0,True
+S108855,"requested by centre management for load in, signed off",client_requested,client_requested,1.0,True
+S106382,double shift bc relief never pitched,absence_cover,absence_cover,1.0,True
+S104699,"waited 40 min for handover, ob book not signed",late_handover,late_handover,1.0,True
+S100284,"double duty today, Sithole on family responsibility leave..",absence_cover,absence_cover,1.0,True
+S106896,Centre manager requested additional cover for stocktake,client_requested,client_requested,1.0,True
+S102287,extra hrs approved by client for the event setup,client_requested,client_requested,1.0,True
+S100470,"covering Mabaso post, no show no call..",absence_cover,absence_cover,1.0,True
+S103051,"buffer machine kaput, did the floor by hand",equipment_failure,equipment_failure,1.0,True
+S101438,"handover late agn, keys missing",late_handover,late_handover,1.0,True
+S104956,-,blank,blank,1.0,True
+S102887,client signed for the extra hrs but real reason is relieef no show again,absence_cover,absence_cover,1.0,True
+S105496,"relief never arrived, stayed on till 06h00 !",absence_cover,absence_cover,1.0,True
+S107708,Covering for Ngcobo - booked off sick,absence_cover,absence_cover,1.0,True
+S106406,"additional cover requested by site manager, signed off",client_requested,client_requested,1.0,True
+S101394,,blank,blank,1.0,True
+S108604,"relief only arrived six, stayed until then",absence_cover,absence_cover,1.0,True
+S101046,"gate motor failed, manned it by hand till six",equipment_failure,equipment_failure,0.94,True
+S106395,"covering Mthembu postt, no show no call",absence_cover,absence_cover,1.0,True
+S108405,"gate motor failed, manned it by hand till 06:00",equipment_failure,equipment_failure,0.87,True
+S102416,"generator fault, stayed to monitor",equipment_failure,equipment_failure,0.98,True
+S104541,"Adams didnt come in, covered the post",absence_cover,absence_cover,1.0,True
+S108993,"next shift akafikanga, ngihlale kuze kube 6",absence_cover,absence_cover,1.0,True
+S105190,as per normal,routine,routine,0.96,True
+S106985,"extra patrol per client email, approved by officce",client_requested,client_requested,1.0,True
+S103441,relief no show AGAIN,absence_cover,absence_cover,1.0,True
+S101222,all good,routine,routine,0.98,True
+S100315,"no repacement sent, ngicela sort this out",absence_cover,absence_cover,1.0,True
+S108612,double shift because reief never pitched,absence_cover,absence_cover,1.0,True
+S104092,"handover late agn, keys missing",late_handover,late_handover,1.0,True
+S107148,all quiet,routine,routine,1.0,True
+S109322,Client asked for extra patrol after the break-in Tuesday,client_requested,client_requested,1.0,True
+S103819,"uJacobs akezanga namhlanje, ngimele yena",absence_cover,absence_cover,1.0,True
+S101795,"machine down agn, took twice as long..",equipment_failure,equipment_failure,1.0,True
+S106892,"control room sasy relief coming, nobody came",absence_cover,absence_cover,1.0,True
+S100706,"cllient says stay till 6, dont know if office approved",client_requested,client_requested,1.0,True
+S100443,all fine,routine,blank,0.77,False
+S108441,"bufefr machine kapu, did the floor by hand",equipment_failure,equipment_failure,1.0,True
+S102862,"no replacement sent, ngicela sort this out",absence_cover,absence_cover,1.0,True
+S102601,Client asked for extra ptrol after the break-in Tuesday,client_requested,client_requested,1.0,True
+S107530,"uFourie akezanga namhlanje, ngimele yena",absence_cover,absence_cover,1.0,True
+S101714,"relief only arrived 06:00, stayed until then..",absence_cover,absence_cover,1.0,True
+S103445,no relief. stayed. someone must please sort the roster,absence_cover,absence_cover,1.0,True
+S100171,Client asked for extra patrol after the break-in Tuesday..,client_requested,client_requested,1.0,True
+S105092,fine,blank,blank,1.0,True
+S105372,sharp,blank,blank,1.0,True
+S107478,centre manager requested additional cover for stocktake,client_requested,client_requested,1.0,True
+S103330,klent het ekstra ure gevra vir stocktake,client_requested,client_requested,1.0,True
+S103627,cliient signed for the extra hours but real reeason is relief no show agn,absence_cover,absence_cover,1.0,True
+S104250,nothing to report,routine,routine,0.93,True
+S104099,n/a,blank,blank,1.0,True
+S107066,"requested by centre management for load in, signed off",client_requested,client_requested,1.0,True
+S103601,jacobs off sick. again. covered.,absence_cover,absence_cover,1.0,True
+S105011,Client requested deep clean before the audit - approved,client_requested,client_requested,1.0,True
+S103634,ntr,blank,blank,1.0,True
+S103549,klient het ekstra ure gevra vir stocktake,client_requested,client_requested,1.0,True
+S106414,"waited 40 min for handover, OB book not signed",late_handover,late_handover,1.0,True
+S102937,stood in for Molefe,absence_cover,absence_cover,0.67,True
+S106884,"GEDEK VIR HENDRICKS, SIEK GEMELD",absence_cover,absence_cover,1.0,True
+S107859,,blank,blank,1.0,True
+S107514,"client wanted extra man on the gate for the event, approved",client_requested,client_requested,1.0,True
+S101947,"covering Mabaso post, no show no cll",absence_cover,absence_cover,1.0,True
+S108374,"relief only arrived 06h00, stayyed until then",absence_cover,absence_cover,1.0,True
+S104492,relief no show AGGAIN,absence_cover,absence_cover,1.0,True
+S109335,"client asked us to stay for the delivery, ok'd by centre mgmt",client_requested,client_requested,1.0,True
+S108103,no incidents,routine,absence_cover,1.0,False
+S101011,"handover late again, keys missing",late_handover,late_handover,1.0,True
+S107101,quiet shift,routine,routine,0.9,True
+S100886,klient het ekstra ure gevra vir stocktake,client_requested,client_requested,1.0,True
+S103065,"waited 40 min for handover, OB book not signed",late_handover,late_handover,1.0,True
+S105811,"still on site, relief was suppose to come 0600",absence_cover,absence_cover,1.0,True
+S100922,"client wanted extra man on the gate for the event, approved",client_requested,client_requested,1.0,True
+S107253,"machine down again, took twice as long",equipment_failure,equipment_failure,1.0,True
+S100473,"clint says stay till six, doont know if office approved",client_requested,client_requested,0.85,True
+S101512,"lift out of order, everything carried up stairs, took long",equipment_failure,equipment_failure,0.57,True
+S105973,"Naidoo abset, took her runds as weell",absence_cover,absence_cover,1.0,True
+S109203,"Fourie absen, took her rounds as well",absence_cover,absence_cover,0.68,True
+S102376,"extra patrol per client emaail, apprroved by office",client_requested,client_requested,1.0,True
+S104162,quiet shift,routine,routine,0.9,True
+S108378,"covering Jacobs post, no show no call",absence_cover,absence_cover,1.0,True
+S102860,"relief never arrived, stayed on till six..",absence_cover,absence_cover,1.0,True
+S108045,Covered for Sithole agn - 3rd time this month,absence_cover,absence_cover,1.0,True
+S100416,"extra patrol per client email, approved by office",client_requested,client_requested,1.0,True
+S100553,"control room says relief coming, nobody came",absence_cover,absence_cover,1.0,True
+S106578,centre manager requested additional cover for stocktake !,client_requested,client_requested,1.0,True
+S103436,"fourie didnt come in, covered the post",absence_cover,absence_cover,1.0,True
+S106657,"waited 30 min for handover, OB book not signed..",late_handover,late_handover,1.0,True
+S100222,,blank,blank,1.0,True
+S102131,"client asked us to stay for the deliivery, ok'd by centre mgmt",client_requested,client_requested,1.0,True
+S102206,all good,routine,routine,0.98,True
+S107980,"control room sayys relief coming, noboddy came",absence_cover,absence_cover,1.0,True
+S101027,ntr,blank,blank,1.0,True
+S102265,ok,blank,blank,1.0,True
+S105840,"no replacement sent, ngicela sort this out",absence_cover,absence_cover,1.0,True
+S104369,"covering sibiya post, no show no call",absence_cover,absence_cover,1.0,True
+S109245,no issues on site,routine,routine,0.97,True
+S106428,"waited for relief, nobody came through",absence_cover,late_handover,0.6,False
+S106726,all quiet,routine,routine,1.0,True
+S104286,all good,routine,routine,0.98,True
+S109318,"control room says relief coming, nobody came",absence_cover,absence_cover,1.0,True
+S107314,"gedek vir ngcobo, siek gemeld",absence_cover,absence_cover,1.0,True
+S101268,"took Jacobs shift as wel, 2 posts 1 guard",absence_cover,absence_cover,0.5,True
+S103801,sharp,blank,blank,1.0,True
+S102117,shift handover delayed by 25 min,late_handover,late_handover,1.0,True
+S103605,Ngcobo off sick. agn. covered.,absence_cover,absence_cover,1.0,True
+S105649,Covered for Zulu again - 3rd time this month,absence_cover,absence_cover,1.0,True
+S103805,"covering Zulu post, no sow no call",absence_cover,absence_cover,1.0,True
+S104662,"worked through, Botha at the clinic",absence_cover,absence_cover,1.0,True
+S108863,"double duty today, sithole on family responsibility leave",absence_cover,absence_cover,1.0,True
+S108464,"next shift akafikanga, ngihlale kuze kue six",absence_cover,absence_cover,1.0,True
+S103768,"client wanted extra man on the gate for the event, approved",client_requested,client_requested,1.0,True
+S106467,Client asked for extra patrol after the break-in Tuesday,client_requested,client_requested,1.0,True
+S107876,"relief never arrived, sayed on till 6am",absence_cover,absence_cover,1.0,True
+S108453,"waited 30 min for handover, OB book not signed",late_handover,late_handover,1.0,True
+S106960,Client asked for extra patrol after the break-in Tuessday,client_requested,client_requested,1.0,True
+S107620,client signed for the extra hours but real reason is relief no show again,absence_cover,absence_cover,1.0,True
+S106436,"control room says relief coming, nobody came",absence_cover,absence_cover,1.0,True
+S100015,quiet shift,routine,routine,0.9,True
+S109351,"waited 45 min for handover, OB book not signed..",late_handover,late_handover,1.0,True
+S101865,"handover late again, keys missing",late_handover,late_handover,1.0,True
+S100343,"scrubber broke down, had to do the floor manually",equipment_failure,equipment_failure,1.0,True
+S102628,"lift out of orrder, everything carried up stairs, took long",equipment_failure,equipment_failure,0.57,True
+S105144,,blank,blank,1.0,True
+S106167,Client asked for extra patrol after the break-in Tuseday,client_requested,client_requested,1.0,True
+S109291,"COVERING MOLEFE POST, NO SHOW NO CALL",absence_cover,absence_cover,1.0,True
+S107036,all quiet,routine,routine,1.0,True
+S101324,"requested by centre management for load in, signed off",client_requested,client_requested,1.0,True
+S102771,"no replacement sent, ngicela sort this out",absence_cover,absence_cover,1.0,True
+S103828,"lift out of order, everything carried up stairs, took long",equipment_failure,equipment_failure,0.57,True
+S106963,double shift bc relief never pitched..,absence_cover,absence_cover,1.0,True
+S100350,"took Maluleke shiift as well, 2 posts 1 guard..",absence_cover,absence_cover,1.0,True
+S105251,no incidents,routine,absence_cover,1.0,False
+S109337,"aflos het nie opgedaag nie, moes aanbly",absence_cover,absence_cover,0.42,True
+S107030,akukho lutho,routine,routine,1.0,True
+S107531,"MACHINE DOWN AGN, TOOK TWICE AS LONG",equipment_failure,equipment_failure,1.0,True
+S103094,"uNaidoo akezanga namhlanje, ngimele yena",absence_cover,absence_cover,1.0,True
+S108359,"gaate motor failed, manned it by hand till 06:00",equipment_failure,equipment_failure,0.98,True
+S107983,"stocktake ran over, client asked us to remain, they know they pay for it",client_requested,client_requested,1.0,True
+S106270,ntr,blank,blank,1.0,True
+S104755,as per normal,routine,routine,0.96,True
+S108437,"relief never arrived, stayed on till 6",absence_cover,absence_cover,1.0,True
+S108936,all good,routine,routine,0.98,True
+S104485,,blank,blank,1.0,True
+S107191,Mthembu off sicck. again. covered.,absence_cover,absence_cover,1.0,True
+S107032,"oorhandiging was laat, gewag vir sleutels..",late_handover,late_handover,1.0,True
+S107658,Jacobs off sic. again. covered.,absence_cover,absence_cover,1.0,True
+S102474,akukho lutho,routine,routine,1.0,True
+S108807,"gate motor failed, manned it by hand till 06:00",equipment_failure,equipment_failure,0.87,True
+S105639,as per normal,routine,routine,0.96,True
+S103380,Next shift guard did not pitch. Had to cover.,absence_cover,absence_cover,1.0,True
+S100305,"uBaloyi akezanga namhlanje, ngimele yena..",absence_cover,absence_cover,1.0,True
+S106612,sharp,blank,blank,1.0,True
+S104114,"relief never arrived, stayed on till 6am",absence_cover,absence_cover,1.0,True
+S107752,"generator fault, stayed to monitor",equipment_failure,equipment_failure,0.98,True
+S103631,"WAITED FOR RELIEF, NOBODY CAME THROUGH",absence_cover,late_handover,0.6,False
+S101281,akukho lutho,routine,routine,1.0,True
+S107724,"stocktake ran over, client asked us to remain, they know they pay for it",client_requested,client_requested,1.0,True
+S108830,"requested by cenre management for load in, siged off",client_requested,client_requested,1.0,True
+S106222,"scrubber broke down, had to do the floor manually",equipment_failure,equipment_failure,1.0,True
+S105604,"ndlovu absent, took her rounds as well",absence_cover,absence_cover,0.84,True
+S104081,"no replacement sent, ngicela sort this out",absence_cover,absence_cover,1.0,True
+S107132,stood in for Motaug,absence_cover,routine,0.55,False
+S104538,ok,blank,blank,1.0,True
+S106341,"double duty today, sibiya on family responsibility leave",absence_cover,absence_cover,1.0,True
+S107889,"additional cover requested by site manager, signed off",client_requested,client_requested,1.0,True
+S101533,"gate motor failed, manned it by hand till 06h00",equipment_failure,equipment_failure,0.87,True
+S103759,"client wanted extra man on the gate for the event, approved",client_requested,client_requested,1.0,True
+S105298,nothing to report,routine,routine,0.93,True
+S104929,"uMolefe akezanga namhlanje, ngimele yena",absence_cover,absence_cover,1.0,True
+S103561,"toook motaung shift as well, 2 posts 1 guard",absence_cover,routine,0.74,False
+S106152,no issues on site,routine,routine,0.97,True
+S103404,"took Dlamini shiift as well, 2 psots 1 guard",absence_cover,absence_cover,1.0,True
+S108615,wyk off sick. again. covered..,absence_cover,absence_cover,1.0,True
+S100880,"Ndlovu absent, took her rounds as well",absence_cover,absence_cover,0.84,True
+S106530,shift handover delayed by 25 min,late_handover,late_handover,1.0,True
+S107460,"stocktake ran over, client asked us to remain, they know they pay for it..",client_requested,client_requested,1.0,True
+S105794,Covered for Sithole again - 3rd time this month,absence_cover,absence_cover,1.0,True
+S108813,Client asked for extra patrol after the brea-kin Tuesday,client_requested,client_requested,1.0,True
+S105097,"still on site, relief was suppose to come 06:00",absence_cover,absence_cover,1.0,True
+S104127,"client asked us to stay for the delivery, ok'd by centre mgmt..",client_requested,client_requested,1.0,True
+S107343,"umabaso akezanga namhlanje, ngimele yena..",absence_cover,absence_cover,1.0,True
+S107062,"lift out of order, everything carried up stairs, took long",equipment_failure,equipment_failure,0.57,True
+S100273,Covering for Molefe - booked off sick,absence_cover,absence_cover,1.0,True
+S108901,fine,blank,blank,1.0,True
+S108349,klieent het ekstra ure gevra vir stocktake,client_requested,client_requested,1.0,True
+S107147,"machine down again, took twice as long..",equipment_failure,equipment_failure,1.0,True
+S100281,"requested by centre management for load in, signed off !",client_requested,client_requested,1.0,True
+S100538,"client asked us to stay for the delivery, ok'd by centre mgmt..",client_requested,client_requested,1.0,True
+S106516,"handover late again, keys missing..",late_handover,late_handover,1.0,True
+S108299,no issues on site,routine,routine,0.97,True
+S100596,shift handover delayed by 45 min,late_handover,late_handover,1.0,True
+S102082,"covering Ndlovu post, no show no call",absence_cover,absence_cover,1.0,True
+S104102,"usibiya akezanga namhlanje, ngimele yena..",absence_cover,absence_cover,1.0,True
+S100691,"machine down again, took twice as long",equipment_failure,equipment_failure,1.0,True
+S104098,fine,blank,blank,1.0,True
+S105612,"Botha absent, took her rounds as well..",absence_cover,absence_cover,1.0,True
+S101811,Next shifft guard did not pitch. Had to cover.,absence_cover,absence_cover,1.0,True
+S100381,"still on site, relief was supose to come six",absence_cover,absence_cover,1.0,True
+S108015,"COVERING SIBIYA POST, NO SHOW NO CALL",absence_cover,absence_cover,1.0,True
+S106575,"took Mthembu shift as well, 2 possts 1 guard",absence_cover,absence_cover,1.0,True
+S104461,no incidents,routine,absence_cover,1.0,False
+S109344,motaung off sick. again. covered.,absence_cover,absence_cover,1.0,True
+S105742,"Motaung absent, took her rounds as well",absence_cover,absence_cover,0.83,True
+S107902,"next shift akafikanga, ngihlale kuze kube 06h00",absence_cover,absence_cover,1.0,True
+S108847,"reequested by centre management for load in, signed off..",client_requested,client_requested,1.0,True
+S109070,"gedek vir Wyk, siek gemeld",absence_cover,absence_cover,1.0,True
+S105652,"handover late agn, keys missing",late_handover,late_handover,1.0,True
+S108189,Client requested deep clean before the audit - approved..,client_requested,client_requested,1.0,True
+S101786,"handover late agian, keys missing",late_handover,late_handover,1.0,True
+S107322,"client says stay till 06h00, dont know if office apprved",client_requested,client_requested,1.0,True
+S108597,"handover late an, keys missing..",late_handover,late_handover,1.0,True
+S101542,"relief never arrived, stayed on till 06:00",absence_cover,absence_cover,1.0,True
+S102467,sharp,blank,blank,1.0,True
+S101960,"requested by centre management for load in, signed off",client_requested,client_requested,1.0,True
+S103581,extra hrs approved by client for the event setup,client_requested,client_requested,1.0,True
+S100291,fine,blank,blank,1.0,True
+S100640,quiet shift,routine,routine,0.9,True
+S103417,stood in for maluleke,absence_cover,routine,0.56,False
+S103787,"generator fault, stayed to monitor",equipment_failure,equipment_failure,0.98,True
+S106663,"buffer machine kaput, did the floor by hand",equipment_failure,equipment_failure,1.0,True
+S109355,no incidents,routine,absence_cover,1.0,False
+S101494,all quiet,routine,routine,1.0,True
+S106413,double shift beccause relief never pitched,absence_cover,absence_cover,1.0,True
+S102366,"nxet shift akafikanga, ngihlale kuze kube 06:00",absence_cover,absence_cover,0.8,True
+S109381,"scrubber broke down, had to do the floor manually",equipment_failure,equipment_failure,1.0,True
+S105820,extra hrs approved by client for the event setup,client_requested,client_requested,1.0,True
+S103804,all fine,routine,blank,0.77,False
+S100567,clint requested deep clean before the audit - approved,client_requested,client_requested,1.0,True
+S107814,"scrubber broke down, had to do the floor manually !",equipment_failure,equipment_failure,1.0,True
+S106214,double shift because relief never pitched,absence_cover,absence_cover,1.0,True
+S104104,"client asked us to saty for the delivery, ok'd by centre mgmt !",client_requested,client_requested,1.0,True
+S108438,stood in for Fuorie..,absence_cover,routine,0.54,False
+S106101,"aflos het nie opgedaag nie, mooes aanbly",absence_cover,absence_cover,0.4,True
+S101900,"extra patrol per client email, approved by office",client_requested,client_requested,1.0,True
+S101758,Client requested deep clean before the audit - approved,client_requested,client_requested,1.0,True
+S103750,"gate motor failed, manned it by hand till six",equipment_failure,equipment_failure,0.94,True
+S104210,"Tshabalala didnt come in, covered the post..",absence_cover,absence_cover,1.0,True
+S102428,"stocktake ran over, client asked us to remain, they know they pay for it",client_requested,client_requested,1.0,True
+S101589,"conntrol room says relief coming, nobody came",absence_cover,absence_cover,1.0,True
+S108459,"scrubber broe down, had to do the floor manually",equipment_failure,equipment_failure,1.0,True
+S106458,"client says stay till 6am, dont know if office approved",client_requested,client_requested,1.0,True
+S104579,"handover late agn, keys missing",late_handover,late_handover,1.0,True
+S102522,"client says stay till 06:00, dont know if office approved",client_requested,client_requested,1.0,True
+S101853,"client says stay till 6, dont know if office approved",client_requested,client_requested,1.0,True
+S101531,Covered for Wyk again - 3rd time this month,absence_cover,absence_cover,1.0,True
+S101187,,blank,blank,1.0,True
+S107895,"still on siet, relief was suppose to come 06:00..",absence_cover,absence_cover,0.79,True
+S106397,client signed for the extra hrs but real reason is relief no show agn,absence_cover,absence_cover,1.0,True
+S106711,ntr,blank,blank,1.0,True
+S103587,"aflos het nie opgedaag nie, moes aanbly",absence_cover,absence_cover,0.42,True
+S100408,ok,blank,blank,1.0,True
+S106940,"Dlmini asent, took her rounds as well",absence_cover,absence_cover,0.66,True
+S106816,no relief. stayed. someone must please sort the rooster,absence_cover,absence_cover,1.0,True
+S100299,"waited for relief, nobody came through",absence_cover,late_handover,0.6,False
+S100549,"requested by centre management for load in, signed off",client_requested,client_requested,1.0,True
+S101396,"uMolefe akezanga namhlanje, ngimele yena..",absence_cover,absence_cover,1.0,True
+S100266,klient het ekstra ure gevra vir stocktake,client_requested,client_requested,1.0,True
+S106166,"double duty today, Fourie on family responsibility leave",absence_cover,absence_cover,1.0,True
+S107510,"covering Mahlangu post, no show no call",absence_cover,absence_cover,1.0,True
+S106069,"gate motor failed, manned it by hand till 0h600",equipment_failure,equipment_failure,0.85,True
+S107921,extra hours approved by client for the event setup,client_requested,client_requested,1.0,True
+S100277,shift handover delayed by 20 min,late_handover,late_handover,1.0,True
+S100712,adams off sick. again. covered.,absence_cover,absence_cover,1.0,True
+S104567,as per normal,routine,routine,0.96,True
+S100797,ok,blank,blank,1.0,True
+S108503,sharp,blank,blank,1.0,True
+S106863,no issues on site,routine,routine,0.97,True
+S105139,Next shift guard did not pitch. Had to cover.,absence_cover,absence_cover,1.0,True
+S108280,stood in for sibiya,absence_cover,absence_cover,1.0,True
+S109124,Clieent requested deep clean before the audit - approved,client_requested,client_requested,1.0,True
+S106093,"waited for relief, nobody came through",absence_cover,late_handover,0.6,False
+S106268,as per normal,routine,routine,0.96,True
+S105124,double shift because relief never pitched,absence_cover,absence_cover,1.0,True
+S102948,"relief only arrived six, stayed until then..",absence_cover,absence_cover,1.0,True
+S101081,nothing to report,routine,routine,0.93,True
+S105625,"additional cover requested by site manager, signed off",client_requested,client_requested,1.0,True
+S104037,"masjien is stukkend, alles met die hand gedoen",equipment_failure,equipment_failure,1.0,True
+S105960,"radebe absent, took her rounds as well",absence_cover,absence_cover,1.0,True
+S100537,Covering for Mavuso - booked off sick..,absence_cover,absence_cover,1.0,True
+S109200,ntr,blank,blank,1.0,True
+S102385,stood in for Naidoo,absence_cover,absence_cover,1.0,True
+S101042,"uNdlovu akezanga namhlanje, ngimele yean",absence_cover,absence_cover,1.0,True
+S108254,Covering for Fourie - booked off siick,absence_cover,absence_cover,1.0,True
+S106011,"extra patrol per client email, approved by office",client_requested,client_requested,1.0,True
+S101573,"uNkosi akezanga namhlanje, ngimele yeena",absence_cover,absence_cover,1.0,True
+S105696,"uNkosi akezanga namhlanje, ngimele yena",absence_cover,absence_cover,1.0,True
+S103370,"coovering Baloyi post, no show no call",absence_cover,absence_cover,1.0,True
+S100181,"still on sitee, relief was suppose to come 6am",absence_cover,absence_cover,1.0,True
+S108268,Radebe off sikc. again. cvered..,absence_cover,absence_cover,1.0,True
+S105572,fine,blank,blank,1.0,True
+S103808,"coverign Mavuso post, no show no call",absence_cover,absence_cover,1.0,True
+S101817,double shift because relief never pitched,absence_cover,absence_cover,1.0,True
+S108371,.,blank,blank,1.0,True
+S108540,"next shift akafikanga, ngihlale kuze kube 06h00",absence_cover,absence_cover,1.0,True
+S106935,"stocktake ran over, client asked us to remain, they knnow they pay for it",client_requested,client_requested,1.0,True
+S109156,"generator fault, stayed to monitor",equipment_failure,equipment_failure,0.98,True
+S100726,"gate motor failed, manned it by hand till six",equipment_failure,equipment_failure,0.94,True
+S103382,"waited for relief, nobody came through",absence_cover,late_handover,0.6,False
+S102640,"machine dowwn aggn, took twice as long",equipment_failure,equipment_failure,1.0,True
+S103033,"aflos het nie opgedaag nie, moes aanbly",absence_cover,absence_cover,0.42,True
+S109286,"client wanted extra man on the gate for the event, approved",client_requested,client_requested,1.0,True
+S103604,stood in for Mokoena,absence_cover,absence_cover,1.0,True
+S100052,Client requested deep clean before the audit - approved,client_requested,client_requested,1.0,True
+S107154,sharp,blank,blank,1.0,True
+S107291,extra hrs approved by client for the event setup,client_requested,client_requested,1.0,True
+S106495,"client wanted extra man on the gate for the event, approved..",client_requested,client_requested,1.0,True
+S105669,,blank,blank,1.0,True
+S106182,all quiet,routine,routine,1.0,True
+S103440,"generator fault, stayed to monitor..",equipment_failure,equipment_failure,0.98,True
+S100516,"double duy today, adams on family responsibility leave",absence_cover,absence_cover,1.0,True
+S105883,-,blank,blank,1.0,True
+S100363,"generator fault, stayed to monitor..",equipment_failure,equipment_failure,0.98,True
+S106025,"client says stay till six, dont know if office approved",client_requested,client_requested,0.93,True
+S103703,doouble shift bc relief never pitched,absence_cover,absence_cover,1.0,True
+S103757,centre manager requested additional cover for stocktake,client_requested,client_requested,1.0,True
+S101612,"client asked us to stay for the delivery, ok'd by centre mgmt",client_requested,client_requested,1.0,True
+S102247,"waited 20 min for handover, OB book not signed",late_handover,late_handover,1.0,True
+S109254,"client says stay till six, dont know if office approved..",client_requested,client_requested,0.93,True
+S101501,"late handover, waiting on paperwork",late_handover,late_handover,1.0,True
+S107309,no incidents,routine,absence_cover,1.0,False
+S102584,"masjien is stukkend, alles met die hand gedoen",equipment_failure,equipment_failure,1.0,True
+S100200,"no replacement sent, ngicela sort this out",absence_cover,absence_cover,1.0,True
+S103476,"SCRUBBER BROKE DOWN, HAD TO DO THE FLOOR MANUALLY",equipment_failure,equipment_failure,1.0,True
+S108439,"lift out of order, everything carried up stairs, took lng",equipment_failure,routine,0.72,False
+S108057,"double duty today, Sithole on family responsibility leave !",absence_cover,absence_cover,1.0,True
+S108088,"masjien is stkkend, alles met die hand geddoen",equipment_failure,equipment_failure,1.0,True
+S103864,ok,blank,blank,1.0,True
+S101330,akukho lutho,routine,routine,1.0,True
+S108094,"lift out of orde,r everything carried up stairs, took long",equipment_failure,equipment_failure,0.57,True
+S108510,ok,blank,blank,1.0,True
+S101480,stood in for Dlamini,absence_cover,routine,0.55,False
+S109289,client signed for the extra hrs but real reason is relief no show agn,absence_cover,absence_cover,1.0,True
+S102835,"relef only arrived 6am, stayed until then..",absence_cover,absence_cover,0.62,True
+S108064,baloyi off sick. agn. covered.,absence_cover,absence_cover,1.0,True
+S100548,stood in for fourie,absence_cover,routine,0.56,False
+S105079,"control room says relief coming, nobody came",absence_cover,absence_cover,1.0,True
+S107135,Centre mgr requested additional cover for stocktake,client_requested,client_requested,1.0,True
+S104344,"Jacobs absent, took her rounds as well",absence_cover,absence_cover,0.85,True
+S101630,"stocktake ran over, client asked us to remain, they know they pay for it",client_requested,client_requested,1.0,True
+S103170,fine,blank,blank,1.0,True
+S101566,sharp,blank,blank,1.0,True
+S102828,akukho lutho,routine,routine,1.0,True
+S107529,"worked through, Zulu at the clinic",absence_cover,absence_cover,1.0,True
+S107515,akukho lutho,routine,routine,1.0,True
+S108864,"aflos het nie opgedaag nie, moes aanbly",absence_cover,absence_cover,0.42,True
+S108457,shitf handover delayed by 25 min,late_handover,late_handover,1.0,True
+S106995,"double duty today, Adams on family responsibility leave",absence_cover,absence_cover,1.0,True
+S104151,"handover late again, keys missing",late_handover,late_handover,1.0,True
+S103790,"worked through, dlamini at the clinic",absence_cover,absence_cover,0.76,True
+S101197,ntr,blank,blank,1.0,True
+S101718,fine,blank,blank,1.0,True
+S101587,"late handover, waitng on paperwork",late_handover,late_handover,1.0,True
+S107156,"usithole akezanga namhlanje, ngimeel yena",absence_cover,absence_cover,1.0,True
+S101092,no issues on site,routine,routine,0.97,True
+S106356,"worked through, Sithole at the clinic",absence_cover,absence_cover,0.87,True
+S102632,"uMahlangu akezanga namhlanje, ngimele yena..",absence_cover,absence_cover,1.0,True
+S107359,"additional cover requested by site manager, signed off",client_requested,client_requested,1.0,True
+S102118,all quiet,routine,routine,1.0,True
+S108650,"double duty today, Hendricks on family responsibility leave",absence_cover,absence_cover,1.0,True
+S105655,"handover late agn, keys missing",late_handover,late_handover,1.0,True
+S107623,Centre manager requested additional cover for stocktake,client_requested,client_requested,1.0,True
+S108743,"worked through, Mokoena at the clinic",absence_cover,absence_cover,1.0,True
+S100665,"Molefe absent, took her rounds as well",absence_cover,absence_cover,1.0,True
+S103435,"gedek vir Wyk, siek gemeld",absence_cover,absence_cover,1.0,True
+S106108,RELIEF NO SHOW AGAIN,absence_cover,absence_cover,1.0,True
+S105842,"relief never arrived, stayed on till six",absence_cover,absence_cover,1.0,True
+S106086,"extra patrol per client email, approved by office !",client_requested,client_requested,1.0,True
+S104859,"extra patrol per client email, approved by office",client_requested,client_requested,1.0,True
+S107212,,blank,blank,1.0,True
+S103756,"stocktake ran over, client asked us to remain, they know they pay for it",client_requested,client_requested,1.0,True
+S104304,double shift because relief never pitched,absence_cover,absence_cover,1.0,True
+S100332,"covering Zulu post, no show no call",absence_cover,absence_cover,1.0,True
+S102371,Khumalo off sick. again. covered.,absence_cover,absence_cover,1.0,True
+S107991,Covered for Ndlovu agn - 3rd time this month,absence_cover,absence_cover,1.0,True
+S100302,client requested deep clean before the audit - approved,client_requested,client_requested,1.0,True
+S102062,"double duty today, Pillay on family responsibility leave",absence_cover,absence_cover,1.0,True
+S107810,"oorhandiging was laat, gewag vir sleutels",late_handover,late_handover,1.0,True
+S106116,"gedek vir Zulu, siek gemeld..",absence_cover,absence_cover,1.0,True
+S104043,"waited 25 min for handover, OB book not signed",late_handover,late_handover,1.0,True
+S104333,Next shift guard did not pitch. Had to cover.,absence_cover,absence_cover,1.0,True
+S104906,"machine down agn, took twice as long",equipment_failure,equipment_failure,1.0,True
+S105451,all quiet,routine,routine,1.0,True
+S108872,"late handover, waiting on paperwork",late_handover,late_handover,1.0,True
+S108027,klient het ekstra ure gevra vir stocktake,client_requested,client_requested,1.0,True
+S107476,"worked through, Sibiya at the clinic",absence_cover,absence_cover,1.0,True
+S102766,.,blank,blank,1.0,True
+S103672,no issues on site,routine,routine,0.97,True
+S105472,-,blank,blank,1.0,True
+S107747,"machine down agn, took twice as long",equipment_failure,equipment_failure,1.0,True
+S107208,shift handover delayed by 30 min !,late_handover,late_handover,1.0,True
+S107555,SHIFT HANDOVER DELAYED BY 40 MIN,late_handover,late_handover,1.0,True
+S100891,no relief. stayed. someone must please srt the roster,absence_cover,absence_cover,1.0,True
+S106282,"CLIENT ASKED US TO STAY FOR THE DELIVERY, OK'D BY CENTRE MGMT",client_requested,client_requested,1.0,True
+S102843,as per normal,routine,routine,0.96,True
+S109339,double shift beacuse relief never pitched,absence_cover,absence_cover,1.0,True
+S104674,quiet shift,routine,routine,0.9,True
+S102694,ok,blank,blank,1.0,True
+S101629,Cetre manager requested additional cover for stocktake,client_requested,client_requested,1.0,True
+S109086,nothing to report,routine,routine,0.93,True
+S108692,klient het ekstra ure gevra vir stocktake,client_requested,client_requested,1.0,True
+S107462,"handover late again, keys missing",late_handover,late_handover,1.0,True
+S106103,covered for molefe again - 3rd time this month,absence_cover,absence_cover,1.0,True
+S105103,-,blank,blank,1.0,True
+S106879,"uMavuso akezana namhlanje, ngimele yean",absence_cover,absence_cover,1.0,True
+S104654,"handover late again, keys missing",late_handover,late_handover,1.0,True
+S101764,"STOCKTAKE RAN OVER, CLIENT ASKD US TO REMAIN, THEY KNOW THEY PAY FOR IT..",client_requested,client_requested,1.0,True
+S100498,"stocktake ran over, client asked us to remain, they know tehy pay for it",client_requested,client_requested,1.0,True
+S102011,all good,routine,routine,0.98,True
+S103449,"client asked us to stay for the deliverry, ok'd by centre mgmt..",client_requested,client_requested,1.0,True
+S105682,all quiet,routine,routine,1.0,True
+S106607,"wroked through, Mabaso at the clinic",absence_cover,absence_cover,0.85,True
+S102744,Client requested deep clean before the audit - approved !,client_requested,client_requested,1.0,True
+S103824,nothing to report,routine,routine,0.93,True
+S107616,-,blank,blank,1.0,True
+S106424,covering for molefe - booked off sick,absence_cover,absence_cover,1.0,True
+S106137,"waited 45 min for handover, ob book not signed",late_handover,late_handover,1.0,True
+S102719,"machine down agn, took twice as long",equipment_failure,equipment_failure,1.0,True
+S101504,"took Sithole shift as well, 2 posts 1 guard",absence_cover,routine,0.52,False
+S102874,"Ngcobo didnt come in, covered the post",absence_cover,absence_cover,1.0,True
+S105098,"requessted by centre management for load in, signed off",client_requested,client_requested,1.0,True
+S105180,"took Baloyi shift as well, 2 posts 1 guard",absence_cover,absence_cover,0.5,True
+S107046,"waited 40 min for handover, OB book not signed",late_handover,late_handover,1.0,True
+S102676,"worked through, motaung at the clinic !",absence_cover,absence_cover,0.74,True
+S105322,extra hours approved by client for the event setup,client_requested,client_requested,1.0,True
+S107350,Centre manager requested additional cover for stocktake,client_requested,client_requested,1.0,True
+S107707,no relief. stayed. someone must pls sort the roster,absence_cover,absence_cover,1.0,True
+S106277,"Fourie didnt come in, covered the post",absence_cover,absence_cover,1.0,True
+S108049,"client wanted extra man on the gate for the event, approved",client_requested,client_requested,1.0,True
+S101735,as per normal,routine,routine,0.96,True
+S103842,"took Radebe shift as well, 2 posts 1 guard",absence_cover,absence_cover,1.0,True
+S100398,"double duty today, adams on family responsibility leave",absence_cover,absence_cover,1.0,True
+S100319,"client asked us to stay for the delivery, ok'd by centre mgmt",client_requested,client_requested,1.0,True
+S108777,no incidents,routine,absence_cover,1.0,False
+S106576,"control room says relief coming, nobody came",absence_cover,absence_cover,1.0,True
+S108538,nothing to report,routine,routine,0.93,True
+S106370,"stocktake ran over, client asked us to remain, they know they pay for it",client_requested,client_requested,1.0,True
+S107336,"client wanted extra man on the gate for the event, approved",client_requested,client_requested,1.0,True
+S106801,"took Sibiya shift as well, 2 posts 1 gurad !",absence_cover,routine,0.79,False
+S100331,"late handover, waitting on paperwork..",late_handover,late_handover,1.0,True
+S101887,extra hrs approved by client for the event setup..,client_requested,client_requested,1.0,True
+S100525,"requested by centre management for load in, signed off",client_requested,client_requested,1.0,True
+S102246,"next shift akafikanga, ngihlale kuze kube six",absence_cover,absence_cover,1.0,True
+S108330,ok,blank,blank,1.0,True
+S105314,"khumalo didnt comme in, covered the post",absence_cover,absence_cover,1.0,True
+S103111,"requested by centre management for load in, signed off",client_requested,client_requested,1.0,True
+S106974,covering for wyk - booked off sck,absence_cover,absence_cover,1.0,True
+S102866,"aflos het nie opgedaag nie, moes aanbly",absence_cover,absence_cover,0.42,True
+S101384,stod in for Sithole,absence_cover,routine,0.5,False
+S106096,"ufourie akezanga namhlanje, ngimele yena",absence_cover,absence_cover,1.0,True
+S107944,"requested by centre management for load in, signed off",client_requested,client_requested,1.0,True
+S101166,klient het ekstra ure gevra vir stocktake,client_requested,client_requested,1.0,True
+S104424,all quiet,routine,routine,1.0,True
+S102408,"wated 40 min for handover, OB book not signed",late_handover,late_handover,1.0,True
+S106818,.,blank,blank,1.0,True
+S107060,Covered for Botha again - 3rd time this month..,absence_cover,absence_cover,1.0,True
+S100307,"additional cover requested by site mgr, signed off",client_requested,client_requested,1.0,True
+S103057,no incidents,routine,absence_cover,1.0,False
+S106569,"gedek vir Mokoena, siek gemeld..",absence_cover,absence_cover,1.0,True
+S100134,"waited 20 min for handover, OB book not signed",late_handover,late_handover,1.0,True
+S100649,Client requested deep clean before the audit - approved,client_requested,client_requested,1.0,True
+S102054,kllient het ekstra ure gevra vir stocktake,client_requested,client_requested,1.0,True
+S106281,Covred for Mavuso again - 3rd time this month,absence_cover,absence_cover,1.0,True
+S105582,"generator fault, stayed to monitor",equipment_failure,equipment_failure,0.98,True
+S103702,stood in for Mokoena,absence_cover,absence_cover,1.0,True
+S100773,as per normal,routine,routine,0.96,True
+S103475,all good,routine,routine,0.98,True
+S101458,"COVERING MAHLANGU POST, NO SHOW NO CALL",absence_cover,absence_cover,1.0,True
+S108745,"late handover, waiting on paperwork",late_handover,late_handover,1.0,True
+S108265,no relief. stayed. someone mut please sort the roster,absence_cover,absence_cover,1.0,True
+S107404,n/a,blank,blank,1.0,True
+S107077,stood in for Sibiya,absence_cover,absence_cover,1.0,True
+S105755,"lift out of order, everything carried up stairs, took loong",equipment_failure,equipment_failure,0.46,True
+S106286,"late handover, waiting on paperwork",late_handover,late_handover,1.0,True
+S106440,"next shift akafikanga, ngihlale kuze kube six",absence_cover,absence_cover,1.0,True
+S102086,all quiet,routine,routine,1.0,True
+S103486,"worked through, Wyk at the clinic",absence_cover,absence_cover,1.0,True
+S103158,"waited 25 min for handover, OB book not signed",late_handover,late_handover,1.0,True
+S102971,extra hours approved by client for the event setup,client_requested,client_requested,1.0,True
+S101051,fine,blank,blank,1.0,True
+S105647,Client asked for extra patrol after the break-in Tuesday,client_requested,client_requested,1.0,True
+S101820,"covering Ngcobo post, no show no call",absence_cover,absence_cover,1.0,True
+S101768,"generator fault, stayed to monitor",equipment_failure,equipment_failure,0.98,True
+S106091,"worked through, mavuso at the clinic",absence_cover,absence_cover,1.0,True
+S105295,n/a,blank,blank,1.0,True
+S107709,no relief. stayed. someone must please sort the roster,absence_cover,absence_cover,1.0,True
+S107617,"handover lae again, keys missing",late_handover,late_handover,1.0,True
+S103039,"waited 50 min for handover, OB book not signed",late_handover,late_handover,1.0,True
+S101609,"covering Cele post, no show no call",absence_cover,absence_cover,1.0,True
+S109137,extra hours approved by client for the event setup,client_requested,client_requested,1.0,True
+S105287,as per normal,routine,routine,0.96,True
+S105958,quiet shift,routine,routine,0.9,True
+S109346,all good,routine,routine,0.98,True
+S108892,"worked through, Sibiya at the clinic",absence_cover,absence_cover,1.0,True
+S107950,"handover late again, keys missiing",late_handover,late_handover,1.0,True
+S108035,"client wanted extra man on the gate for the event, approved",client_requested,client_requested,1.0,True
+S102930,"additional cover requested by site manager, signed off",client_requested,client_requested,1.0,True
+S107017,niks om te rapporteer nie,routine,routine,0.97,True
+S101524,"control room says relief coming, nobody camme",absence_cover,absence_cover,1.0,True
+S106728,"nexxt shift akafikanga, ngihlale kuze kube 06h00",absence_cover,absence_cover,1.0,True
+S106394,klient het ekstrra ure gevra vir stocktake,client_requested,client_requested,1.0,True
+S104415,Covered for Mthembu agn - 3rd time this month,absence_cover,absence_cover,1.0,True
+S103765,"extra patrol per client email, approved by office",client_requested,client_requested,1.0,True
+S100558,"requested by centre management for load in, signed off",client_requested,client_requested,1.0,True
+S103614,"additional cover requested by site manager, signed off",client_requested,client_requested,1.0,True
+S105922,Covered for Wyk again - 3rd time this month..,absence_cover,absence_cover,1.0,True
+S106407,Naidoo off sick. again. covered.,absence_cover,absence_cover,1.0,True
+S101313,sharp,blank,blank,1.0,True
+S106100,"waited 50 min for handover, ob book not signed",late_handover,late_handover,1.0,True
+S101614,"aflos het nie opgedaag ne, moes aanbly",absence_cover,absence_cover,0.45,True
+S105641,"double dutty today, molefe on fmaily responsibility leave..",absence_cover,absence_cover,1.0,True
+S104433,"lift out of order, everything carried up stairs, took long",equipment_failure,equipment_failure,0.57,True
+S100057,sharp,blank,blank,1.0,True
+S101497,n/a,blank,blank,1.0,True
+S105204,"buffer machine kaput, did the floor by hand",equipment_failure,equipment_failure,1.0,True
+S108450,"extra patrol per client email, approved by office",client_requested,client_requested,1.0,True
+S105609,Client asked for extra patrol after the break-in Tuesday,client_requested,client_requested,1.0,True
+S100795,-,blank,blank,1.0,True
+S104407,"relief only arrived 0600, stayed until then",absence_cover,absence_cover,1.0,True
+S105854,ntr,blank,blank,1.0,True
+S107175,no incidents,routine,absence_cover,1.0,False
+S107368,"client says sttay till six, dont know if office approved",client_requested,client_requested,1.0,True
+S101748,Centre manager requested additional cover for stocktake,client_requested,client_requested,1.0,True
+S104326,"stocktake ran over, client asked us to remain, they know they pay for it",client_requested,client_requested,1.0,True
+S108683,"additional cover requested by site manager, signed off",client_requested,client_requested,1.0,True
+S105737,fine,blank,blank,1.0,True
+S109177,ok,blank,blank,1.0,True
+S107873,Sibiya off sick. agn. covered.,absence_cover,absence_cover,1.0,True
+S100114,"waited 25 min for handover, ob book not signed",late_handover,late_handover,1.0,True
+S103831,"uWyk akezanga namhlanje, ngimele yena",absence_cover,absence_cover,1.0,True
+S102079,all good,routine,routine,0.98,True
+S104665,Client asekd for extra patrol after the break-in Tuesday,client_requested,client_requested,1.0,True
+S105651,"oorhandiging was lata, gewag vir sleutels",late_handover,late_handover,1.0,True
+S100389,"masjien is stukkedn, alles met die hand gedoen..",equipment_failure,equipment_failure,1.0,True
+S107711,SHIFT HANDOVER DELAYED BY 40 MIN,late_handover,late_handover,1.0,True
+S108496,no incidents,routine,absence_cover,1.0,False
+S106753,"took botha shift as well, 2 posts 1 guard",absence_cover,absence_cover,1.0,True
+S103779,"control room says relief coming, nobody came",absence_cover,absence_cover,1.0,True
+S105658,Client requested deep clean befre the audit - approved,client_requested,client_requested,1.0,True
+S106880,"extra patrol per client email, approved by ofice",client_requested,client_requested,1.0,True
+S100276,"late handover, waiting on paperwork",late_handover,late_handover,1.0,True
+S106220,Client requested deep clean before the audit - approved,client_requested,client_requested,1.0,True
+S107418,all quiet,routine,routine,1.0,True
+S104901,"generator fault, stayed to monitor",equipment_failure,equipment_failure,0.98,True
+S107297,double shift because relief never pitched,absence_cover,absence_cover,1.0,True
+S108899,"masjien is stukkend, alles met die hand gedoen",equipment_failure,equipment_failure,1.0,True
+S102709,-,blank,blank,1.0,True
+S107372,"uNgcobo akezanga namhlanje, ngimele ynea",absence_cover,absence_cover,1.0,True
+S109370,"still on site, relief was suppose to come 06:00",absence_cover,absence_cover,1.0,True
+S109272,"generator fault, stayed to monitor",equipment_failure,equipment_failure,0.98,True
+S103799,"relief never arrived, stayed on till 06h00",absence_cover,absence_cover,1.0,True
+S104108,next shift guard did not pitch. had to cover..,absence_cover,absence_cover,1.0,True
+S102977,"gedek vir Mthembu, siek gemeld !",absence_cover,absence_cover,1.0,True
+S103868,"requested by centre management for load in, signed off",client_requested,client_requested,1.0,True
+S107802,.,blank,blank,1.0,True
+S104312,.,blank,blank,1.0,True
+S107243,"worked through, Sibiya at the clinic",absence_cover,absence_cover,1.0,True
+S100325,klient het ekstra ure gevra vir stocktake,client_requested,client_requested,1.0,True
+S101773,"client says stay till 06h00, dont know if office approved",client_requested,client_requested,1.0,True
+S108846,"handover late agn, keys missing",late_handover,late_handover,1.0,True
+S101203,"gedek vir Mthembu, siek gemeld",absence_cover,absence_cover,1.0,True
+S106597,"client says stay till 06h00, dont know if office approved",client_requested,client_requested,1.0,True
+S101888,no relief. stayed. someone mut please sort the roster..,absence_cover,absence_cover,1.0,True
+S107461,"aflos het nie opgedaag nie, moes aanly",absence_cover,absence_cover,0.38,True
+S106344,"umaluleke akezanga namhlanje, ngimele yeena",absence_cover,absence_cover,1.0,True
+S109397,fine,blank,blank,1.0,True
+S105504,"client asked us to stay for the delivery, ok'd by centre mgmt",client_requested,client_requested,1.0,True
+S102288,extra hrs approved by client for the event setup,client_requested,client_requested,1.0,True
+S104628,Covering for Adams - booked off sick,absence_cover,absence_cover,1.0,True
+S106519,no relief. stayed. someone must please sort the roster,absence_cover,absence_cover,1.0,True
+S104644,niks om te rapporteer nie,routine,routine,0.97,True
+S100172,"uSibiya akezanga namhlanje, ngimele yena",absence_cover,absence_cover,1.0,True
+S108096,RELIEF NO SHOW AGAIN,absence_cover,absence_cover,1.0,True
+S103599,shift handover deelayed by 40 min !,late_handover,late_handover,1.0,True
+S108176,"stocktake ran over, client asked us to remain, they know they pay for it",client_requested,client_requested,1.0,True
+S105643,"handover late again, keys missing",late_handover,late_handover,1.0,True
+S101740,extra hrs approved by client for the event setup,client_requested,client_requested,1.0,True
+S102995,as per normal,routine,routine,0.96,True
+S104319,"Tshabalala absent, took her rounds as well",absence_cover,absence_cover,1.0,True
+S106228,"extra patrol per client email, approved by office",client_requested,client_requested,1.0,True
+S107960,"covering Naidoo post, no show no call",absence_cover,absence_cover,1.0,True
+S104406,"oorhandiging was laat, gewag vir sleutels",late_handover,late_handover,1.0,True
+S103004,"requested by centre managemennt for load in, signed off !",client_requested,client_requested,1.0,True
+S104421,"scrubber broke down, had to do the floor manually",equipment_failure,equipment_failure,1.0,True
+S103392,"next shift akafikanga, ngihlale kuze kube 6..",absence_cover,absence_cover,1.0,True
+S101089,"masjien is stukkend, ales met die hand gedoen !",equipment_failure,equipment_failure,1.0,True
+S107862,"lift out of order, everything carried up stairs, took long",equipment_failure,equipment_failure,0.57,True
+S100345,"uMahlangu akezanga namhlanje, ngimele yena",absence_cover,absence_cover,1.0,True
+S106623,"double duty today, Hendricks on family responsibility leave",absence_cover,absence_cover,1.0,True
+S108674,"client says stay till 0600, dont know if office approved",client_requested,client_requested,1.0,True
+S108192,"stocktake ran over, client asked us to remain, they know they pay for it",client_requested,client_requested,1.0,True
+S104689,"Maluleke didnt come in, covered the post",absence_cover,absence_cover,1.0,True
+S104878,"double duty today, Jacobs on family responsibility leae..",absence_cover,absence_cover,1.0,True
+S108196,"client wanted extra man on the gate for the event, approved !",client_requested,client_requested,1.0,True
+S107497,"double duty today, Motaung on family responsibility leave",absence_cover,absence_cover,1.0,True
+S103401,no relief. stayed. someone must please sort the roster,absence_cover,absence_cover,1.0,True
+S100710,"no replacment sent, ngicela sort this out",absence_cover,absence_cover,1.0,True
+S105319,"double duty today, Sibiya on family responsibility leave",absence_cover,absence_cover,1.0,True
+S103592,"relief only arrived sxi, stayed until then..",absence_cover,absence_cover,1.0,True
+S108446,kliennt het ekstra ure gevra vir stocktake,client_requested,client_requested,1.0,True
+S107986,"extra patrol per client email, approved by office",client_requested,client_requested,1.0,True
+S106383,"ungcobo akezanga namhlanje, ngimele yena",absence_cover,absence_cover,1.0,True
+S109100,"client wanted extra man on the gate for the event, approved",client_requested,client_requested,1.0,True
+S104885,"late handover, waiting on paperwork !",late_handover,late_handover,1.0,True
+S103044,double shift bc relief never pitched,absence_cover,absence_cover,1.0,True
+S105817,ok,blank,blank,1.0,True
+S103443,"lift out of order, everything carried up stairs, took long",equipment_failure,equipment_failure,0.57,True
+S105267,"bfufer machine kaput, did the floor by hand",equipment_failure,equipment_failure,1.0,True
+S106432,"oorhandiging was laat, gewag vir sleutels",late_handover,late_handover,1.0,True
+S107698,"no replacement sent, ngicela sort this out",absence_cover,absence_cover,1.0,True
+S106374,Centre mgr requested additional cvoer for stocktake,client_requested,client_requested,1.0,True
+S107985,stood in for zulu,absence_cover,absence_cover,0.74,True
+S105143,"lift out of order, everything caried up stairs, took long",equipment_failure,equipment_failure,0.57,True
+S105302,"double duty today, Fourie on famiy responsibility leave",absence_cover,absence_cover,1.0,True
+S101859,klient het ekstra ure gevra vir stocktake,client_requested,client_requested,1.0,True
+S100868,ntr,blank,blank,1.0,True
+S100269,no relief. stayed. someone must please sort the roster,absence_cover,absence_cover,1.0,True
+S108858,"botha didnt come in, covered the post..",absence_cover,absence_cover,1.0,True
+S108494,"client says stay till 6, dont kow if office approved",client_requested,client_requested,1.0,True
+S100283,"oorhandiging was laat, gewag vir sleutles !",late_handover,late_handover,1.0,True
+S108586,"handover latte again, keys missing",late_handover,late_handover,1.0,True
+S100771,Covered for Fourie again - 3rd time this month..,absence_cover,absence_cover,1.0,True
+S105780,ntr,blank,blank,1.0,True
+S104883,ok,blank,blank,1.0,True
+S107995,stood in for mabaso,absence_cover,routine,0.53,False
+S106316,extra hrs appproved by client for the event setup,client_requested,client_requested,1.0,True
+S103446,"generator fault, stayed to monitor",equipment_failure,equipment_failure,0.98,True
+S100535,"generator falut, stayed to monitor",equipment_failure,equipment_failure,0.98,True
+S107049,"lift out of order, everything carried up stairs, took long",equipment_failure,equipment_failure,0.57,True
+S102839,"aflos het nie opgedaag nie, moes aanblly",absence_cover,absence_cover,0.4,True
+S103610,no relief. stayed. someone must please sort the roster,absence_cover,absence_cover,1.0,True
+S104382,niks om te rapporteer nie,routine,routine,0.97,True
+S108357,"covering Ndlovu post, no show no call",absence_cover,absence_cover,1.0,True
+S103685,"generator fault, stayd to monitor",equipment_failure,equipment_failure,0.98,True
+S106148,"handover late again, keys missing",late_handover,late_handover,1.0,True
+S102498,ntr,blank,blank,1.0,True
+S107042,"covering Molefe post, no show no call",absence_cover,absence_cover,1.0,True
+S104646,"stocktake ran over, client asked us to remain, they know they pay for it",client_requested,client_requested,1.0,True
+S101526,"worked throuugh, September at the clinic",absence_cover,absence_cover,0.78,True
+S107967,"waited for releif, nobody came through",absence_cover,late_handover,0.58,False
+S107549,,blank,blank,1.0,True
+S105630,shift handover delayed by 30 min,late_handover,late_handover,1.0,True
+S105327,Covering for Botha - booked off sick,absence_cover,absence_cover,1.0,True
+S108130,"additional cover requested by site mgr, signed off",client_requested,client_requested,1.0,True
+S106201,-,blank,blank,1.0,True
+S106899,"uMokoena akezanga namhlanje, ngimele yena",absence_cover,absence_cover,1.0,True
+S107524,"double duty today, Sibiya on family responsibility leave",absence_cover,absence_cover,1.0,True
+S103153,"worked through, Sibiya at the clinic",absence_cover,absence_cover,1.0,True
+S104338,"Nkosi didnt come in, covered the post",absence_cover,absence_cover,1.0,True
+S100724,"client wanted extra man on the gate for the evvent, approved !",client_requested,client_requested,1.0,True
+S104648,.,blank,blank,1.0,True
+S104083,"september absent, took her rounds as well",absence_cover,absence_cover,1.0,True
+S107344,"handover late agn, keys missing",late_handover,late_handover,1.0,True
+S103612,shift hadnover delayed by 30 min,late_handover,late_handover,0.64,True
+S102378,"client waned extra man on the gate for the event, approved",client_requested,client_requested,1.0,True
+S106888,"oorhandiging was laat, gewag vir sleutels",late_handover,late_handover,1.0,True
+S105165,"aflos het nie opgedaga niie, moes anbly",absence_cover,absence_cover,0.37,True
+S105888,klient het ekstra ure gevra vir stocktake..,client_requested,client_requested,1.0,True
+S102710,"tshabalala absent, took her rounds as well",absence_cover,absence_cover,1.0,True
+S106661,"waited 30 min for handover, OB book not signed..",late_handover,late_handover,1.0,True
+S102302,"gedek vir Adams, siek gemeld",absence_cover,absence_cover,1.0,True
+S107989,"control room says relief comin, nobody came",absence_cover,absence_cover,1.0,True
+S105809,"control room says relief coming, nobody came !",absence_cover,absence_cover,1.0,True
+S103143,stood in for Baloyi,absence_cover,absence_cover,0.67,True
+S102309,all good,routine,routine,0.98,True
+S107728,stood in for Maluleke,absence_cover,routine,0.56,False
+S107898,"relief only arrived 6am, stayed until then",absence_cover,absence_cover,1.0,True
+S106422,"late handover, waiiting on paperwork",late_handover,late_handover,1.0,True
+S106283,extra hrs approved by client for the event setup,client_requested,client_requested,1.0,True
+S106415,"masjien is stukkend, alles met die hand gedoen",equipment_failure,equipment_failure,1.0,True
+S106276,nothing to report,routine,routine,0.93,True
+S103020,Botha off sick. agn. covered.,absence_cover,absence_cover,1.0,True
+S108204,klient het ekstra ure gevra vir stocktake,client_requested,client_requested,1.0,True
+S101096,"tok Botha shift as well, 2 posts 1 guard",absence_cover,absence_cover,1.0,True
+S105634,"requested by centre management for load in, signed off",client_requested,client_requested,1.0,True
+S101833,"uhendrciks akezanga namhlanje, ngimele yena..",absence_cover,absence_cover,1.0,True
+S108364,"additional cover requested by site manager, signed off",client_requested,client_requested,1.0,True
+S103068,"Wyk didnt coome in, covered the post",absence_cover,absence_cover,1.0,True
+S101059,"WORKED THROUGH, SIBIYA AT THE CLINIC..",absence_cover,absence_cover,1.0,True
+S100360,"gate motor failed, manned it by hand tilll 0600..",equipment_failure,equipment_failure,0.89,True
+S102441,covering for maluleke - booked off sick,absence_cover,absence_cover,1.0,True
+S105488,akukho lutho,routine,routine,1.0,True
+S107400,all fine,routine,blank,0.77,False
+S102824,"control room says relief coming, nobody came",absence_cover,absence_cover,1.0,True
+S107235,nothing to report,routine,routine,0.93,True
+S106874,"baloyi didnt come in, covered the post",absence_cover,absence_cover,1.0,True
+S106788,"additional cover requested by site mgr, signed off",client_requested,client_requested,1.0,True
+S107521,"relief only arrived 06:00, stayyed until then",absence_cover,absence_cover,1.0,True
+S107155,quiet shift,routine,routine,0.9,True
+S107308,all good,routine,routine,0.98,True
+S107072,"still on site, relief was suppose to come six !",absence_cover,absence_cover,1.0,True
+S101898,"Sibiya didnt come in, covered the post",absence_cover,absence_cover,1.0,True
+S104077,"took Ngcobo shift as well, 2 posts 1 guard",absence_cover,routine,0.74,False
+S102140,"scrubber broke down, had to do the floor manually",equipment_failure,equipment_failure,1.0,True
+S106906,next shift guard did not pitch. had to cover..,absence_cover,absence_cover,1.0,True
+S106659,"Wyk absent, took her rounds as well",absence_cover,absence_cover,1.0,True
+S108596,all fine,routine,blank,0.77,False
+S109349,n/a,blank,blank,1.0,True
+S104858,Covering for Ngcobo - booked off sick,absence_cover,absence_cover,1.0,True
+S100523,relief no show AGAIN,absence_cover,absence_cover,1.0,True
+S104204,"covering molefe post, no show no call",absence_cover,absence_cover,1.0,True
+S103595,"umolefe akezanga namhlanje, ngimele yena",absence_cover,absence_cover,1.0,True
+S108047,all quiet,routine,routine,1.0,True
+S109308,"uZulu akezanga namhlanje, ngimele yena",absence_cover,absence_cover,1.0,True
+S105050,stood in for Pillay..,absence_cover,routine,0.55,False
+S106433,extra hrs approved by client for the event setup,client_requested,client_requested,1.0,True
+S103585,no relief. stayed. someone must pls sort the roster,absence_cover,absence_cover,1.0,True
+S100972,all quiet,routine,routine,1.0,True
+S102704,ntr,blank,blank,1.0,True
+S105748,"Mavuso didnt come in, covered the post..",absence_cover,absence_cover,1.0,True
+S109111,,blank,blank,1.0,True
+S102010,shift hanndover delayed by 30 min,late_handover,late_handover,0.74,True
+S105626,"covering Mahlangu post, no show no call",absence_cover,absence_cover,1.0,True
+S101392,"handover late again, keys missing",late_handover,late_handover,1.0,True
+S107771,-,blank,blank,1.0,True
+S104924,"Naidoo absent, tok her roudns as well",absence_cover,absence_cover,1.0,True
+S100849,no issues on site,routine,routine,0.97,True
+S107541,fine,blank,blank,1.0,True
+S103960,"no replacement sent, ngicela sort this out",absence_cover,absence_cover,1.0,True
+S102399,"worked through, Molefe at the clinic",absence_cover,absence_cover,1.0,True
+S104498,"requested by centre management for load in, signed off",client_requested,client_requested,1.0,True
+S100311,no relief. stayed. someone must please sort the roster..,absence_cover,absence_cover,1.0,True
+S107355,Covering for Naidoo - booked off sick..,absence_cover,absence_cover,1.0,True
+S105207,sharp,blank,blank,1.0,True
+S102913,quiet shift,routine,routine,0.9,True
+S104834,n/a,blank,blank,1.0,True
+S104231,"oorhandiging was laat, gewag vir sleutels",late_handover,late_handover,1.0,True
+S104030,"waited for relief, nobody came through",absence_cover,late_handover,0.6,False
+S100774,Centre manager requested additional cover for stocktake,client_requested,client_requested,1.0,True
+S101839,quiet shift,routine,routine,0.9,True
+S102944,n/a,blank,blank,1.0,True
+S103411,ceentre manager rqeuested additional cover for stocktake,client_requested,client_requested,1.0,True
+S108179,"Motaung didnt come in, covered the post",absence_cover,absence_cover,1.0,True
+S106154,"waited 20 min for handover, ob book not signed !",late_handover,late_handover,1.0,True
+S106133,stood in for Wyk,absence_cover,absence_cover,1.0,True
+S103061,"generator fault, stayed to monitor..",equipment_failure,equipment_failure,0.98,True
+S100584,"still on site, reelief was suppose to come 06:00",absence_cover,absence_cover,1.0,True
+S101099,"oorhandiging was laat, gewag vir sleutels",late_handover,late_handover,1.0,True
+S105363,"uJacobs akezanga namhlanje, ngimele yena",absence_cover,absence_cover,1.0,True
+S103710,shift handover delayed by 20 min,late_handover,late_handover,1.0,True
+S108037,"lift out of order, everything carried up stairs, took long",equipment_failure,equipment_failure,0.57,True
+S105002,Clint requsted deep clean before the audit - approved,client_requested,client_requested,1.0,True
+S100043,nothing to report,routine,routine,0.93,True
+S102847,etxra hrs approved by client for the event setup,client_requested,client_requested,1.0,True
+S106613,sharp,blank,blank,1.0,True
+S105431,stood in for Nkosi,absence_cover,routine,0.51,False
+S107244,"waited 25 min for handover, OB book not signed",late_handover,late_handover,1.0,True
+S107699,no incidents,routine,absence_cover,1.0,False
+S106140,sharp,blank,blank,1.0,True
+S106965,"requested by centre maangement for load in, signed off",client_requested,client_requested,1.0,True
+S108481,ntr,blank,blank,1.0,True
+S106021,Client asked for extra patrol after the break-in Tuesdaay,client_requested,client_requested,1.0,True
+S107465,fine,blank,blank,1.0,True
+S104653,"buffer machine kaput, did the floor by hand",equipment_failure,equipment_failure,1.0,True
+S103535,all quiet,routine,routine,1.0,True
+S101987,quiet shift,routine,routine,0.9,True
+S108585,"worked through, Adams at the clinic",absence_cover,absence_cover,0.87,True
+S108003,"covering Hendrricks post, no show no call",absence_cover,absence_cover,1.0,True
+S108898,"ujacobs akezanga namhlanje, ngimele yena",absence_cover,absence_cover,1.0,True
+S100600,Covering for Mavuso - booked off sick,absence_cover,absence_cover,1.0,True
+S102555,"gedek vir molefe, siek gemeld..",absence_cover,absence_cover,1.0,True
+S104010,"took Ndlovu shift as well, 2 psots 1 guard",absence_cover,routine,0.74,False
+S103664,.,blank,blank,1.0,True
+S100894,"cliennt says stay till 6, dont know if office approved..",client_requested,client_requested,1.0,True
+S109246,fine,blank,blank,1.0,True
+S103010,Centre mgr requested additional cover for stocktake..,client_requested,client_requested,1.0,True
+S102008,"worked through, Naidoo at the clinic",absence_cover,absence_cover,1.0,True
+S106263,"gate motor failed, manned it by hand till 06:00",equipment_failure,equipment_failure,0.87,True
+S100576,Covered for Mokoena agn - 3rd time this month,absence_cover,absence_cover,1.0,True
+S100488,fine,blank,blank,1.0,True
+S107977,"late hanover, wating on paperwork",late_handover,late_handover,1.0,True
+S100274,n/a,blank,blank,1.0,True
+S103348,Centre manager requested additional cover for stocktake,client_requested,client_requested,1.0,True
+S103560,all good,routine,routine,0.98,True
+S103409,covered for khumalo again - 3rd time this month,absence_cover,absence_cover,1.0,True
+S108084,"late handover, waiting on paperwork",late_handover,late_handover,1.0,True
+S102102,as per normal,routine,routine,0.96,True
+S102296,n/a,blank,blank,1.0,True
+S102234,no incidents,routine,absence_cover,1.0,False
+S106403,"took molefe shift as well, 2 posts 1 guard",absence_cover,absence_cover,1.0,True
+S102186,relief no show AGAIN,absence_cover,absence_cover,1.0,True
+S104964,"client says stay till 06h00, dont know if office approved",client_requested,client_requested,1.0,True
+S105846,"Cele absent, took her rounds as well",absence_cover,absence_cover,1.0,True
+S108065,"Jacobs didnt come in, covered the post",absence_cover,absence_cover,1.0,True
+S107516,,blank,blank,1.0,True
+S105839,"late handover, waiting on paperwork",late_handover,late_handover,1.0,True
+S105619,sharp,blank,blank,1.0,True
+S102607,extra hours approved by client for the eent setup..,client_requested,client_requested,1.0,True
+S101094,.,blank,blank,1.0,True
+S108677,"stocktake ran over, client asked us to remain, they know they pay for it..",client_requested,client_requested,1.0,True
+S103485,nothing to report,routine,routine,0.93,True
+S102391,"masjien is stukkend, alles met die hand gedoen..",equipment_failure,equipment_failure,1.0,True
+S106343,ntr,blank,blank,1.0,True
+S100444,quiet shift,routine,routine,0.9,True
+S103629,quiet shift,routine,routine,0.9,True
+S102490,all fine,routine,blank,0.77,False
+S107573,-,blank,blank,1.0,True
+S106955,maluleke off sick. again. covered.,absence_cover,absence_cover,1.0,True
+S102351,"handover late again, keys missing",late_handover,late_handover,1.0,True
+S107970,Covered for Fourie again - 3rd time this month,absence_cover,absence_cover,1.0,True
+S102872,.,blank,blank,1.0,True
+S103390,Mavuso off sick. again. covered.,absence_cover,absence_cover,1.0,True
+S103663,Next sift guuard did not pitch. Had to cover,absence_cover,absence_cover,1.0,True
+S108607,ok,blank,blank,1.0,True
+S107110,"double duty today, Maluleke on family responsibility leave",absence_cover,absence_cover,1.0,True
+S108272,"aflos het nie opgedaag nie, moes aanbly..",absence_cover,absence_cover,0.37,True
+S101015,"waited for relief, nobody caem throuhg",absence_cover,late_handover,0.7,False
+S105970,"generator fault, stayed to monitor",equipment_failure,equipment_failure,0.98,True
+S102398,fine,blank,blank,1.0,True
+S100890,COVERED FOR FOURIE AGAIN - 3RD TIME THIS MONTH,absence_cover,absence_cover,1.0,True
+S108525,.,blank,blank,1.0,True
+S101514,"control room says relief coming, nobody came",absence_cover,absence_cover,1.0,True
+S103076,"stlil on site, relief was suppose to comme 6am",absence_cover,absence_cover,1.0,True
+S106703,Client asked for extra patrol affter the break-in Tuesday,client_requested,client_requested,1.0,True
+S105099,"next shift akafikanga, ngihlale kuze kube 06:00",absence_cover,absence_cover,1.0,True
+S101736,"tok bothha shift as wlel, 2 posts 1 guard",absence_cover,routine,0.74,False
+S100768,"handover late agn, keys missing",late_handover,late_handover,1.0,True
+S103771,"scrubber broke down, had to do the floor manually",equipment_failure,equipment_failure,1.0,True
+S108483,Covering for Molefe - booked off sick,absence_cover,absence_cover,1.0,True
+S107757,,blank,blank,1.0,True
+S100188,"worked through, Wyk at the clinic",absence_cover,absence_cover,1.0,True
+S102703,as per normal,routine,routine,0.96,True
+S100541,n/a,blank,blank,1.0,True
+S103562,"waitde 40 min for handover, OB book not signed",late_handover,late_handover,1.0,True
+S109114,Covering for Sibiya - booked off sick,absence_cover,absence_cover,1.0,True
+S100401,"masjien is stukkend, alles met die hand gedoen",equipment_failure,equipment_failure,1.0,True
+S107329,"covering jacobs post, no show no call",absence_cover,absence_cover,1.0,True
+S106542,"covering Ndlovu post, no show no call",absence_cover,absence_cover,1.0,True
+S106384,Centre manager requested additional cover for stocktake,client_requested,client_requested,1.0,True
+S108050,"oorhandiging was laat, gewag vir sleutels",late_handover,late_handover,1.0,True
+S104560,"still on site, relief was suppose to come 06h00",absence_cover,absence_cover,1.0,True
+S104444,"relief only arrived six, stayed until then",absence_cover,absence_cover,1.0,True
+S101563,Mokoena off sick. again. covered.,absence_cover,absence_cover,1.0,True
+S107377,sharp,blank,blank,1.0,True
+S105447,all fine,routine,blank,0.77,False
+S109353,"FOURIE DIDNT COME IN, COVERED THE POST",absence_cover,absence_cover,1.0,True
+S103389,shift handover delayed by 25 min,late_handover,late_handover,1.0,True
+S100108,niks om te rapporteer nie,routine,routine,0.97,True
+S108169,CLIENT REQUESTED DEEP CLEAN BEFORE THE AUDIT - APPROVED,client_requested,client_requested,1.0,True
+S105080,"client says stay till 6am, dont know if office approved",client_requested,client_requested,1.0,True
+S108856,no relief. stayed. someone must please sort the roster,absence_cover,absence_cover,1.0,True
+S105331,"tshabalala didnt come in, covered the post",absence_cover,absence_cover,1.0,True
+S105996,akukho lutho,routine,routine,1.0,True
+S106246,"extra patrol per client email, approved by office",client_requested,client_requested,1.0,True
+S109266,stood in for Jacobs,absence_cover,routine,0.52,False
+S103118,KLIENT HET EKSTRA URE GEVRA VIR STOCKTAKE,client_requested,client_requested,1.0,True
+S103564,Client asked for extra patrol after the break-in Tuesday,client_requested,client_requested,1.0,True
+S106895,COVERED FOR NAIDOO AGAIN - 3RD TIME THIS MONH,absence_cover,absence_cover,1.0,True
+S104664,"gate motor failed, manned it by hand till 6am",equipment_failure,equipment_failure,0.85,True
+S104110,"Mahlangu didnt come in, covvered the post",absence_cover,absence_cover,0.61,True
+S102815,Client requested deep clean before the audit - approved..,client_requested,client_requested,1.0,True
+S106531,reliief no show AGAIN,absence_cover,absence_cover,1.0,True
+S105761,"scrubber broke down, had to do the floor manually !",equipment_failure,equipment_failure,1.0,True
+S104827,fine,blank,blank,1.0,True
+S109104,"covering ncobo post, no show no call",absence_cover,absence_cover,1.0,True
+S101256,no incidents,routine,absence_cover,1.0,False
+S108577,fine,blank,blank,1.0,True
+S107482,"covering tshabalala post, no show no call",absence_cover,absence_cover,1.0,True
+S102168,"requested by centre management for load in, signed off",client_requested,client_requested,1.0,True
+S108588,"Mokoena didnt come in, covered the post",absence_cover,absence_cover,1.0,True
+S102903,fine,blank,blank,1.0,True
+S107590,,blank,blank,1.0,True
+S107990,Next shift guard did not pitch. Had to cover.,absence_cover,absence_cover,1.0,True
+S104917,"client wantde extra man on the gate for the event, approved",client_requested,client_requested,1.0,True
+S106054,n/a,blank,blank,1.0,True
+S106651,"covering mavuso post, no show no call",absence_cover,absence_cover,1.0,True
+S105903,n/a,blank,blank,1.0,True
+S108918,"gate motor failed, manned it by hand till six",equipment_failure,equipment_failure,0.94,True
+S103566,fine,blank,blank,1.0,True
+S100580,"scrubber broke down, had to do the floor manually !",equipment_failure,equipment_failure,1.0,True
+S102756,no incidents,routine,absence_cover,1.0,False
+S108062,"uBotha akezanga namhlanje, ngimele yena",absence_cover,absence_cover,1.0,True
+S102048,all quiet,routine,routine,1.0,True
+S101479,stood in for mavuso !,absence_cover,absence_cover,0.71,True
+S100486,"waited for relif, noody came through",absence_cover,late_handover,0.53,False
+S100254,klient het ekstra ure gevra vir stocktake,client_requested,client_requested,1.0,True
+S103600,"requested by centre management for load in, signed off",client_requested,client_requested,1.0,True
+S109196,ok,blank,blank,1.0,True
+S104748,"next shift akafikanga, ngihlale kuze kube 6..",absence_cover,absence_cover,1.0,True
+S104029,"handover late again, keys missing",late_handover,late_handover,1.0,True
+S107997,"waited 25 min for handover, OB book not signed",late_handover,late_handover,1.0,True
+S101101,"buffer machine kaput, did the floor by hand",equipment_failure,equipment_failure,1.0,True
+S106368,"took Mthembu sift as well, 2 posts 1 guard",absence_cover,absence_cover,1.0,True
+S100650,"hanodver late again, keys missing",late_handover,late_handover,1.0,True
+S102313,"scrubber broke dow, had to do the floor manually",equipment_failure,equipment_failure,1.0,True
+S105832,no relief. stayed. someone must pleasse sort the roster,absence_cover,absence_cover,1.0,True
+S106260,"Fourie absent, took her rounds as well",absence_cover,absence_cover,0.84,True
+S102468,"gedek vir Sibiya, siek gmeld !",absence_cover,absence_cover,1.0,True
+S103572,"still on site, relief was suppose to come 6am",absence_cover,absence_cover,1.0,True
+S105038,"covering Khumalo poost, no show no call",absence_cover,absence_cover,1.0,True
+S108041,stood in for Sibiya,absence_cover,absence_cover,1.0,True
+S105104,"client says stay till 6am, dont know if office approved",client_requested,client_requested,1.0,True
+S106517,"covering Ngcobo post, no show no call",absence_cover,absence_cover,1.0,True
+S103677,"EXTRA PATROL PER CLIENT EMAIL, APPROVED BY OFFICE",client_requested,client_requested,1.0,True
+S108890,"coverng Mokoena post, no show no call",absence_cover,absence_cover,1.0,True
+S104902,"took Zulu shift as well, 2 posts 1 guard",absence_cover,absence_cover,1.0,True
+S106815,"uKhumalo akezanga namhlanje, ngimele yena",absence_cover,absence_cover,1.0,True
+S106110,"scrubber broke down, had to do the floor manually",equipment_failure,equipment_failure,1.0,True
+S103096,"still on site, relief was suppose to come 0h600",absence_cover,absence_cover,1.0,True
+S103034,Client asked for extra patrol after the break-in Tuesday,client_requested,client_requested,1.0,True
+S100272,"extra patrol per client email, approved by office",client_requested,client_requested,1.0,True
+S109168,"took radebe shift as well, 2 posts 1 guard",absence_cover,absence_cover,1.0,True
+S106426,"sibiya didnt come in, covered the post",absence_cover,absence_cover,1.0,True
+S106302,"oorhandiging was laat, gewag vir sleutels..",late_handover,late_handover,1.0,True
+S101930,"buffer machine kaput, did the floor by hand",equipment_failure,equipment_failure,1.0,True
+S104426,"Jacobs ddnt come in, covered the post",absence_cover,absence_cover,1.0,True
+S100225,n/a,blank,blank,1.0,True
+S102621,all good,routine,routine,0.98,True
+S105134,fine,blank,blank,1.0,True
+S106959,shift handover delayed by 30 min,late_handover,late_handover,1.0,True
+S100776,"client wanted extra man on the gate for the event, approved",client_requested,client_requested,1.0,True
+S107712,relief no show AGAIN,absence_cover,absence_cover,1.0,True
+S101017,akukho lutho,routine,routine,1.0,True
+S103042,Covering for Adams - booked off sick,absence_cover,absence_cover,1.0,True
+S101783,"Mthembu absent, took her rounds as well",absence_cover,absence_cover,1.0,True
+S101489,"KHUMALO ABSENT, TOOK HER ROUNDS AS WELL",absence_cover,absence_cover,0.84,True
+S101625,klient het ekstra ure gevra vir stocktake,client_requested,client_requested,1.0,True
+S106255,nothing to report,routine,routine,0.93,True
+S100111,no issues on site,routine,routine,0.97,True
+S101389,"requested by centre management for load in, signed off",client_requested,client_requested,1.0,True
+S101594,Covering for Motaung - booked off sick,absence_cover,absence_cover,1.0,True
+S108714,.,blank,blank,1.0,True
+S101860,"oorhandiging was laat, gewag vir sleutels",late_handover,late_handover,1.0,True
+S104813,"client wanted extra man on the gate for the event, approved",client_requested,client_requested,1.0,True
+S102738,"no replacement sen, ngicela sort this out",absence_cover,absence_cover,1.0,True
+S102457,"GEDEK VIR TSHABALALA, SIEK GEMELD",absence_cover,absence_cover,1.0,True
+S109258,n/a,blank,blank,1.0,True
+S104065,klient het ekstra ure gevra vir stocktake,client_requested,client_requested,1.0,True
+S106134,klient het ekstra ure gevra vir stokctake,client_requested,client_requested,1.0,True
+S104737,ntr,blank,blank,1.0,True
+S108111,"lift out of order, everything carried up stairs, took long",equipment_failure,equipment_failure,0.57,True
+S107379,"uTshabalala akezanga namhlanje, ngimele yena",absence_cover,absence_cover,1.0,True
+S105790,extra hours approved by client for the event setup,client_requested,client_requested,1.0,True
+S101975,centre mgr requested additional cover for socktake,client_requested,client_requested,1.0,True
+S103015,"requested by centre management for load in, signed off",client_requested,client_requested,1.0,True
+S108376,"relief only arrived six, stayed until then",absence_cover,absence_cover,1.0,True
+S107834,sharp,blank,blank,1.0,True
+S105111,no incidents,routine,absence_cover,1.0,False
+S102752,"requested by centre management for load in, signed off",client_requested,client_requested,1.0,True
+S104303,"umavuso akezanga namhlaje, ngimele yena",absence_cover,absence_cover,1.0,True
+S101503,"double duty today, Mabaso on family responsibility leave",absence_cover,absence_cover,1.0,True
+S107725,,blank,blank,1.0,True
+S106111,COVERED FOR MOLEFE AGAIN - 3RD TIME THIS MONTH,absence_cover,absence_cover,1.0,True
+S103023,niks om te rapporteer nie,routine,routine,0.97,True
+S100589,stood in for Mavuso,absence_cover,absence_cover,0.71,True
+S100308,"UBOTHA AKEZANGA NAMHLANJE, NGIMELE YENA..",absence_cover,absence_cover,1.0,True
+S104634,covered for ngcobo again - 3rd time this month,absence_cover,absence_cover,1.0,True
+S106676,Centre mgr requested additional cover for stocktake,client_requested,client_requested,1.0,True
+S101329,"late handover, waiting on ppaerwork..",late_handover,late_handover,1.0,True
+S103782,.,blank,blank,1.0,True
+S100173,relief no show AGAIN,absence_cover,absence_cover,1.0,True
+S103024,stood in for Fourie,absence_cover,routine,0.56,False
+S104314,"buffer machine kaput, did the floor by hand",equipment_failure,equipment_failure,1.0,True
+S101799,"took Wyk shfit as well, 2 posts 1 guard",absence_cover,absence_cover,1.0,True
+S106226,"oorhandiging was laat, gewag vir sleutels",late_handover,late_handover,1.0,True
+S101914,"client wanted extra man on the gate for the event, approved",client_requested,client_requested,1.0,True
+S103983,ok,blank,blank,1.0,True
+S100260,"requested by centre management for laod in, siigned off",client_requested,client_requested,1.0,True
+S106095,relief no show AGAIN..,absence_cover,absence_cover,1.0,True
+S104101,double shift because relief nevre pitched !,absence_cover,absence_cover,1.0,True
+S102185,"gate motor faied, manned it by hand till 06:00",equipment_failure,equipment_failure,0.84,True
+S101029,all quiet,routine,routine,1.0,True
+S106177,niks om te rapporteer nie,routine,routine,0.97,True
+S101540,"relief never arriived, stayed on till 6am..",absence_cover,absence_cover,1.0,True
+S103555,Covering for Mabaso - booked off sick,absence_cover,absence_cover,1.0,True
+S100187,"late handover, waiting on paperwork..",late_handover,late_handover,1.0,True
+S100994,shift handover delayed by 30 min,late_handover,late_handover,1.0,True
+S108396,akukho lutho,routine,routine,1.0,True
+S108964,"macine down again, took twice as long..",equipment_failure,equipment_failure,0.72,True
+S105197,Client asked for extra patrol after the break-in Tuesday,client_requested,client_requested,1.0,True
+S108086,"generator fault, stayed to monitor..",equipment_failure,equipment_failure,0.98,True
+S104812,"gedek vir Wyk, siek gemeld",absence_cover,absence_cover,1.0,True
+S103937,"client asked us to stay for the delivery, ok'd by centre mgmt",client_requested,client_requested,1.0,True
+S108875,all quiet,routine,routine,1.0,True
+S109345,"waited 25 min for handover, OB book not signed",late_handover,late_handover,1.0,True
+S103752,stood in for Ndlovu,absence_cover,routine,0.57,False
+S105864,all good,routine,routine,0.98,True
+S103788,"additional cover requested by site manager, signed off",client_requested,client_requested,1.0,True
+S108707,extra hours approved by client for the event setup..,client_requested,client_requested,1.0,True
+S105904,"waited 45 min for handover, OB book not signed",late_handover,late_handover,1.0,True
+S108183,"double duty today, Radebe on family responsibility leave",absence_cover,absence_cover,1.0,True
+S106897,client asked for extra patrol after the break-in tuesday,client_requested,client_requested,1.0,True
+S101626,"control room says relief coming, nobody came..",absence_cover,absence_cover,1.0,True
+S108720,"took botha shift as welll, 2 posts 1 guard",absence_cover,absence_cover,1.0,True
+S100151,"no replacement sent, ngicla sort this out",absence_cover,absence_cover,1.0,True
+S108351,Client asked for extra patrol after the break-n Tuesday,client_requested,client_requested,1.0,True
+S101876,"gedek vir Sibiya, siek gemeld",absence_cover,absence_cover,1.0,True
+S107598,"double dtuy today, Mabaso on family responsibility leave",absence_cover,absence_cover,1.0,True
+S101611,"additional cover requested by site manager, signed off",client_requested,client_requested,1.0,True
+S100686,"double dtuy today, sibiya on family responsibility leave..",absence_cover,absence_cover,1.0,True
+S105135,ntr,blank,blank,1.0,True
+S105437,"late handoverr, waiting on paperwork..",late_handover,late_handover,1.0,True
+S107612,shift handover delayed by 30 min,late_handover,late_handover,1.0,True
+S105334,"client asked us to stay for the delivery, ok'd by centre mgmt",client_requested,client_requested,1.0,True
+S107907,"relief only arrived 0600, stayed until then",absence_cover,absence_cover,1.0,True
+S100176,relief no show AGAIN,absence_cover,absence_cover,1.0,True
+S105236,quiet shift,routine,routine,0.9,True
+S102422,fine,blank,blank,1.0,True
+S106865,"waited 40 min for handover, OB book not signed",late_handover,late_handover,1.0,True
+S109275,"next shift akafikanga, ngihlale kuze kbue 0600",absence_cover,absence_cover,1.0,True
+S101634,"client wanted extra man on the gate for the event, approved",client_requested,client_requested,1.0,True
+S103504,-,blank,blank,1.0,True
+S108589,"gate motor failed, manned it by hand till 6am",equipment_failure,equipment_failure,0.85,True
+S107748,Covering for Raddebe - booked off sick,absence_cover,absence_cover,1.0,True
+S100722,"no replacement sent, ngiceela sort thiis out",absence_cover,absence_cover,1.0,True
+S106105,"client wanted extra man on the gate for the event, approved",client_requested,client_requested,1.0,True
+S108840,Client asked for extra patrol after the break-in Tuesday,client_requested,client_requested,1.0,True
+S104494,all good,routine,routine,0.98,True
+S104059,"handover late agn, keys missing",late_handover,late_handover,1.0,True
+S107987,"control room says relief coming, nobody came",absence_cover,absence_cover,1.0,True
+S105786,"client asked us to stay for the delivery, ok'd by centre mgmt !",client_requested,client_requested,1.0,True
+S101880,"generator fault, stayed to monitor",equipment_failure,equipment_failure,0.98,True
+S103591,"client says stay till 06h000, dont know if office approved",client_requested,client_requested,1.0,True
+S107064,"generator fault, stayed to monitor",equipment_failure,equipment_failure,0.98,True
+S100258,"took Zulu shift as well, 2 posts 1 guard",absence_cover,absence_cover,1.0,True
+S101493,"extra patrol per client email, approved by ofice..",client_requested,client_requested,1.0,True
+S108173,"jacobs didnt come in, covered the psot",absence_cover,absence_cover,1.0,True
+S107362,"gate motor failed, manned it by hand till 6am",equipment_failure,equipment_failure,0.85,True
+S106155,"relief only arrived 06h00, stayed until then..",absence_cover,absence_cover,1.0,True
+S105417,"covering Baloyi post, no show no call",absence_cover,absence_cover,1.0,True
+S107630,ok,blank,blank,1.0,True
+S101106,"gedek vir sibiya, siek gemeld",absence_cover,absence_cover,1.0,True
+S104193,quiet shift,routine,routine,0.9,True
+S100708,relief no show AGAN,absence_cover,absence_cover,1.0,True
+S100746,covering for mthembu - booked off sick,absence_cover,absence_cover,1.0,True
+S104863,"handover late again, keys missing",late_handover,late_handover,1.0,True
+S104353,quiet shift,routine,routine,0.9,True
+S108312,"lift out of order, everything carried up stairs, took long",equipment_failure,equipment_failure,0.57,True
+S107015,shift handover delayed by 25 min,late_handover,late_handover,1.0,True
+S105321,"generator fault, stayed to monitor",equipment_failure,equipment_failure,0.98,True
+S101345,"oorhandiging was laat, gewag vir sleutels..",late_handover,late_handover,1.0,True
+S105442,niks om te rapporteer nie,routine,routine,0.97,True
+S109354,"late handover, waiting on paperwork",late_handover,late_handover,1.0,True
+S106794,as per normal,routine,routine,0.96,True
+S108276,"machine down agn, toook twice as long",equipment_failure,equipment_failure,1.0,True
+S105716,no relief. stayed. someone must pls sort the roster,absence_cover,absence_cover,1.0,True
+S107347,"covering Mabaso pst, no show no call",absence_cover,absence_cover,1.0,True
+S109303,"took Molefe shift as well, 2 posts 1 guard",absence_cover,absence_cover,1.0,True
+S106462,"stocktake ran over, client asked us to remain, they know they pay for it",client_requested,client_requested,1.0,True
+S107420,"waited 30 min for handover, OB book not signed..",late_handover,late_handover,1.0,True
+S108102,"requested by centre management for load in, signed off",client_requested,client_requested,1.0,True
+S104907,"machine down ang, took twice as long..",equipment_failure,equipment_failure,1.0,True
+S104285,Client requested deep clean bfore the audit - approved,client_requested,client_requested,1.0,True
+S106215,"late handover, waiting on paperwork",late_handover,late_handover,1.0,True
+S106269,"Radebe didnt come in, covered the pst",absence_cover,absence_cover,1.0,True
+S106418,client requested deep clean before the audit - approved,client_requested,client_requested,1.0,True
+S104318,double shift bc relief never pitched..,absence_cover,absence_cover,1.0,True
+S103038,"client asked us to stay for the delivery, ok'd by centre mgmt !",client_requested,client_requested,1.0,True
+S101593,"next shift akafikanga, ngihlale kuze kube 06h00",absence_cover,absence_cover,1.0,True
+S108484,fine,blank,blank,1.0,True
+S102184,"client wanted extra man on the gate for the event, approved",client_requested,client_requested,1.0,True
+S103827,"handover late again, keys missing",late_handover,late_handover,1.0,True
+S102641,ok,blank,blank,1.0,True
+S106425,Client asked for extra patrol after the break-in Tuesday,client_requested,client_requested,1.0,True
+S106887,relief no show AGAIN,absence_cover,absence_cover,1.0,True
+S106310,stood in for botha,absence_cover,absence_cover,1.0,True
+S103769,Covering for Molefe - booked off sick !,absence_cover,absence_cover,1.0,True
+S109125,"buffer machine kaput, did the floor by hand",equipment_failure,equipment_failure,1.0,True
+S105330,all quiet,routine,routine,1.0,True
+S105128,"oorhandiging was laat, gewag vir sleutels",late_handover,late_handover,1.0,True
+S103548,"requested by centre management for load in, signed off",client_requested,client_requested,1.0,True
+S107828,"scrubbr broke dwon, had to do the floor manually",equipment_failure,equipment_failure,1.0,True
+S107360,NDLOVU OFF SICK. AGN. COVERED.,absence_cover,absence_cover,1.0,True
+S100250,"relief onnly arrived sixx, styed until then",absence_cover,absence_cover,1.0,True
+S105607,"gate motor failed, manned it by hand till 0600..",equipment_failure,equipment_failure,0.89,True
+S104909,Client asked for extra patrol after the break-in Tuesday,client_requested,client_requested,1.0,True
+S105715,"jacobs absent, took her rounds as well",absence_cover,absence_cover,0.85,True
+S108256,"extra patrol per client email, approved by office",client_requested,client_requested,1.0,True
+S107025,as per normal,routine,routine,0.96,True
+S107860,Client requested deep clean before the audit - approved,client_requested,client_requested,1.0,True
+S108314,no issues on site,routine,routine,0.97,True
+S101579,"handover late agin, kys missing",late_handover,late_handover,1.0,True
+S102325,no issues on site,routine,routine,0.97,True
+S100961,akukho lutho,routine,routine,1.0,True
+S103659,"requested by centre management for load in, signed off",client_requested,client_requested,1.0,True
+S107788,"generator fault, stayed to monitor",equipment_failure,equipment_failure,0.98,True
+S106525,Naidoo off sick. agn. covered.,absence_cover,absence_cover,1.0,True
+S100335,"stocktake ran over, client asked us to remain, they know they pay for it !",client_requested,client_requested,1.0,True
+S107697,"next shift akafikanga, ngihlale kuze kube 06h00..",absence_cover,absence_cover,1.0,True
+S101797,"double duty today, Baloi on family responsibility leave",absence_cover,absence_cover,1.0,True
+S101653,"client wanted extra man on the gate for the event, approved",client_requested,client_requested,1.0,True
+S104126,"took ngcobo shift as well, 2 posts 1 guard !",absence_cover,routine,0.74,False
+S104313,client signde for the extra hours but real reaon is relief no show agn,absence_cover,absence_cover,1.0,True
+S105082,Centre mgr requested additional cover for stocktake,client_requested,client_requested,1.0,True
+S107328,Ngcobo off sick. agn. covered.,absence_cover,absence_cover,1.0,True
+S100559,"scrubber broke down, had to do the floor manually",equipment_failure,equipment_failure,1.0,True
+S107027,"worked through, Botha at the clinic",absence_cover,absence_cover,1.0,True
+S100512,extra houurs approvved by client for the event setup,client_requested,client_requested,1.0,True
+S108843,"relief only arrived 0600, stayed until then",absence_cover,absence_cover,1.0,True
+S102407,"waited 25 min for handover, OB book not signed",late_handover,late_handover,1.0,True
+S103766,"Baloyi absent, toook her rounds as well !",absence_cover,absence_cover,1.0,True
+S100247,"gate motor failed, manned it by hand till 6..",equipment_failure,equipment_failure,0.85,True
+S107594,"gedek vir Mthembu, siek gemeld",absence_cover,absence_cover,1.0,True
+S107463,"masjien is stukkend, alles met die hnd gedoen..",equipment_failure,equipment_failure,1.0,True
+S105085,"covering Motaung pst, no show no call",absence_cover,absence_cover,1.0,True
+S108449,"STILL ON SITE, RELIEF WAS SUPPOSE TO COME 6AM",absence_cover,absence_cover,1.0,True
+S100638,"covering Molefe post, no show no call",absence_cover,absence_cover,1.0,True
+S108375,Client requested deep clean before the audit - approved,client_requested,client_requested,1.0,True
+S103818,stood in for Hendricks,absence_cover,absence_cover,0.53,True
+S103385,adams off sick. agn. covered.,absence_cover,absence_cover,1.0,True
+S109204,shift handover delayed by 40 min,late_handover,late_handover,1.0,True
+S100519,quiet shift,routine,routine,0.9,True
+S100263,"machhine down agnn, took twice as long",equipment_failure,equipment_failure,1.0,True
+S105110,"requested by centre management for load in, signed off",client_requested,client_requested,1.0,True
+S102851,"Fourie didnt come in, covered the post",absence_cover,absence_cover,1.0,True
+S101066,Client requested deep clean beefore the audit - approved,client_requested,client_requested,1.0,True
+S109119,"next shift akafikanga, ngihlale kuze kube 0600..",absence_cover,absence_cover,0.79,True
+S102485,"covering Mahlnagu post, no show no call..",absence_cover,absence_cover,1.0,True
+S106307,"oorhandiging was laat, gewag vir sleutles",late_handover,late_handover,1.0,True
+S104640,"late handover, waitng on paperwork",late_handover,late_handover,1.0,True
+S108060,Next shift guard did not pitch. Had to cover.,absence_cover,absence_cover,1.0,True
+S101897,"generator fault, stayed to monitor",equipment_failure,equipment_failure,0.98,True
+S103510,akukho lutho,routine,routine,1.0,True
+S100721,"oorhandiging was laat, gewag vir slutels",late_handover,late_handover,1.0,True
+S109244,"covering dlamini post, no show no call",absence_cover,absence_cover,1.0,True
+S106524,"stocktake ran over, client asked us to remain, they know they pay for it",client_requested,client_requested,1.0,True
+S104048,"Botha didnt come in, covered the post..",absence_cover,absence_cover,1.0,True
+S106279,Client asked for extra patrol after the break-in Tuesday,client_requested,client_requested,1.0,True
+S100658,quiet shift,routine,routine,0.9,True
+S109007,-,blank,blank,1.0,True
+S106677,"client wanted extra man on the gate for the eent, approved",client_requested,client_requested,1.0,True
+S100303,sharp,blank,blank,1.0,True
+S104262,klient het ekstra ure gevra vir stocktakke,client_requested,client_requested,1.0,True
+S104829,.,blank,blank,1.0,True
+S103758,extra hours approved by client for the event setup,client_requested,client_requested,1.0,True
+S108053,"uMotaung akezanga namhlanje, ngimele yena",absence_cover,absence_cover,1.0,True
+S100287,.,blank,blank,1.0,True
+S105435,"waited 25 min for handover, ob book not signed",late_handover,late_handover,1.0,True
+S108377,extra hours approved by client for the event setup,client_requested,client_requested,1.0,True
+S100543,"gate motor failed, manned it by hand till 0600..",equipment_failure,equipment_failure,0.89,True
+S106048,"stocktake ran over, client asked us to remain, they know thy pay for it",client_requested,client_requested,1.0,True
+S106627,extra hrs approved by client for the evetn setup !,client_requested,client_requested,1.0,True
+S104317,"machine down again, took twice as long",equipment_failure,equipment_failure,1.0,True
+S100585,extra hrs approved by client for the event setup,client_requested,client_requested,1.0,True
+S103322,"clent asked us to stay for the delivery, ok'd by centre mgmt",client_requested,client_requested,1.0,True
+S107281,Client asked for extra patrol after the break-in Tuesday..,client_requested,client_requested,1.0,True
+S101613,no issues on site,routine,routine,0.97,True
+S105263,"oorhandiging was laat, gewag vir sleutels..",late_handover,late_handover,1.0,True
+S104844,"double duty today, Baloyi on family responsibility leave",absence_cover,absence_cover,1.0,True
+S109257,"UDLAMINI AKEZANGA NAMHLANJE, NGIMELE YENA..",absence_cover,absence_cover,1.0,True
+S101852,"stocktake ran over, client asked us to remain, they know they pay for it",client_requested,client_requested,1.0,True
+S107993,no relief. stayed. soemone must please sort the roster,absence_cover,absence_cover,1.0,True
+S101673,quiet shift,routine,routine,0.9,True
+S100900,no relief. stayed. someone must pls sort the roster,absence_cover,absence_cover,1.0,True
+S104782,"took Sibiya shift as well, 2 posts 1 guard !",absence_cover,routine,0.53,False
+S100369,"control room says relief coming, nobody came",absence_cover,absence_cover,1.0,True
+S107249,client requested deep clean before the audit - approved,client_requested,client_requested,1.0,True
+S100812,"client asked us to stay for the delivery, ok'd by centre mgmt !",client_requested,client_requested,1.0,True
+S105004,"Maluleke didnt come in, covered the pot..",absence_cover,absence_cover,1.0,True
+S108127,.,blank,blank,1.0,True
+S104866,"late handover, waiting on paperwork",late_handover,late_handover,1.0,True
+S104565,"masjien is stukkend, alles met die hand gedoen..",equipment_failure,equipment_failure,1.0,True
+S103823,STOOD IN FOR BALOYI,absence_cover,absence_cover,0.67,True
+S100337,Centre mgr requested additional cover for stocktake,client_requested,client_requested,1.0,True
+S102380,Client requested deep clean before the audit - approved,client_requested,client_requested,1.0,True
+S108008,Client requested deep claen before the audit - approved,client_requested,client_requested,1.0,True
+S108054,CLIENT SIGNED FOR THE EXTRA HRS BUT REAL REASON IS RELIEF NO SHOW AGAIN,absence_cover,absence_cover,1.0,True
+S105116,,blank,blank,1.0,True
+S107505,"stocktake ran over, client asked us to remain, they know they pay for it",client_requested,client_requested,1.0,True
+S104470,sharp,blank,blank,1.0,True
+S103327,"EXTRA PATROL PER CLIENT EMAIL, APPROVED BY OFFICE",client_requested,client_requested,1.0,True
+S106369,"handover late agn, keys missing",late_handover,late_handover,1.0,True
+S104425,Next shift guard did not pitch. Had to cover.,absence_cover,absence_cover,1.0,True
+S106790,as per normal,routine,routine,0.96,True
+S101341,"oorhandiging was laat, gewag vir sleutels",late_handover,late_handover,1.0,True
+S105660,"covering Adams post, no show no call",absence_cover,absence_cover,1.0,True
+S103413,-,blank,blank,1.0,True
+S108598,double shift becaue relief never pitched,absence_cover,absence_cover,1.0,True
+S101586,"scrubber broke down, had to do the floor manually",equipment_failure,equipment_failure,1.0,True
+S103803,"Motaung absent, took her rounds as well",absence_cover,absence_cover,0.83,True
+S108867,"still on site, relief was suppose to come 06:00",absence_cover,absence_cover,1.0,True
+S107569,Baloyi off sick. again. covered.,absence_cover,absence_cover,1.0,True
+S107801,akukho lutho,routine,routine,1.0,True
+S109139,Baloyi off sick. agn. covered.,absence_cover,absence_cover,1.0,True
+S100883,Next shift guard did not pitch. Had to cover.,absence_cover,absence_cover,1.0,True
+S105070,"machine down agn, took twice as long..",equipment_failure,equipment_failure,1.0,True
+S106909,"relief never arrived, stayed on till 0600",absence_cover,absence_cover,1.0,True
+S104559,"extra patrol per client email, apprved by office",client_requested,client_requested,1.0,True
+S108156,"client asked us to stay for the delivery, ok'd by centre mgmt",client_requested,client_requested,1.0,True
+S106567,"uZuulu akezanga namhlanje, ngimele yena",absence_cover,absence_cover,1.0,True
+S108365,"scrubber broke down, had to do the floor manually",equipment_failure,equipment_failure,1.0,True
+S106218,"covering Naido post, no show no call",absence_cover,absence_cover,1.0,True
+S101683,covering for khumalo - booked off sick,absence_cover,absence_cover,1.0,True
+S104118,ntr,blank,blank,1.0,True
+S105077,Covered for Mokoena agaiin - 3rd time this month,absence_cover,absence_cover,1.0,True
+S104723,ok,blank,blank,1.0,True
+S104246,covering for dlamini - booked off sick,absence_cover,absence_cover,1.0,True
+S102918,"control room says relief coming, nobody came",absence_cover,absence_cover,1.0,True
+S103872,.,blank,blank,1.0,True
+S108608,"worked through, botha at the clinic",absence_cover,absence_cover,1.0,True
+S104021,"umahlangu akezanga namhlanje, ngimele yena",absence_cover,absence_cover,1.0,True
+S100496,n/a,blank,blank,1.0,True
+S108206,September off sick. again. covered.,absence_cover,absence_cover,1.0,True
+S104343,"worked through, Dlamini at the clinic",absence_cover,absence_cover,0.76,True
+S105740,nothing to report,routine,routine,0.93,True
+S108052,.,blank,blank,1.0,True
+S101602,"extra patrol per client email, approved by office",client_requested,client_requested,1.0,True
+S100080,sharp,blank,blank,1.0,True
+S102635,"covering Hendricks post, no sow no call..",absence_cover,absence_cover,1.0,True
+S100562,stood in for Sibiya,absence_cover,absence_cover,1.0,True
+S104070,,blank,blank,1.0,True
+S108355,"gate motor failled, manned it by hand till 06:00",equipment_failure,equipment_failure,0.86,True
+S100623,no issues on site,routine,routine,0.97,True
+S106964,"next shift akafikanga, ngihlale kuze kube 6",absence_cover,absence_cover,1.0,True
+S101119,"requested by centre management for load in, signed off",client_requested,client_requested,1.0,True
+S103645,"masjien is stukkend, alles met die hand gedoen",equipment_failure,equipment_failure,1.0,True
+S106135,client signed for the extra hrs but real reason is relief no show agn,absence_cover,absence_cover,1.0,True
+S108455,client asked for extra patrol after the break-in tuesday,client_requested,client_requested,1.0,True
+S102759,ok,blank,blank,1.0,True
+S105779,n/a,blank,blank,1.0,True
+S105906,"double duty today, Adams on family responsibility leave",absence_cover,absence_cover,1.0,True
+S107067,"ADDITIONAL COVER REQUESTED BY SIITE MANAGER, SIGNED OFF !",client_requested,client_requested,1.0,True
+S103580,"requested by centre management for load in, signed off",client_requested,client_requested,1.0,True
+S100556,Client requested deep clean before the audit - approved,client_requested,client_requested,1.0,True
+S107252,"covering mabaso post, no show no call !",absence_cover,absence_cover,1.0,True
+S101765,all good,routine,routine,0.98,True
+S101796,extra hours approved by client for the event setup,client_requested,client_requested,1.0,True
+S102693,Sithoel off sick. again. covered.,absence_cover,absence_cover,1.0,True
+S101519,"stocktake ran over, client asked us to remain, they know they pay for it",client_requested,client_requested,1.0,True
+S107164,"stocktake ran over, client ased us to remain, they know they pay for it",client_requested,client_requested,1.0,True
+S108036,"client asked us to stay for the delivery, ok'd by centre mgmt..",client_requested,client_requested,1.0,True
+S109315,"machine down agn, took twice as long",equipment_failure,equipment_failure,1.0,True
+S103762,"Ngcobo didnt come in, covered the post",absence_cover,absence_cover,1.0,True
+S100709,"client asked us to stay for the delivery, ok'd by centre mgmt",client_requested,client_requested,1.0,True
+S105296,"client says stay till six, dont knwo if office approved",client_requested,client_requested,0.93,True
+S101569,"generator fault, stayed to monitor..",equipment_failure,equipment_failure,0.98,True
+S105347,ntr,blank,blank,1.0,True
+S103252,client asked for extra patrol after the breaki-n tuesday !,client_requested,client_requested,1.0,True
+S101449,-,blank,blank,1.0,True
+S100550,"tok Ndlovu shift as well, 2 posts 1 guard",absence_cover,routine,0.74,False
+S108961,ntr,blank,blank,1.0,True
+S106637,"covering motaung post, no show no call",absence_cover,absence_cover,1.0,True
+S104009,"took Manuel shift as well, 2 posts 1 guard..",absence_cover,routine,0.77,False
+S103027,"gedek vir Mthembu, siek gemeld",absence_cover,absence_cover,1.0,True
+S106515,"aflos het nie opgedaag nie, mes aanbly",absence_cover,absence_cover,0.39,True
+S106388,no relief. stayed. someone must please sort the roster,absence_cover,absence_cover,1.0,True
+S100356,"scrubber broke down, had to do the floor manually",equipment_failure,equipment_failure,1.0,True
+S107006,"clieent asked us to stay for the delivery, ok'd by centre mgmt",client_requested,client_requested,1.0,True
+S100645,double shift bc releif never pitched,absence_cover,absence_cover,1.0,True
+S102980,Sithole off sick. agn. covered.,absence_cover,absence_cover,1.0,True
+S102720,ntr,blank,blank,1.0,True
+S104617,"client wanted extra man on the gate for the event, approved",client_requested,client_requested,1.0,True
+S101508,"BFUFER MACHINE KAPUT, DID THE FLOOR BY HAND",equipment_failure,equipment_failure,1.0,True
+S106544,"double duty today, Molefe on family responsibillity leave",absence_cover,absence_cover,1.0,True
+S108184,"gedek vir Tshabalala, siek gemeld",absence_cover,absence_cover,1.0,True
+S101615,"control room says relief coming, nobody came",absence_cover,absence_cover,1.0,True
+S107722,as per normal,routine,routine,0.96,True
+S104547,"waited 25 min for handover, OB book not signed",late_handover,late_handover,1.0,True
+S103554,"oorhandiging was laat, gewag vir sleutels",late_handover,late_handover,1.0,True
+S100703,"additional cover requested by site mgr, signed off",client_requested,client_requested,1.0,True
+S109320,centre managger requested additoinal coevr for stocktake,client_requested,client_requested,1.0,True
+S102163,"Hendricks didnt come in, covered the psot",absence_cover,absence_cover,1.0,True
+S102922,"requested by centre management for load in, siged off",client_requested,client_requested,1.0,True
+S101063,"handover late agn, keys missing",late_handover,late_handover,1.0,True
+S107410,"stocktake ran over, client asked us to remain, they know they pay for it",client_requested,client_requested,1.0,True
+S107063,stood in for molefe,absence_cover,absence_cover,0.67,True
+S100720,Wyk off sick. again. covered.,absence_cover,absence_cover,1.0,True
+S103641,"client says stay till 0600, dont know if office approoved..",client_requested,client_requested,0.64,True
+S101110,extra hrs approved by client for the event settup,client_requested,client_requested,1.0,True
+S100472,quiet shift,routine,routine,0.9,True
+S104332,"next shift akafikanga, ngihlale kuze kube 6",absence_cover,absence_cover,1.0,True
+S103216,"waited 50 min for handover, ob book not signed",late_handover,late_handover,1.0,True
+S102518,DOUBLE SHIFT BECAUSE RELIEF NEVER PITCHED,absence_cover,absence_cover,1.0,True
+S100338,"client wanted extra man on the gate for the event, approved",client_requested,client_requested,1.0,True
+S105613,"client wanted extra man on the gate for the event, approved",client_requested,client_requested,1.0,True
+S103748,Next shift guard did not pitch. Had to cover.,absence_cover,absence_cover,1.0,True
+S109340,stood in for nkosi,absence_cover,routine,0.51,False
+S108023,covered for september again - 3rd time this month,absence_cover,absence_cover,1.0,True
+S107298,"double duty today, naidoo on fammily responsibility leave..",absence_cover,absence_cover,1.0,True
+S103767,CLIENT REQUESTED DEEP CLEAN BEFORE THE AUDIT - APPROVED,client_requested,client_requested,1.0,True
+S104346,"stocktake ran over, client asked us to remain, they know they pay for it",client_requested,client_requested,1.0,True
+S105195,"gedek vir Baloyi, siek gemeld",absence_cover,absence_cover,1.0,True
+S100144,Next shift guard did not pitch. Had to cover.,absence_cover,absence_cover,1.0,True
+S105423,"worked through, nkosi at the clinic",absence_cover,absence_cover,0.88,True
+S105333,"took Adams shift as well, 2 posts 1 guard",absence_cover,routine,0.53,False
+S107610,ok,blank,blank,1.0,True
+S107767,"waited for relief, nobody came througgh",absence_cover,late_handover,0.63,False
+S107972,"client asked us to stay for the delivery, okd' by centre mgmt",client_requested,client_requested,1.0,True
+S107177,"client asked us to stay for the delivery, okd' by centre mgmt",client_requested,client_requested,1.0,True
+S109105,"masjien is stukkend, alles met die hand gedoen",equipment_failure,equipment_failure,1.0,True
+S100969,all fine,routine,blank,0.77,False
+S105370,"covering Ndlovu post, no show no call !",absence_cover,absence_cover,1.0,True
+S106526,no incidents,routine,absence_cover,1.0,False
+S103981,"buffer machine kaput, did the floor by hand",equipment_failure,equipment_failure,1.0,True
+S109295,"extra patrol per client email, approved by office",client_requested,client_requested,1.0,True
+S102075,mabaso off sick. agn. covered..,absence_cover,absence_cover,1.0,True
+S102160,klient het ektra ure gevra vir stocktake,client_requested,client_requested,1.0,True
+S104074,"scrubber broke down, had to do the floor manually",equipment_failure,equipment_failure,1.0,True
+S100166,"buffer machine kaput, did the floor by hand",equipment_failure,equipment_failure,1.0,True
+S102535,quiet shift,routine,routine,0.9,True
+S105844,"client asked us to stay for the delivery, ok'd by centre mgmt..",client_requested,client_requested,1.0,True
+S100735,"requested by centre management for load in, signed off",client_requested,client_requested,1.0,True
+S105683,klient het ekstra ure gevra vir stocktake,client_requested,client_requested,1.0,True
+S107998,"control room says relief coming, nobody came..",absence_cover,absence_cover,1.0,True
+S100574,covering for ngcobo - booked off sick,absence_cover,absence_cover,1.0,True
+S103505,Covering for Mavuso - booked off sick,absence_cover,absence_cover,1.0,True
+S104752,.,blank,blank,1.0,True
+S100876,"worked through, Mavuso at the clinic",absence_cover,absence_cover,1.0,True
+S102156,kliennt het ekstra ure gevra vir stocktake,client_requested,client_requested,1.0,True
+S106609,shift handover delayed by 25 min,late_handover,late_handover,1.0,True
+S103588,"late handover, waiting on paperwork",late_handover,late_handover,1.0,True
+S101813,ntr,blank,blank,1.0,True
+S106469,CENTRE MANAGER REQUESTED ADDITIONAL COVER FOR STOCKTAKE,client_requested,client_requested,1.0,True
+S101115,"control room says relief coming, nobody came",absence_cover,absence_cover,1.0,True
+S108703,"scrubber broke down, had to do the floor manually",equipment_failure,equipment_failure,1.0,True
